@@ -2,61 +2,43 @@ name: Scheduled Database Auto-Updater
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Runs automatically every day at 3:00 AM UTC
-  workflow_dispatch:      # Allows you to trigger it manually anytime with a button
+    - cron: '0 4 * * *'  # Runs automatically every day at 4 AM UTC
+  workflow_dispatch:      # Allows you to trigger it manually from the "Actions" tab!
+
+# Grant permissions to allow the workflow to push the updated database back to your repository
+permissions:
+  contents: write
 
 jobs:
   update-db:
     runs-on: ubuntu-latest
-    
-    # Give the action write permissions to push the updated database back to your repository
-    permissions:
-      contents: write
 
     steps:
+      # Step 1: Check out the files from your GitHub repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Step 2: Set up a Python environment
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
+      # Step 3: Install pandas and requests so the script can run
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pandas requests
 
-      - name: Decompress Database
+      # Step 4: Run the updater script
+      - name: Run database updater
         run: |
-          if [ -f "football_data.db.gz" ]; then
-            echo "Decompressing football_data.db.gz..."
-            gunzip -f football_data.db.gz
-          else
-            echo "No compressed database found! Starting fresh..."
-          fi
+          python db_updater.py
 
-      - name: Run Database Updater
+      # Step 5: Automatically commit and push the updated football_data.db.gz back to GitHub
+      - name: Commit and push changes
         run: |
-          python db_updater.py --db football_data.db
-
-      - name: Compress Database
-        run: |
-          echo "Compressing football_data.db..."
-          gzip -9 -f football_data.db
-
-      - name: Commit and Push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          # Stage both the gzipped database and any updated team mappings
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
           git add football_data.db.gz team_mappings.json
-          
-          # Only commit and push if there are actual new match records found
-          if git diff --staged --quiet; then
-            echo "No new results found. Database is already up to date!"
-          else
-            git commit -m "Automated weekly fixtures database update [skip ci]"
-            git push origin main
-          fi
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update football database with latest fixtures" && git push)
