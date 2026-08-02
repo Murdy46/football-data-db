@@ -1,0 +1,60 @@
+name: Scheduled Database Auto-Updater
+
+on:
+  schedule:
+    # Runs automatically every night at 3:00 AM UTC
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    # Adds a button so you can trigger the update manually whenever you want!
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      - name: Decompress Database
+        run: |
+          if [ -f "football_data.db.gz" ]; then
+            echo "Decompressing football_data.db.gz..."
+            gzip -d -k -f football_data.db.gz
+          else
+            echo "No existing database found! The updater will create a fresh one."
+          fi
+
+      - name: Run Database Updater Script
+        run: |
+          python db_updater.py --db football_data.db
+
+      - name: Recompress Database
+        run: |
+          echo "Compressing updated football_data.db to football_data.db.gz..."
+          gzip -f -9 football_data.db
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Stage the compressed database and any team mappings
+          git add football_data.db.gz team_mappings.json || true
+          
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No database updates detected."
+          else
+            echo "Database updates detected! Committing changes..."
+            git commit -m "Auto-updated football fixtures and team status tags"
+            git push origin main
+          fi
