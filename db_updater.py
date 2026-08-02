@@ -26,7 +26,7 @@ import pandas as pd
 from datetime import datetime
 
 # --- CONFIGURATION & CONSTANTS ---
-DEFAULT_DB_NAME = "football_data.db"  # Change to your actual DB name if different
+DEFAULT_DB_NAME = "football_data.db.gz"  # Defaulting to your gzipped database
 TABLE_NAME = "fixtures"
 MAPPING_FILE = "team_mappings.json"
 DOWNLOAD_DIR = "football_data_temp"
@@ -120,14 +120,19 @@ def standardize_team_name(raw_name):
 def download_league_csv(div_code, season_label):
     """
     Downloads the current season's CSV for a given league division.
-    URL Format: https://www.football-data.co.uk/{season_label}/{div_code}.csv
+    URL Format: https://www.football-data.co.uk/mmz4281/{season_label}/{div_code}.csv
     """
-    url = f"https://www.football-data.co.uk/{season_label}/{div_code}.csv"
+    url = f"https://www.football-data.co.uk/mmz4281/{season_label}/{div_code}.csv"
     local_path = os.path.join(DOWNLOAD_DIR, f"{div_code}_{season_label}.csv")
     
     print(f" -> Fetching {div_code} ({url})...", end="", flush=True)
     try:
-        r = requests.get(url, timeout=10)
+        # Mimic browser headers to avoid being blocked by cloudflare / hosting security rules
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://www.football-data.co.uk/"
+        }
+        r = requests.get(url, headers=headers, timeout=10)
         if r.status_code == 200:
             with open(local_path, 'wb') as f:
                 f.write(r.content)
@@ -326,6 +331,8 @@ def main():
     args = parser.parse_args()
 
     db_path = args.db
+    is_gz = db_path.endswith(".gz")
+    active_db_path = db_path
     
     # 1. Determine Target Season
     if args.season:
@@ -338,10 +345,30 @@ def main():
     # Ensure environment folders exist
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     
+    # Handle auto decompression of gzipped SQLite database (.db.gz)
+    if is_gz:
+        active_db_path = "temp_uncompressed_database.db"
+        if os.path.exists(db_path):
+            print(f"📦 Found gzipped database '{db_path}'. Decompressing to '{active_db_path}'...")
+            import gzip
+            import shutil
+            try:
+                with gzip.open(db_path, 'rb') as f_in:
+                    with open(active_db_path, 'wb') as f_out:
+                        shutil.copyfileobj(f_in, f_out)
+                print(" -> Decompression successful!")
+            except Exception as e:
+                print(f" -> Decompression failed: {e}")
+                # Fallback to copy or empty if corrupted
+                if os.path.exists(active_db_path):
+                    os.remove(active_db_path)
+        else:
+            print(f"⚠️  Gzipped database '{db_path}' not found yet. An empty database will be created at '{active_db_path}'.")
+
     # 2. Initialize DB if file does not exist
-    if not os.path.exists(db_path):
-        print(f"⚠️  Database '{db_path}' not found! Creating a fresh database with schemas...")
-    init_db(db_path)
+    if not os.path.exists(active_db_path):
+        print(f"⚠️  Database '{active_db_path}' not found! Creating a fresh database with schemas...")
+    init_db(active_db_path)
 
     # 3. Download and Append Latest Results for Each League
     print("\nStarting downloads from football-data.co.uk...")
@@ -352,17 +379,33 @@ def main():
         if local_path:
             df = process_and_standardize(local_path, div_code, target_season)
             if df is not None and not df.empty:
-                appended = append_to_db(df, db_path)
+                appended = append_to_db(df, active_db_path)
                 total_new_rows += appended
                 
     print(f"\n📊 Batch Ingest Completed: Successfully updated/appended {total_new_rows} fixtures.")
 
     # 4. Trigger Smart Detect Tag Calculation
-    run_smart_detect_processor(db_path)
+    run_smart_detect_processor(active_db_path)
 
     # Save Mapping File Cache
     with open(MAPPING_FILE, 'w') as f:
         json.dump(TEAM_LOOKUP, f, indent=4, sort_keys=True)
+
+    # Handle auto compression back to gzipped SQLite database (.db.gz)
+    if is_gz:
+        print(f"📦 Compressing updated database '{active_db_path}' back to '{db_path}'...")
+        import gzip
+        import shutil
+        try:
+            with open(active_db_path, 'rb') as f_in:
+                with gzip.open(db_path, 'wb') as f_out:
+                    shutil.copyfileobj(f_in, f_out)
+            print(" -> Compression successful!")
+        except Exception as e:
+            print(f" -> Compression failed: {e}")
+        finally:
+            if os.path.exists(active_db_path):
+                os.remove(active_db_path)
 
     print("\n✅ Success! Database successfully updated and fully synced.")
     print("-" * 65)
