@@ -219,6 +219,7 @@ def process_and_standardize(file_path, div_code, season_label):
 def init_db(db_path):
     """
     Ensures that the database table and indexes exist exactly under the master schema.
+    Also dynamically adds any missing columns from the master schema to an existing table.
     """
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
@@ -232,6 +233,29 @@ def init_db(db_path):
     schema_string = ",\n            ".join(column_definitions)
     
     cursor.execute(f"CREATE TABLE IF NOT EXISTS {TABLE_NAME} ({schema_string}, PRIMARY KEY (Date, HomeTeam, AwayTeam))")
+    
+    # Dynamically upgrade schema of existing table if columns are missing
+    cursor.execute(f"PRAGMA table_info({TABLE_NAME})")
+    existing_columns = {row[1] for row in cursor.fetchall()}
+    
+    # Check for missing META_COLUMNS
+    for col in META_COLUMNS:
+        if col not in existing_columns:
+            print(f"🔧 Schema Upgrade: Adding missing column [{col}] TEXT to table '{TABLE_NAME}'")
+            try:
+                cursor.execute(f"ALTER TABLE {TABLE_NAME} ADD COLUMN [{col}] TEXT")
+            except Exception as e:
+                print(f"⚠️ Failed to add column [{col}]: {e}")
+                
+    # Check for missing STAT_COLUMNS
+    for col in STAT_COLUMNS:
+        if col not in existing_columns:
+            print(f"🔧 Schema Upgrade: Adding missing column [{col}] INTEGER to table '{TABLE_NAME}'")
+            try:
+                cursor.execute(f"ALTER TABLE {TABLE_NAME} ADD COLUMN [{col}] INTEGER")
+            except Exception as e:
+                print(f"⚠️ Failed to add column [{col}]: {e}")
+                
     cursor.execute(f"CREATE INDEX IF NOT EXISTS idx_div_season ON {TABLE_NAME} (DivisionCode, Season);")
     cursor.execute(f"CREATE INDEX IF NOT EXISTS idx_teams ON {TABLE_NAME} (HomeTeam, AwayTeam);")
     cursor.execute(f"CREATE INDEX IF NOT EXISTS idx_date_sort ON {TABLE_NAME} (Date ASC);")
@@ -267,61 +291,74 @@ def run_smart_detect_processor(db_path):
     Calculates promotional/relegation statuses for all teams based on chronological tier transitions.
     """
     print("\nRunning Smart Detect Post-Processor across historic team timelines...")
-    conn = sqlite3.connect(db_path)
-    
-    query = f"""
-        SELECT DISTINCT HomeTeam AS Team, Season, Tier, DivisionCode, MIN(Date) as SeasonStart
-        FROM {TABLE_NAME}
-        GROUP BY Team, Season, Tier, DivisionCode
-        ORDER BY Team, SeasonStart ASC
-    """
-    history_df = pd.read_sql_query(query, conn)
-    updates = []
-    
-    for team, group in history_df.groupby('Team'):
-        group = group.sort_values('SeasonStart').reset_index(drop=True)
+    try:
+        conn = sqlite3.connect(db_path)
         
-        for i in range(len(group)):
-            current_row = group.iloc[i]
-            current_season = current_row['Season']
-            current_tier = int(current_row['Tier'])
-            current_div = current_row['DivisionCode']
-            
-            if i == 0:
-                status = "Stable"
-            else:
-                prev_row = group.iloc[i - 1]
-                prev_tier = int(prev_row['Tier'])
-                prev_div = prev_row['DivisionCode']
-                
-                # Dynamic Promotion / Relegation check
-                if current_tier > prev_tier:
-                    status = "Relegated"
-                elif current_tier < prev_tier:
-                    status = "Promoted"
-                else:
-                    status = "Stable"
-                        
-            updates.append((status, team, current_season))
+        query = f"""
+            SELECT DISTINCT HomeTeam AS Team, Season, Tier, DivisionCode, MIN(Date) as SeasonStart
+            FROM {TABLE_NAME}
+            GROUP BY Team, Season, Tier, DivisionCode
+            ORDER BY Team, SeasonStart ASC
+        """
+        history_df = pd.read_sql_query(query, conn)
+        if history_df.empty:
+            print(" -> No team history found to process.")
+            conn.close()
+            return
 
-    cursor = conn.cursor()
-    print(f"Applying {len(updates)} smart team status tags to matches...")
-    
-    cursor.executemany(f"""
-        UPDATE {TABLE_NAME} 
-        SET HomeTeamStatus = ? 
-        WHERE HomeTeam = ? AND Season = ?
-    """, updates)
-    
-    cursor.executemany(f"""
-        UPDATE {TABLE_NAME} 
-        SET AwayTeamStatus = ? 
-        WHERE AwayTeam = ? AND Season = ?
-    """, updates)
-    
-    conn.commit()
-    conn.close()
-    print("Smart detect categorization complete. Features fully updated.")
+        updates = []
+        for team, group in history_df.groupby('Team'):
+            group = group.sort_values('SeasonStart').reset_index(drop=True)
+            
+            for i in range(len(group)):
+                current_row = group.iloc[i]
+                current_season = current_row['Season']
+                try:
+                    current_tier = int(current_row['Tier'])
+                except (ValueError, TypeError):
+                    current_tier = 1  # Fallback to tier 1
+                current_div = current_row['DivisionCode']
+                
+                if i == 0:
+                    status = "Stable"
+                else:
+                    prev_row = group.iloc[i - 1]
+                    try:
+                        prev_tier = int(prev_row['Tier'])
+                    except (ValueError, TypeError):
+                        prev_tier = 1  # Fallback to tier 1
+                    prev_div = prev_row['DivisionCode']
+                    
+                    # Dynamic Promotion / Relegation check
+                    if current_tier > prev_tier:
+                        status = "Relegated"
+                    elif current_tier < prev_tier:
+                        status = "Promoted"
+                    else:
+                        status = "Stable"
+                            
+                updates.append((status, team, current_season))
+
+        cursor = conn.cursor()
+        print(f"Applying {len(updates)} smart team status tags to matches...")
+        
+        cursor.executemany(f"""
+            UPDATE {TABLE_NAME} 
+            SET HomeTeamStatus = ? 
+            WHERE HomeTeam = ? AND Season = ?
+        """, updates)
+        
+        cursor.executemany(f"""
+            UPDATE {TABLE_NAME} 
+            SET AwayTeamStatus = ? 
+            WHERE AwayTeam = ? AND Season = ?
+        """, updates)
+        
+        conn.commit()
+        conn.close()
+        print("Smart detect categorization complete. Features fully updated.")
+    except Exception as e:
+        print(f"⚠️ Error running smart detect post-processor: {e}")
 
 # --- MAIN EXECUTION COMMANDER ---
 def main():
@@ -345,20 +382,51 @@ def main():
     # Ensure environment folders exist
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     
-    # Handle auto decompression of gzipped SQLite database (.db.gz)
+    # Handle auto decompression of gzipped SQLite database (.db.gz or .tar.gz disguised as .db.gz)
     if is_gz:
         active_db_path = "temp_uncompressed_database.db"
         if os.path.exists(db_path):
-            print(f"📦 Found gzipped database '{db_path}'. Decompressing to '{active_db_path}'...")
+            print(f"📦 Found gzipped database '{db_path}'. Opening extraction suite...")
             import gzip
             import shutil
+            import tarfile
             try:
-                with gzip.open(db_path, 'rb') as f_in:
-                    with open(active_db_path, 'wb') as f_out:
-                        shutil.copyfileobj(f_in, f_out)
-                print(" -> Decompression successful!")
+                # First check if the .gz file is actually a tar archive (.tar.gz / .tgz format)
+                is_tar = False
+                try:
+                    if tarfile.is_tarfile(db_path):
+                        is_tar = True
+                except Exception:
+                    pass
+
+                if is_tar:
+                    print("📦 Format detected: gzipped tar archive (.tar.gz). Extracting database...")
+                    with tarfile.open(db_path, "r:gz") as tar:
+                        members = tar.getmembers()
+                        db_member = None
+                        for member in members:
+                            if member.name.endswith(".db"):
+                                db_member = member
+                                break
+                        if db_member is None and len(members) > 0:
+                            db_member = members[0] # Fallback to first file
+                        
+                        if db_member:
+                            print(f" -> Extracting '{db_member.name}' to '{active_db_path}'...")
+                            with tar.extractfile(db_member) as f_in:
+                                with open(active_db_path, 'wb') as f_out:
+                                    shutil.copyfileobj(f_in, f_out)
+                            print(" -> Extraction successful!")
+                        else:
+                            raise Exception("No valid database file found inside the tar archive.")
+                else:
+                    print("📦 Format detected: plain gzip. Decompressing...")
+                    with gzip.open(db_path, 'rb') as f_in:
+                        with open(active_db_path, 'wb') as f_out:
+                            shutil.copyfileobj(f_in, f_out)
+                    print(" -> Decompression successful!")
             except Exception as e:
-                print(f" -> Decompression failed: {e}")
+                print(f" -> Decompression/Extraction failed: {e}")
                 # Fallback to copy or empty if corrupted
                 if os.path.exists(active_db_path):
                     os.remove(active_db_path)
