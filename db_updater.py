@@ -51,8 +51,10 @@ LEAGUE_MAP = {
     'SP2': ('Spain', 'La Liga Segunda', 2),
     'F1': ('France', 'Ligue 1', 1),
     'F2': ('France', 'Ligue 2', 2),
-    'H1': ('Netherlands', 'Eredivisie', 1),
-    'B1': ('Belgium', 'Pro League', 1)
+    'N1': ('Netherlands', 'Eredivisie', 1),
+    'B1': ('Belgium', 'Jupiler League', 1),
+    'P1': ('Portugal', 'Liga I', 1 )
+}
 }
 
 META_COLUMNS = [
