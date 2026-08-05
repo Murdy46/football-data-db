@@ -55,7 +55,6 @@ LEAGUE_MAP = {
     'B1': ('Belgium', 'Jupiler League', 1),
     'P1': ('Portugal', 'Liga I', 1 )
 }
-}
 
 META_COLUMNS = [
     'Country', 'LeagueName', 'Tier', 'DivisionCode', 'Season', 'Date', 'Time', 
