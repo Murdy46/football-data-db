@@ -133,7 +133,7 @@ def download_league_csv(div_code, season_label):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Referer": "https://www.football-data.co.uk/"
         }
-        r = requests.get(url, headers=headers, timeout=10)
+        r = requests.get(url, headers=headers, timeout=10, allow_redirects=False)
         if r.status_code == 200:
             with open(local_path, 'wb') as f:
                 f.write(r.content)
