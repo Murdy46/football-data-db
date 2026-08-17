@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": "acca_1786965306140_466",
+    "name": "6-Leg Acca (Both Teams To Score (BTTS))",
+    "createdAt": "2026-08-17T11:15:06.140Z",
+    "targetDate": "2026-08-17",
+    "stake": 10,
+    "combinedOdds": 7.32,
+    "estReturn": 73.2,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "ouojjw4fb3g",
+        "home": "Oxford",
+        "away": "MK Dons",
+        "date": "2026-08-15",
+        "marketName": "Both Teams To Score",
+        "marketId": "both_teams_to_score",
+        "selection": "BTTS - Yes",
+        "odds": 1.39,
+        "probability": 72,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "11fcgh0o0m5",
+        "home": "Reading",
+        "away": "Luton",
+        "date": "2026-08-15",
+        "marketName": "Both Teams To Score",
+        "marketId": "both_teams_to_score",
+        "selection": "BTTS - Yes",
+        "odds": 1.39,
+        "probability": 72,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "oanpj8oifdc",
+        "home": "East Kilbride",
+        "away": "Cove Rangers",
+        "date": "2026-08-15",
+        "marketName": "Both Teams To Score",
+        "marketId": "both_teams_to_score",
+        "selection": "BTTS - Yes",
+        "odds": 1.39,
+        "probability": 72,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "gc4qnvt941b",
+        "home": "Sevilla",
+        "away": "Vallecano",
+        "date": "2026-08-15",
+        "marketName": "Both Teams To Score",
+        "marketId": "both_teams_to_score",
+        "selection": "BTTS - Yes",
+        "odds": 1.39,
+        "probability": 72,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "fg86ztvnten",
+        "home": "Espanol",
+        "away": "Levante",
+        "date": "2026-08-16",
+        "marketName": "Both Teams To Score",
+        "marketId": "both_teams_to_score",
+        "selection": "BTTS - Yes",
+        "odds": 1.39,
+        "probability": 72,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "gj4r7faw85d",
+        "home": "Hertha",
+        "away": "Heidenheim",
+        "date": "2026-08-15",
+        "marketName": "Both Teams To Score",
+        "marketId": "both_teams_to_score",
+        "selection": "BTTS - Yes",
+        "odds": 1.41,
+        "probability": 71,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ]
+  }
+]
