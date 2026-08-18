@@ -7,7 +7,7 @@
     "stake": 10,
     "combinedOdds": 7.32,
     "estReturn": 73.2,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "ouojjw4fb3g",
@@ -19,8 +19,8 @@
         "selection": "BTTS - Yes",
         "odds": 1.39,
         "probability": 72,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-2"
       },
       {
         "id": "11fcgh0o0m5",
@@ -32,8 +32,8 @@
         "selection": "BTTS - Yes",
         "odds": 1.39,
         "probability": 72,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3-4"
       },
       {
         "id": "oanpj8oifdc",
@@ -45,8 +45,8 @@
         "selection": "BTTS - Yes",
         "odds": 1.39,
         "probability": 72,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "3-0"
       },
       {
         "id": "gc4qnvt941b",
@@ -58,8 +58,8 @@
         "selection": "BTTS - Yes",
         "odds": 1.39,
         "probability": 72,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-1"
       },
       {
         "id": "fg86ztvnten",
@@ -71,8 +71,8 @@
         "selection": "BTTS - Yes",
         "odds": 1.39,
         "probability": 72,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "3-0"
       },
       {
         "id": "gj4r7faw85d",
@@ -84,8 +84,8 @@
         "selection": "BTTS - Yes",
         "odds": 1.41,
         "probability": 71,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4-1"
       }
     ]
   }
