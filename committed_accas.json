@@ -87,6 +87,11 @@
         "status": "Won",
         "actualScore": "4-1"
       }
-    ]
+    ],
+    "legsWon": 4,
+    "legsLost": 2,
+    "legsPending": 0,
+    "legsTotal": 6,
+    "legAccuracyPct": 67
   }
 ]
