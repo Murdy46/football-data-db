@@ -1,5 +1,87 @@
 [
   {
+    "id": "acca_1787571165861_183",
+    "name": "5-Leg Acca (Away Win (1X2))",
+    "createdAt": "2026-08-24T11:32:45.861Z",
+    "targetDate": "2026-08-24",
+    "stake": 10,
+    "combinedOdds": 13.96,
+    "estReturn": 139.6,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "4eku31pcdfz",
+        "home": "For Sittard",
+        "away": "AZ Alkmaar",
+        "date": "2026-08-22",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "AZ Alkmaar to Win",
+        "odds": 1.59,
+        "probability": 59,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "rp0ok8e8ki",
+        "home": "Montrose",
+        "away": "East Kilbride",
+        "date": "2026-08-22",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "East Kilbride to Win",
+        "odds": 1.64,
+        "probability": 56,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "3tgwoz2fxz",
+        "home": "Angers",
+        "away": "Lille",
+        "date": "2026-08-23",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Lille to Win",
+        "odds": 1.69,
+        "probability": 55,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "1j5sea33bcp",
+        "home": "Solihull",
+        "away": "Southend",
+        "date": "2026-08-22",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Southend to Win",
+        "odds": 1.8,
+        "probability": 54,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "0watmso87dqh",
+        "home": "Torino",
+        "away": "Milan",
+        "date": "2026-08-23",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Milan to Win",
+        "odds": 1.76,
+        "probability": 54,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 5,
+    "legsTotal": 5,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1787563187895_226",
     "name": "5-Leg Acca (Match Outcome (1X2))",
     "createdAt": "2026-08-24T09:19:47.895Z",
