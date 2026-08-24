@@ -1,5 +1,74 @@
 [
   {
+    "id": "acca_1787592249571_237",
+    "name": "4-Leg Acca (Clean Sheet (Home Team))",
+    "createdAt": "2026-08-24T17:24:09.571Z",
+    "targetDate": "2026-08-24",
+    "stake": 10,
+    "combinedOdds": 2.42,
+    "estReturn": 24.2,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "8l19670ay7i",
+        "home": "Cambuur",
+        "away": "Feyenoord",
+        "date": "2026-08-23",
+        "marketName": "Clean Sheet (Home Team)",
+        "marketId": "clean_sheet",
+        "selection": "Cambuur Clean Sheet - No",
+        "odds": 1.2,
+        "probability": 83,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "j9q2jjxnb8",
+        "home": "Elche",
+        "away": "Barcelona",
+        "date": "2026-08-23",
+        "marketName": "Clean Sheet (Home Team)",
+        "marketId": "clean_sheet",
+        "selection": "Elche Clean Sheet - No",
+        "odds": 1.22,
+        "probability": 82,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "toabtq7y49o",
+        "home": "Hull",
+        "away": "Man United",
+        "date": "2026-08-22",
+        "marketName": "Clean Sheet (Home Team)",
+        "marketId": "clean_sheet",
+        "selection": "Hull Clean Sheet - No",
+        "odds": 1.27,
+        "probability": 79,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "ls0ak2no5vm",
+        "home": "Frosinone",
+        "away": "Juventus",
+        "date": "2026-08-23",
+        "marketName": "Clean Sheet (Home Team)",
+        "marketId": "clean_sheet",
+        "selection": "Frosinone Clean Sheet - No",
+        "odds": 1.3,
+        "probability": 77,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 4,
+    "legsTotal": 4,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1787571165861_183",
     "name": "5-Leg Acca (Away Win (1X2))",
     "createdAt": "2026-08-24T11:32:45.861Z",
