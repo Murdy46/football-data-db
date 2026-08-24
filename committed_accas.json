@@ -1,5 +1,74 @@
 [
   {
+    "id": "acca_1787602688755_606",
+    "name": "4-Leg Acca (Red Card in Match)",
+    "createdAt": "2026-08-24T20:18:08.755Z",
+    "targetDate": "2026-08-24",
+    "stake": 10,
+    "combinedOdds": 1.57,
+    "estReturn": 15.7,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "p9jqrkdygs",
+        "home": "Millwall",
+        "away": "Norwich",
+        "date": "2026-08-22",
+        "marketName": "Red Card in Match",
+        "marketId": "red_card_in_match",
+        "selection": "Red Card - No",
+        "odds": 1.12,
+        "probability": 89,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "axifoq678jm",
+        "home": "Swansea",
+        "away": "Sheffield Utd",
+        "date": "2026-08-22",
+        "marketName": "Red Card in Match",
+        "marketId": "red_card_in_match",
+        "selection": "Red Card - No",
+        "odds": 1.12,
+        "probability": 89,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "888xsdesmpl",
+        "home": "Colchester",
+        "away": "Oldham",
+        "date": "2026-08-22",
+        "marketName": "Red Card in Match",
+        "marketId": "red_card_in_match",
+        "selection": "Red Card - No",
+        "odds": 1.12,
+        "probability": 89,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "twyy5zutik",
+        "home": "Rochdale",
+        "away": "Crawley",
+        "date": "2026-08-22",
+        "marketName": "Red Card in Match",
+        "marketId": "red_card_in_match",
+        "selection": "Red Card - No",
+        "odds": 1.12,
+        "probability": 89,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 4,
+    "legsTotal": 4,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1787598977784_535",
     "name": "5-Leg Acca (Match Draw (1X2))",
     "createdAt": "2026-08-24T19:16:17.784Z",
