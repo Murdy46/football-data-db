@@ -1,5 +1,87 @@
 [
   {
+    "id": "acca_1787598977784_535",
+    "name": "5-Leg Acca (Match Draw (1X2))",
+    "createdAt": "2026-08-24T19:16:17.784Z",
+    "targetDate": "2026-08-24",
+    "stake": 10,
+    "combinedOdds": 241.04,
+    "estReturn": 2410.4,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "lpftryy5zrr",
+        "home": "Getafe",
+        "away": "Santander",
+        "date": "2026-08-23",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 2.92,
+        "probability": 33,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "0htj9f8peg3b",
+        "home": "Sp Gijon",
+        "away": "Burgos",
+        "date": "2026-08-23",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 2.98,
+        "probability": 33,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "v96qdge55bb",
+        "home": "Parma",
+        "away": "Cagliari",
+        "date": "2026-08-22",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 3,
+        "probability": 32,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "sp4n61lt9w",
+        "home": "Santa Clara",
+        "away": "Famalicao",
+        "date": "2026-08-23",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 2.95,
+        "probability": 32,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "460doqjofxa",
+        "home": "Venezia",
+        "away": "Lecce",
+        "date": "2026-08-23",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 3.13,
+        "probability": 31,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 5,
+    "legsTotal": 5,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1787592249571_237",
     "name": "4-Leg Acca (Clean Sheet (Home Team))",
     "createdAt": "2026-08-24T17:24:09.571Z",
