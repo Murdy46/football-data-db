@@ -1,5 +1,87 @@
 [
   {
+    "id": "acca_1787563187895_226",
+    "name": "5-Leg Acca (Match Outcome (1X2))",
+    "createdAt": "2026-08-24T09:19:47.895Z",
+    "targetDate": "2026-08-24",
+    "stake": 1,
+    "combinedOdds": 13.79,
+    "estReturn": 13.79,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "90ozo65ly4",
+        "home": "Standard",
+        "away": "RAAL La Louviere",
+        "date": "2026-08-21",
+        "marketName": "Match Outcome (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Standard to Win",
+        "odds": 1.69,
+        "probability": 59,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "eq9rq5ekvmr",
+        "home": "Lommel SK",
+        "away": "Westerlo",
+        "date": "2026-08-23",
+        "marketName": "Match Outcome (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Lommel SK to Win",
+        "odds": 1.69,
+        "probability": 59,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "vnialx64tr",
+        "home": "Stevenage",
+        "away": "Oxford",
+        "date": "2026-08-22",
+        "marketName": "Match Outcome (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Stevenage to Win",
+        "odds": 1.69,
+        "probability": 59,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "q7wsky73q6l",
+        "home": "Metz",
+        "away": "Laval",
+        "date": "2026-08-22",
+        "marketName": "Match Outcome (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Metz to Win",
+        "odds": 1.69,
+        "probability": 59,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "uoj382mwpz",
+        "home": "Inter",
+        "away": "Monza",
+        "date": "2026-08-22",
+        "marketName": "Match Outcome (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Inter to Win",
+        "odds": 1.69,
+        "probability": 59,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 5,
+    "legsTotal": 5,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1786965306140_466",
     "name": "6-Leg Acca (Both Teams To Score (BTTS))",
     "createdAt": "2026-08-17T11:15:06.140Z",
