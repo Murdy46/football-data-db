@@ -1,5 +1,61 @@
 [
   {
+    "id": "acca_1787933733058_968",
+    "name": "3-Leg Acca (Match Draw (1X2))",
+    "createdAt": "2026-08-28T16:15:33.058Z",
+    "targetDate": "2026-08-28",
+    "stake": 2,
+    "combinedOdds": 33.36,
+    "estReturn": 66.72,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "t5txj79ozgd",
+        "home": "RAAL La Louviere",
+        "away": "Mechelen",
+        "date": "2026-08-29",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 3.13,
+        "probability": 29,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "6h4bs0jffpn",
+        "home": "Bolton",
+        "away": "Lincoln",
+        "date": "2026-08-29",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 3.3,
+        "probability": 29,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "3kmrtihm12e",
+        "home": "Stevenage",
+        "away": "Doncaster",
+        "date": "2026-08-29",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 3.23,
+        "probability": 29,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 3,
+    "legsTotal": 3,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1787821484478_139",
     "name": "5-Leg Acca (Match Outcome (1X2))",
     "createdAt": "2026-08-27T09:04:44.478Z",
