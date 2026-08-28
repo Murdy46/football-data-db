@@ -7,7 +7,7 @@
     "stake": 10,
     "combinedOdds": 13.19,
     "estReturn": 131.9,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "65icyt8lydl",
@@ -19,8 +19,8 @@
         "selection": "Real Madrid to Win",
         "odds": 1.31,
         "probability": 73,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4-1"
       },
       {
         "id": "4kuy7mld2xu",
@@ -32,8 +32,8 @@
         "selection": "Barcelona to Win",
         "odds": 1.31,
         "probability": 70,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-0"
       },
       {
         "id": "0cqlff24fbqt",
@@ -45,8 +45,8 @@
         "selection": "Boreham Wood to Win",
         "odds": 1.54,
         "probability": 59,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-1"
       },
       {
         "id": "p0dvmudskx",
@@ -58,8 +58,8 @@
         "selection": "Celta to Win",
         "odds": 1.95,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1-2"
       },
       {
         "id": "mf3el5jmt7",
@@ -71,15 +71,15 @@
         "selection": "Betis to Win",
         "odds": 2.56,
         "probability": 37,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0-1"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 5,
+    "legsWon": 4,
+    "legsLost": 1,
+    "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 80
   },
   {
     "id": "acca_1787604424878_678",
@@ -102,7 +102,7 @@
         "odds": 1.92,
         "probability": 52,
         "status": "Won",
-        "actualScore": "0-1"
+        "actualScore": "HT: 0-0"
       },
       {
         "id": "1z7cz8pp7bd",
@@ -115,7 +115,7 @@
         "odds": 1.92,
         "probability": 52,
         "status": "Lost",
-        "actualScore": "1-0"
+        "actualScore": "HT: 1-0"
       },
       {
         "id": "paide95m9n",
@@ -128,7 +128,7 @@
         "odds": 1.92,
         "probability": 52,
         "status": "Won",
-        "actualScore": "1-0"
+        "actualScore": "HT: 0-0"
       }
     ],
     "legsWon": 2,
@@ -158,7 +158,7 @@
         "odds": 1.12,
         "probability": 89,
         "status": "Lost",
-        "actualScore": "3-0"
+        "actualScore": "1 Red Card"
       },
       {
         "id": "axifoq678jm",
@@ -171,7 +171,7 @@
         "odds": 1.12,
         "probability": 89,
         "status": "Won",
-        "actualScore": "0-0"
+        "actualScore": "0 Red Cards"
       },
       {
         "id": "888xsdesmpl",
@@ -184,7 +184,7 @@
         "odds": 1.12,
         "probability": 89,
         "status": "Lost",
-        "actualScore": "2-1"
+        "actualScore": "1 Red Card"
       },
       {
         "id": "twyy5zutik",
@@ -197,7 +197,7 @@
         "odds": 1.12,
         "probability": 89,
         "status": "Won",
-        "actualScore": "1-2"
+        "actualScore": "0 Red Cards"
       }
     ],
     "legsWon": 2,
@@ -377,7 +377,7 @@
         "selection": "AZ Alkmaar to Win",
         "odds": 1.59,
         "probability": 59,
-        "status": "Lost",
+        "status": "Won",
         "actualScore": "0-2"
       },
       {
@@ -403,7 +403,7 @@
         "selection": "Lille to Win",
         "odds": 1.69,
         "probability": 55,
-        "status": "Lost",
+        "status": "Won",
         "actualScore": "0-2"
       },
       {
@@ -416,7 +416,7 @@
         "selection": "Southend to Win",
         "odds": 1.8,
         "probability": 54,
-        "status": "Lost",
+        "status": "Won",
         "actualScore": "1-3"
       },
       {
@@ -429,15 +429,15 @@
         "selection": "Milan to Win",
         "odds": 1.76,
         "probability": 54,
-        "status": "Lost",
+        "status": "Won",
         "actualScore": "1-2"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 5,
+    "legsWon": 4,
+    "legsLost": 1,
     "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 80
   },
   {
     "id": "acca_1787563187895_226",
@@ -459,7 +459,7 @@
         "selection": "Standard to Win",
         "odds": 1.69,
         "probability": 59,
-        "status": "Lost",
+        "status": "Won",
         "actualScore": "2-0"
       },
       {
@@ -472,7 +472,7 @@
         "selection": "Lommel SK to Win",
         "odds": 1.69,
         "probability": 59,
-        "status": "Lost",
+        "status": "Won",
         "actualScore": "4-0"
       },
       {
@@ -511,15 +511,15 @@
         "selection": "Inter to Win",
         "odds": 1.69,
         "probability": 59,
-        "status": "Lost",
+        "status": "Won",
         "actualScore": "4-1"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 5,
+    "legsWon": 3,
+    "legsLost": 2,
     "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 60
   },
   {
     "id": "acca_1786965306140_466",
@@ -542,7 +542,7 @@
         "odds": 1.39,
         "probability": 72,
         "status": "Won",
-        "actualScore": "2-2"
+        "actualScore": "Yes (2-2)"
       },
       {
         "id": "11fcgh0o0m5",
@@ -555,7 +555,7 @@
         "odds": 1.39,
         "probability": 72,
         "status": "Won",
-        "actualScore": "3-4"
+        "actualScore": "Yes (3-4)"
       },
       {
         "id": "oanpj8oifdc",
@@ -568,7 +568,7 @@
         "odds": 1.39,
         "probability": 72,
         "status": "Lost",
-        "actualScore": "3-0"
+        "actualScore": "No (3-0)"
       },
       {
         "id": "gc4qnvt941b",
@@ -581,7 +581,7 @@
         "odds": 1.39,
         "probability": 72,
         "status": "Won",
-        "actualScore": "2-1"
+        "actualScore": "Yes (2-1)"
       },
       {
         "id": "fg86ztvnten",
@@ -594,7 +594,7 @@
         "odds": 1.39,
         "probability": 72,
         "status": "Lost",
-        "actualScore": "3-0"
+        "actualScore": "No (3-0)"
       },
       {
         "id": "gj4r7faw85d",
@@ -607,7 +607,7 @@
         "odds": 1.41,
         "probability": 71,
         "status": "Won",
-        "actualScore": "4-1"
+        "actualScore": "Yes (4-1)"
       }
     ],
     "legsWon": 4,
