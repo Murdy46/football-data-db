@@ -7,7 +7,7 @@
     "stake": 2,
     "combinedOdds": 295.53,
     "estReturn": 591.06,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "rq9gy31zee",
@@ -19,8 +19,8 @@
         "selection": "Hamilton to Win",
         "odds": 1.52,
         "probability": 60,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-0"
       },
       {
         "id": "5dm8yn5gpdp",
@@ -32,8 +32,8 @@
         "selection": "York to Win",
         "odds": 1.68,
         "probability": 56,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-1"
       },
       {
         "id": "bbq9j32jofn",
@@ -45,8 +45,8 @@
         "selection": "Hearts to Win",
         "odds": 1.72,
         "probability": 55,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-1"
       },
       {
         "id": "bxp5xhdqadt",
@@ -58,8 +58,8 @@
         "selection": "Ayr to Win",
         "odds": 1.67,
         "probability": 55,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1-1"
       },
       {
         "id": "u4qg5glf7i",
@@ -71,8 +71,8 @@
         "selection": "Sheffield Weds to Win",
         "odds": 1.83,
         "probability": 52,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "7-2"
       },
       {
         "id": "xnz62ekww6g",
@@ -84,8 +84,8 @@
         "selection": "Grimsby to Win",
         "odds": 1.86,
         "probability": 51,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2-2"
       },
       {
         "id": "3zuhhse5s3o",
@@ -97,8 +97,8 @@
         "selection": "Walsall to Win",
         "odds": 1.85,
         "probability": 51,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3-2"
       },
       {
         "id": "1iiww9sgx2s",
@@ -110,8 +110,8 @@
         "selection": "Coventry to Win",
         "odds": 1.87,
         "probability": 50,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-1"
       },
       {
         "id": "w4erjp649xs",
@@ -123,8 +123,8 @@
         "selection": "Stockport to Win",
         "odds": 1.88,
         "probability": 50,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5-1"
       },
       {
         "id": "ht21rhnmi6m",
@@ -136,15 +136,15 @@
         "selection": "Airdrieonians to Win",
         "odds": 1.82,
         "probability": 50,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-0"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 6,
+    "legsLost": 4,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 60
   },
   {
     "id": "acca_1787933733058_968",
@@ -154,7 +154,7 @@
     "stake": 2,
     "combinedOdds": 33.36,
     "estReturn": 66.72,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "t5txj79ozgd",
@@ -166,8 +166,8 @@
         "selection": "Match Draw",
         "odds": 3.13,
         "probability": 29,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-2"
       },
       {
         "id": "6h4bs0jffpn",
@@ -179,8 +179,8 @@
         "selection": "Match Draw",
         "odds": 3.3,
         "probability": 29,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-1"
       },
       {
         "id": "3kmrtihm12e",
@@ -192,15 +192,15 @@
         "selection": "Match Draw",
         "odds": 3.23,
         "probability": 29,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-2"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 3,
+    "legsWon": 2,
+    "legsLost": 1,
+    "legsPending": 0,
     "legsTotal": 3,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 67
   },
   {
     "id": "acca_1787821484478_139",
