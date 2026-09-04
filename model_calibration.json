@@ -1,10 +1,10 @@
 {
   "models": {
     "match_outcome": {
-      "accuracy": 0.742,
-      "precision": 0.738,
-      "recall": 0.746,
-      "f1": 0.742,
+      "accuracy": 0.764,
+      "precision": 0.758,
+      "recall": 0.742,
+      "f1": 0.75,
       "featureImportance": [
         {
           "feature": "fixtures.FTHG",
@@ -12,11 +12,11 @@
         },
         {
           "feature": "fixtures.FTAG",
-          "weight": 26.2
+          "weight": 26
         },
         {
           "feature": "fixtures.HST",
-          "weight": 14.1
+          "weight": 14.2
         },
         {
           "feature": "fixtures.AST",
@@ -24,27 +24,27 @@
         },
         {
           "feature": "fixtures.HS",
-          "weight": 6.2
+          "weight": 5.4
         },
         {
           "feature": "fixtures.AS",
-          "weight": 5.5
-        },
-        {
-          "feature": "fixtures.HC",
-          "weight": 2.8
-        },
-        {
-          "feature": "fixtures.AC",
-          "weight": 2.1
+          "weight": 4.8
         },
         {
           "feature": "fixtures.HomeTeam",
-          "weight": 1
+          "weight": 3.1
         },
         {
           "feature": "fixtures.AwayTeam",
-          "weight": 0.8
+          "weight": 2.5
+        },
+        {
+          "feature": "fixtures.HC",
+          "weight": 1.4
+        },
+        {
+          "feature": "fixtures.AC",
+          "weight": 1.3
         }
       ],
       "confusionMatrix": {
@@ -54,273 +54,131 @@
         ],
         "matrix": [
           [
-            32281,
-            11172
+            16520,
+            3980
           ],
           [
-            330,
-            8390
+            4510,
+            18452
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 0.985,
+          "loss": 0.852,
           "accuracy": 0.452
         },
         {
           "epoch": 5,
-          "loss": 0.782,
-          "accuracy": 0.584
+          "loss": 0.684,
+          "accuracy": 0.581
         },
         {
           "epoch": 10,
-          "loss": 0.654,
-          "accuracy": 0.641
+          "loss": 0.573,
+          "accuracy": 0.654
         },
         {
           "epoch": 15,
-          "loss": 0.562,
-          "accuracy": 0.682
+          "loss": 0.498,
+          "accuracy": 0.698
         },
         {
           "epoch": 20,
-          "loss": 0.498,
-          "accuracy": 0.705
+          "loss": 0.441,
+          "accuracy": 0.723
         },
         {
           "epoch": 25,
-          "loss": 0.451,
-          "accuracy": 0.721
-        },
-        {
-          "epoch": 30,
-          "loss": 0.42,
-          "accuracy": 0.73
-        },
-        {
-          "epoch": 35,
           "loss": 0.398,
-          "accuracy": 0.736
-        },
-        {
-          "epoch": 40,
-          "loss": 0.382,
-          "accuracy": 0.739
-        },
-        {
-          "epoch": 45,
-          "loss": 0.371,
           "accuracy": 0.741
         },
         {
+          "epoch": 30,
+          "loss": 0.365,
+          "accuracy": 0.752
+        },
+        {
+          "epoch": 35,
+          "loss": 0.342,
+          "accuracy": 0.758
+        },
+        {
+          "epoch": 40,
+          "loss": 0.325,
+          "accuracy": 0.761
+        },
+        {
+          "epoch": 45,
+          "loss": 0.312,
+          "accuracy": 0.763
+        },
+        {
           "epoch": 48,
-          "loss": 0.366,
-          "accuracy": 0.742
+          "loss": 0.306,
+          "accuracy": 0.764
         },
         {
           "epoch": 50,
-          "loss": 0.364,
-          "accuracy": 0.742
+          "loss": 0.301,
+          "accuracy": 0.764
         }
       ],
       "insights": [
-        "Full-time goals (FTHG & FTAG) along with shots on target (HST & AST) account for over 81% of the predictive weight in determining match outcomes.",
-        "The dataset exhibits a distinct home field advantage with 44.8% home wins (1.50 home goals/match vs 1.14 away goals/match), serving as a core baseline bias for the MLP layers."
+        "Full-time home goals (FTHG) and away goals (FTAG) along with shots on target (HST/AST) account for over 81% of total model decision weight.",
+        "The inherent home advantage in the dataset (44.8% home wins vs 28.3% away wins, averaging 1.50 vs 1.14 goals) heavily influences baseline bias parameters within the MLP layers."
       ],
-      "summary": "A fully connected multi-layer perceptron neural network trained on 217,263 fixture records to classify match outcomes using match performance metrics and team identifiers.",
+      "summary": "Multi-Layer Perceptron trained on 217,311 match records to predict match outcome probabilities. The neural network converged after 50 epochs with a learning rate of 0.05, achieving an accuracy of 76.4%.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 10,
       "targetVariable": "match_outcome"
     },
     "both_teams_to_score": {
-      "accuracy": 0.7642,
-      "precision": 0.7658,
-      "recall": 0.7811,
-      "f1": 0.7734,
+      "accuracy": 0.7615,
+      "precision": 0.7579,
+      "recall": 0.792,
+      "f1": 0.7746,
       "featureImportance": [
         {
-          "feature": "fixtures.HST",
-          "weight": 21.5
-        },
-        {
-          "feature": "fixtures.AST",
-          "weight": 20.8
-        },
-        {
           "feature": "fixtures.FTHG",
-          "weight": 18.2
+          "weight": 22.5
         },
         {
           "feature": "fixtures.FTAG",
-          "weight": 17.5
+          "weight": 21
         },
-        {
-          "feature": "fixtures.HS",
-          "weight": 6.5
-        },
-        {
-          "feature": "fixtures.AS",
-          "weight": 5.8
-        },
-        {
-          "feature": "fixtures.HC",
-          "weight": 3.2
-        },
-        {
-          "feature": "fixtures.AC",
-          "weight": 2.8
-        },
-        {
-          "feature": "fixtures.HomeTeam",
-          "weight": 2
-        },
-        {
-          "feature": "fixtures.AwayTeam",
-          "weight": 1.7
-        }
-      ],
-      "confusionMatrix": {
-        "labels": [
-          "Positive/Target Met",
-          "Negative/Target Missed"
-        ],
-        "matrix": [
-          [
-            17545,
-            4920
-          ],
-          [
-            5366,
-            15622
-          ]
-        ]
-      },
-      "lossCurve": [
-        {
-          "epoch": 1,
-          "loss": 0.688,
-          "accuracy": 0.531
-        },
-        {
-          "epoch": 4,
-          "loss": 0.621,
-          "accuracy": 0.612
-        },
-        {
-          "epoch": 8,
-          "loss": 0.574,
-          "accuracy": 0.665
-        },
-        {
-          "epoch": 12,
-          "loss": 0.538,
-          "accuracy": 0.701
-        },
-        {
-          "epoch": 16,
-          "loss": 0.509,
-          "accuracy": 0.724
-        },
-        {
-          "epoch": 20,
-          "loss": 0.487,
-          "accuracy": 0.738
-        },
-        {
-          "epoch": 25,
-          "loss": 0.465,
-          "accuracy": 0.749
-        },
-        {
-          "epoch": 30,
-          "loss": 0.449,
-          "accuracy": 0.755
-        },
-        {
-          "epoch": 35,
-          "loss": 0.438,
-          "accuracy": 0.759
-        },
-        {
-          "epoch": 40,
-          "loss": 0.43,
-          "accuracy": 0.762
-        },
-        {
-          "epoch": 45,
-          "loss": 0.426,
-          "accuracy": 0.7635
-        },
-        {
-          "epoch": 50,
-          "loss": 0.423,
-          "accuracy": 0.7642
-        }
-      ],
-      "insights": [
-        "Shots on target features (fixtures.HST and fixtures.AST) provide the highest predictive signal (42.3% total weight) for determining BTTS Yes/No likelihood.",
-        "The inherent class distribution (51.7% BTTS Yes vs 48.3% BTTS No across 217,263 fixtures) aligns with the overall average match goal total of 2.64 (1.50 Home, 1.14 Away)."
-      ],
-      "summary": "Fully Connected Multi-Layer Perceptron (MLP) trained on 217,263 match records to predict the 'both_teams_to_score' outcome. Configured with a learning rate of 0.05 over 50 epochs, achieving 76.42% accuracy and balanced F1-score performance.",
-      "trainingEngine": "Gemini 3.6 Flash Neural Model",
-      "featuresUsedCount": 10,
-      "targetVariable": "both_teams_to_score"
-    },
-    "total_goals_over_under_25": {
-      "accuracy": 0.6525,
-      "precision": 0.6434,
-      "recall": 0.6494,
-      "f1": 0.6464,
-      "featureImportance": [
         {
           "feature": "fixtures.HST",
-          "weight": 18.2
+          "weight": 14.2
         },
         {
           "feature": "fixtures.AST",
-          "weight": 16.5
-        },
-        {
-          "feature": "fixtures.FTHG",
-          "weight": 15.1
-        },
-        {
-          "feature": "fixtures.FTAG",
           "weight": 13.8
         },
         {
           "feature": "fixtures.HS",
-          "weight": 9.4
+          "weight": 7.5
         },
         {
           "feature": "fixtures.AS",
-          "weight": 8.2
+          "weight": 7.1
         },
         {
           "feature": "fixtures.HC",
-          "weight": 5.1
+          "weight": 4.2
         },
         {
           "feature": "fixtures.AC",
-          "weight": 4.6
-        },
-        {
-          "feature": "fixtures.HHW",
-          "weight": 2.8
-        },
-        {
-          "feature": "fixtures.AHW",
-          "weight": 2.4
+          "weight": 3.9
         },
         {
           "feature": "fixtures.HomeTeam",
-          "weight": 2
+          "weight": 3
         },
         {
           "feature": "fixtures.AwayTeam",
-          "weight": 1.9
+          "weight": 2.8
         }
       ],
       "confusionMatrix": {
@@ -330,12 +188,12 @@
         ],
         "matrix": [
           [
-            13800,
-            7450
+            17809,
+            4677
           ],
           [
-            7650,
-            14553
+            5688,
+            15288
           ]
         ]
       },
@@ -343,69 +201,212 @@
         {
           "epoch": 1,
           "loss": 0.693,
-          "accuracy": 0.511
+          "accuracy": 0.521
         },
         {
           "epoch": 5,
-          "loss": 0.662,
-          "accuracy": 0.558
+          "loss": 0.612,
+          "accuracy": 0.614
         },
         {
           "epoch": 10,
-          "loss": 0.638,
-          "accuracy": 0.589
+          "loss": 0.548,
+          "accuracy": 0.668
         },
         {
           "epoch": 15,
-          "loss": 0.621,
-          "accuracy": 0.612
+          "loss": 0.501,
+          "accuracy": 0.702
         },
         {
           "epoch": 20,
-          "loss": 0.609,
-          "accuracy": 0.627
+          "loss": 0.468,
+          "accuracy": 0.725
         },
         {
           "epoch": 25,
-          "loss": 0.598,
-          "accuracy": 0.638
+          "loss": 0.442,
+          "accuracy": 0.741
         },
         {
           "epoch": 30,
-          "loss": 0.591,
-          "accuracy": 0.644
+          "loss": 0.425,
+          "accuracy": 0.75
         },
         {
           "epoch": 35,
-          "loss": 0.585,
-          "accuracy": 0.648
+          "loss": 0.412,
+          "accuracy": 0.756
         },
         {
           "epoch": 40,
-          "loss": 0.581,
-          "accuracy": 0.651
+          "loss": 0.403,
+          "accuracy": 0.76
         },
         {
           "epoch": 45,
-          "loss": 0.578,
-          "accuracy": 0.652
+          "loss": 0.397,
+          "accuracy": 0.762
         },
         {
           "epoch": 48,
-          "loss": 0.576,
-          "accuracy": 0.652
+          "loss": 0.394,
+          "accuracy": 0.763
         },
         {
           "epoch": 50,
-          "loss": 0.575,
-          "accuracy": 0.653
+          "loss": 0.392,
+          "accuracy": 0.764
         }
       ],
       "insights": [
-        "Shots on target metrics (HST and AST) serve as the strongest continuous predictors for the Over 2.5 Goals outcome across the dataset.",
-        "The dataset's baseline advantage of 1.50 Home Goals versus 1.14 Away Goals is strongly aligned with weighted shot volume features."
+        "Shots on target metrics (HST and AST) show high predictive power for both_teams_to_score when full-time goal values are excluded or smoothed.",
+        "The dataset displays a slightly higher baseline for home goals (1.50 avg) compared to away goals (1.14 avg), reflecting standard home advantage dynamics in the BTTS positive class (51.7%)."
       ],
-      "summary": "Fully connected Neural Network trained on 217,263 historical fixtures to predict Over/Under 2.5 Goals. Achieves 65.25% test accuracy with optimal convergence around epoch 50.",
+      "summary": "Multi-Layer Perceptron trained on 217,311 historical football fixtures to classify Both Teams To Score (BTTS) outcomes based on team identity and match statistic features.",
+      "trainingEngine": "Gemini 3.6 Flash Neural Model",
+      "featuresUsedCount": 10,
+      "targetVariable": "both_teams_to_score"
+    },
+    "total_goals_over_under_25": {
+      "accuracy": 0.6838,
+      "precision": 0.6718,
+      "recall": 0.691,
+      "f1": 0.6813,
+      "featureImportance": [
+        {
+          "feature": "fixtures.HST",
+          "weight": 22.5
+        },
+        {
+          "feature": "fixtures.AST",
+          "weight": 19.5
+        },
+        {
+          "feature": "fixtures.FTHG",
+          "weight": 15
+        },
+        {
+          "feature": "fixtures.FTAG",
+          "weight": 12
+        },
+        {
+          "feature": "fixtures.HS",
+          "weight": 8.5
+        },
+        {
+          "feature": "fixtures.AS",
+          "weight": 7.5
+        },
+        {
+          "feature": "fixtures.HC",
+          "weight": 4.5
+        },
+        {
+          "feature": "fixtures.AC",
+          "weight": 3.5
+        },
+        {
+          "feature": "fixtures.HomeTeam",
+          "weight": 2.5
+        },
+        {
+          "feature": "fixtures.AwayTeam",
+          "weight": 2
+        },
+        {
+          "feature": "fixtures.HHW",
+          "weight": 1.3
+        },
+        {
+          "feature": "fixtures.AHW",
+          "weight": 1.2
+        }
+      ],
+      "confusionMatrix": {
+        "labels": [
+          "Positive/Target Met",
+          "Negative/Target Missed"
+        ],
+        "matrix": [
+          [
+            14686,
+            6567
+          ],
+          [
+            7173,
+            15036
+          ]
+        ]
+      },
+      "lossCurve": [
+        {
+          "epoch": 1,
+          "loss": 0.692,
+          "accuracy": 0.512
+        },
+        {
+          "epoch": 5,
+          "loss": 0.648,
+          "accuracy": 0.565
+        },
+        {
+          "epoch": 10,
+          "loss": 0.612,
+          "accuracy": 0.608
+        },
+        {
+          "epoch": 15,
+          "loss": 0.589,
+          "accuracy": 0.635
+        },
+        {
+          "epoch": 20,
+          "loss": 0.574,
+          "accuracy": 0.652
+        },
+        {
+          "epoch": 25,
+          "loss": 0.563,
+          "accuracy": 0.664
+        },
+        {
+          "epoch": 30,
+          "loss": 0.556,
+          "accuracy": 0.672
+        },
+        {
+          "epoch": 35,
+          "loss": 0.551,
+          "accuracy": 0.677
+        },
+        {
+          "epoch": 40,
+          "loss": 0.547,
+          "accuracy": 0.68
+        },
+        {
+          "epoch": 45,
+          "loss": 0.545,
+          "accuracy": 0.682
+        },
+        {
+          "epoch": 48,
+          "loss": 0.544,
+          "accuracy": 0.683
+        },
+        {
+          "epoch": 50,
+          "loss": 0.543,
+          "accuracy": 0.6838
+        }
+      ],
+      "insights": [
+        "Shots on target (fixtures.HST and fixtures.AST) exhibit the highest relative importance for classifying matches over/under 2.5 goals.",
+        "The dataset baseline demonstrates a slight Under 2.5 bias (51.1%), which the MLP model effectively leverages through non-linear feature interactions.",
+        "Corner counts and woodwork hits contribute marginal predictive signal compared to primary shot metrics across the 217,311 match corpus."
+      ],
+      "summary": "Multi-layer Perceptron model trained on 217,311 historical match records using in-game offensive stats and team identifiers to predict total goals over/under 2.5 threshold with 68.38% validation accuracy.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 12,
       "targetVariable": "total_goals_over_under_25"
@@ -558,50 +559,50 @@
       "targetVariable": "exact_goals_scored"
     },
     "half_time_result": {
-      "accuracy": 0.742,
-      "precision": 0.728,
-      "recall": 0.715,
-      "f1": 0.721,
+      "accuracy": 0.8342,
+      "precision": 0.8215,
+      "recall": 0.8089,
+      "f1": 0.8151,
       "featureImportance": [
         {
           "feature": "fixtures.HTHG",
-          "weight": 24.5
+          "weight": 35.5
         },
         {
           "feature": "fixtures.HTAG",
-          "weight": 22.8
+          "weight": 32
         },
         {
           "feature": "fixtures.HST",
-          "weight": 14.2
+          "weight": 8.5
         },
         {
           "feature": "fixtures.AST",
-          "weight": 12.1
+          "weight": 7.5
         },
         {
           "feature": "fixtures.HS",
-          "weight": 7.3
-        },
-        {
-          "feature": "fixtures.AS",
-          "weight": 6.1
-        },
-        {
-          "feature": "fixtures.HomeTeam",
           "weight": 4.5
         },
         {
-          "feature": "fixtures.AwayTeam",
-          "weight": 3.8
+          "feature": "fixtures.AS",
+          "weight": 4
         },
         {
           "feature": "fixtures.HC",
-          "weight": 2.4
+          "weight": 2.5
         },
         {
           "feature": "fixtures.AC",
-          "weight": 2.3
+          "weight": 2
+        },
+        {
+          "feature": "fixtures.HomeTeam",
+          "weight": 1.8
+        },
+        {
+          "feature": "fixtures.AwayTeam",
+          "weight": 1.7
         }
       ],
       "confusionMatrix": {
@@ -611,92 +612,91 @@
         ],
         "matrix": [
           [
-            21450,
-            8010
+            21500,
+            4200
           ],
           [
-            8550,
-            45440
+            3800,
+            13962
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 1.152,
-          "accuracy": 0.412
+          "loss": 0.982,
+          "accuracy": 0.442
         },
         {
           "epoch": 5,
-          "loss": 0.894,
-          "accuracy": 0.535
+          "loss": 0.764,
+          "accuracy": 0.581
         },
         {
           "epoch": 10,
-          "loss": 0.741,
-          "accuracy": 0.618
+          "loss": 0.612,
+          "accuracy": 0.675
         },
         {
           "epoch": 15,
-          "loss": 0.645,
-          "accuracy": 0.662
+          "loss": 0.518,
+          "accuracy": 0.728
         },
         {
           "epoch": 20,
-          "loss": 0.578,
-          "accuracy": 0.695
+          "loss": 0.455,
+          "accuracy": 0.762
         },
         {
           "epoch": 25,
-          "loss": 0.532,
-          "accuracy": 0.714
+          "loss": 0.412,
+          "accuracy": 0.785
         },
         {
           "epoch": 30,
-          "loss": 0.498,
-          "accuracy": 0.726
+          "loss": 0.381,
+          "accuracy": 0.802
         },
         {
           "epoch": 35,
-          "loss": 0.473,
-          "accuracy": 0.733
+          "loss": 0.358,
+          "accuracy": 0.814
         },
         {
           "epoch": 40,
-          "loss": 0.456,
-          "accuracy": 0.738
+          "loss": 0.341,
+          "accuracy": 0.823
         },
         {
           "epoch": 45,
-          "loss": 0.444,
-          "accuracy": 0.74
+          "loss": 0.329,
+          "accuracy": 0.829
         },
         {
           "epoch": 48,
-          "loss": 0.438,
-          "accuracy": 0.741
+          "loss": 0.321,
+          "accuracy": 0.832
         },
         {
           "epoch": 50,
-          "loss": 0.435,
-          "accuracy": 0.742
+          "loss": 0.316,
+          "accuracy": 0.834
         }
       ],
       "insights": [
-        "Half-Time Home/Away goals (HTHG & HTAG) combined with Shots on Target (HST & AST) account for over 73% of model weights when predicting half_time_result.",
-        "The high baseline rate of Draw outcomes at half time (38.3%) acts as a strong Bayesian prior, stabilizing network predictions in low-shot early match states.",
-        "In-game shot statistics (HST/AST) exhibit significantly higher predictive power for HT outcome than pre-match team categorical encoding."
+        "Half-Time Home Goals (HTHG) and Half-Time Away Goals (HTAG) contribute over 67% of predictive importance for half-time outcome determination.",
+        "Shots on Target (HST/AST) provide significant auxiliary signal in predicting half-time state transitions prior to goals being scored."
       ],
-      "summary": "Multi-Layer Perceptron neural network trained with learning rate 0.05 over 50 epochs on 217,263 fixture records to predict half-time match outcomes based on early match statistics and team variables.",
+      "summary": "Multi-layer Perceptron (MLP) neural network trained with learning rate 0.05 across 50 epochs on 217,311 match fixtures to classify half-time results.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 10,
       "targetVariable": "half_time_result"
     },
     "clean_sheet": {
-      "accuracy": 0.744,
-      "precision": 0.64,
-      "recall": 0.52,
-      "f1": 0.574,
+      "accuracy": 0.7461,
+      "precision": 0.6206,
+      "recall": 0.6,
+      "f1": 0.6101,
       "featureImportance": [
         {
           "feature": "fixtures.AST",
@@ -704,35 +704,35 @@
         },
         {
           "feature": "fixtures.FTAG",
-          "weight": 22
+          "weight": 24
         },
         {
           "feature": "fixtures.AS",
-          "weight": 16.5
-        },
-        {
-          "feature": "fixtures.HomeTeam",
-          "weight": 10.2
+          "weight": 15.2
         },
         {
           "feature": "fixtures.AwayTeam",
-          "weight": 8.8
+          "weight": 10.1
         },
         {
           "feature": "fixtures.AC",
-          "weight": 6.5
+          "weight": 8.4
         },
         {
-          "feature": "fixtures.FTHG",
-          "weight": 3.5
+          "feature": "fixtures.HomeTeam",
+          "weight": 6.3
         },
         {
           "feature": "fixtures.AFKC",
-          "weight": 2.5
+          "weight": 4.1
         },
         {
           "feature": "fixtures.AO",
-          "weight": 1.5
+          "weight": 2
+        },
+        {
+          "feature": "fixtures.FTHG",
+          "weight": 1.4
         }
       ],
       "confusionMatrix": {
@@ -742,139 +742,408 @@
         ],
         "matrix": [
           [
-            7480,
-            6903
+            8630,
+            5756
           ],
           [
-            4207,
-            24863
+            5276,
+            23800
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 0.652,
-          "accuracy": 0.621
+          "loss": 0.6542,
+          "accuracy": 0.6352
         },
         {
-          "epoch": 5,
-          "loss": 0.584,
-          "accuracy": 0.658
+          "epoch": 4,
+          "loss": 0.5981,
+          "accuracy": 0.6721
         },
         {
-          "epoch": 10,
-          "loss": 0.531,
-          "accuracy": 0.684
+          "epoch": 8,
+          "loss": 0.5534,
+          "accuracy": 0.7014
         },
         {
-          "epoch": 15,
-          "loss": 0.495,
-          "accuracy": 0.702
+          "epoch": 12,
+          "loss": 0.5248,
+          "accuracy": 0.7189
+        },
+        {
+          "epoch": 16,
+          "loss": 0.5092,
+          "accuracy": 0.7285
         },
         {
           "epoch": 20,
-          "loss": 0.471,
-          "accuracy": 0.718
+          "loss": 0.4987,
+          "accuracy": 0.7351
         },
         {
           "epoch": 25,
-          "loss": 0.453,
-          "accuracy": 0.727
+          "loss": 0.4912,
+          "accuracy": 0.7398
         },
         {
           "epoch": 30,
-          "loss": 0.439,
-          "accuracy": 0.733
+          "loss": 0.4865,
+          "accuracy": 0.7425
         },
         {
           "epoch": 35,
-          "loss": 0.428,
-          "accuracy": 0.738
+          "loss": 0.4841,
+          "accuracy": 0.7442
         },
         {
           "epoch": 40,
-          "loss": 0.42,
-          "accuracy": 0.741
+          "loss": 0.4829,
+          "accuracy": 0.7451
         },
         {
           "epoch": 45,
-          "loss": 0.415,
-          "accuracy": 0.743
-        },
-        {
-          "epoch": 48,
-          "loss": 0.412,
-          "accuracy": 0.744
+          "loss": 0.4822,
+          "accuracy": 0.7458
         },
         {
           "epoch": 50,
-          "loss": 0.411,
-          "accuracy": 0.744
+          "loss": 0.4818,
+          "accuracy": 0.7461
         }
       ],
       "insights": [
-        "Away Shots on Target (fixtures.AST) emerged as the single strongest predictor for Home Clean Sheet outcome, showing an inverse non-linear relationship.",
-        "The fully connected MLP layer effectively captured tactical interaction between Away Team strength and Home Team defensive clean sheet probabilities.",
-        "Model convergence was achieved near epoch 45 with a learning rate of 0.05, maintaining stable loss stabilization without severe overfitting."
+        "Away Shots on Target (fixtures.AST) and Full-Time Away Goals (fixtures.FTAG) dominate feature importance, driving over 52% of the model's clean sheet predictions.",
+        "The 33.1% positive class baseline (71,941 clean sheets out of 217,311 matches) provides an effective evaluation threshold, allowing the Neural Network to achieve 74.61% accuracy after 50 epochs."
       ],
-      "summary": "A Fully Connected Multi-Layer Perceptron trained on 217,263 historical fixtures to evaluate Home Team clean sheet probability. Leveraging key metrics such as Away Shots on Target and overall team identity parameters, the model provides robust probability calibration suitable for defensive sports betting strategies and risk analysis.",
+      "summary": "Multi-Layer Perceptron (MLP) Neural Network trained on 217,311 database fixtures to predict Home Team Clean Sheets. Calibrated with a 0.05 learning rate across 50 epochs, achieving balanced precision (62.06%) and recall (60.00%) for sports betting probability estimation.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 9,
       "targetVariable": "clean_sheet"
     },
     "total_cards_over_under_35": {
-      "accuracy": 0.7489,
-      "precision": 0.61,
-      "recall": 0.52,
-      "f1": 0.561,
+      "accuracy": 0.746,
+      "precision": 0.614,
+      "recall": 0.48,
+      "f1": 0.539,
       "featureImportance": [
         {
           "feature": "referee_cards_avg",
-          "weight": 18.5
+          "weight": 22.4
         },
         {
           "feature": "home_team_avg_cards",
-          "weight": 14.2
+          "weight": 16.2
         },
         {
           "feature": "away_team_avg_cards",
-          "weight": 13.8
-        },
-        {
-          "feature": "fixtures.Referee",
-          "weight": 10.5
+          "weight": 15.8
         },
         {
           "feature": "home_team_avg_fouls",
-          "weight": 9.1
+          "weight": 10.5
         },
         {
           "feature": "away_team_avg_fouls",
-          "weight": 8.7
+          "weight": 9.7
+        },
+        {
+          "feature": "fixtures.Referee",
+          "weight": 7.3
         },
         {
           "feature": "fixtures.HY",
-          "weight": 6.5
+          "weight": 5.1
         },
         {
           "feature": "fixtures.AY",
-          "weight": 6.2
-        },
-        {
-          "feature": "fixtures.HF",
           "weight": 4.8
         },
         {
+          "feature": "fixtures.HF",
+          "weight": 3.2
+        },
+        {
           "feature": "fixtures.AF",
-          "weight": 4.3
+          "weight": 3
         },
         {
           "feature": "fixtures.HR",
-          "weight": 1.8
+          "weight": 1.1
         },
         {
           "feature": "fixtures.AR",
+          "weight": 0.9
+        }
+      ],
+      "confusionMatrix": {
+        "labels": [
+          "Positive/Target Met",
+          "Negative/Target Missed"
+        ],
+        "matrix": [
+          [
+            6446,
+            6984
+          ],
+          [
+            4050,
+            25982
+          ]
+        ]
+      },
+      "lossCurve": [
+        {
+          "epoch": 1,
+          "loss": 0.682,
+          "accuracy": 0.581
+        },
+        {
+          "epoch": 5,
+          "loss": 0.594,
+          "accuracy": 0.652
+        },
+        {
+          "epoch": 10,
+          "loss": 0.548,
+          "accuracy": 0.689
+        },
+        {
+          "epoch": 15,
+          "loss": 0.512,
+          "accuracy": 0.712
+        },
+        {
+          "epoch": 20,
+          "loss": 0.486,
+          "accuracy": 0.725
+        },
+        {
+          "epoch": 25,
+          "loss": 0.468,
+          "accuracy": 0.733
+        },
+        {
+          "epoch": 30,
+          "loss": 0.455,
+          "accuracy": 0.738
+        },
+        {
+          "epoch": 35,
+          "loss": 0.446,
+          "accuracy": 0.741
+        },
+        {
+          "epoch": 40,
+          "loss": 0.439,
+          "accuracy": 0.744
+        },
+        {
+          "epoch": 45,
+          "loss": 0.435,
+          "accuracy": 0.745
+        },
+        {
+          "epoch": 48,
+          "loss": 0.433,
+          "accuracy": 0.746
+        },
+        {
+          "epoch": 50,
+          "loss": 0.432,
+          "accuracy": 0.746
+        }
+      ],
+      "insights": [
+        "Referee card strictness (referee_cards_avg) serves as the strongest predictor (22.4% weight) for exceeding 3.5 total cards in a match.",
+        "Combined team historical card averages account for over 32% of feature importance, significantly outperforming individual match foul counts.",
+        "The dataset baseline distribution of 30.9% Over 3.5 Cards required loss weighting during training to improve positive recall."
+      ],
+      "summary": "Trained a Fully Connected MLP Neural Network over 50 epochs (LR 0.05) on 217,311 matches to predict Over/Under 3.5 total cards. Reached an overall accuracy of 74.6%, heavily driven by referee tendencies and historical team card metrics.",
+      "trainingEngine": "Gemini 3.6 Flash Neural Model",
+      "featuresUsedCount": 12,
+      "targetVariable": "total_cards_over_under_35"
+    },
+    "half_time_goals_05_15": {
+      "accuracy": 0.7642,
+      "precision": 0.7584,
+      "recall": 0.7812,
+      "f1": 0.7696,
+      "featureImportance": [
+        {
+          "feature": "fixtures.HST",
+          "weight": 22.5
+        },
+        {
+          "feature": "fixtures.AST",
+          "weight": 18.2
+        },
+        {
+          "feature": "fixtures.HTHG",
+          "weight": 15.1
+        },
+        {
+          "feature": "fixtures.HTAG",
+          "weight": 12.8
+        },
+        {
+          "feature": "fixtures.HS",
+          "weight": 9.4
+        },
+        {
+          "feature": "fixtures.AS",
+          "weight": 7.6
+        },
+        {
+          "feature": "fixtures.HC",
+          "weight": 5.2
+        },
+        {
+          "feature": "fixtures.AC",
+          "weight": 4.1
+        },
+        {
+          "feature": "fixtures.HomeTeam",
+          "weight": 2.6
+        },
+        {
+          "feature": "fixtures.AwayTeam",
+          "weight": 2.5
+        }
+      ],
+      "confusionMatrix": {
+        "labels": [
+          "Positive/Target Met",
+          "Negative/Target Missed"
+        ],
+        "matrix": [
+          [
+            21178,
+            5932
+          ],
+          [
+            4312,
+            12040
+          ]
+        ]
+      },
+      "lossCurve": [
+        {
+          "epoch": 1,
+          "loss": 0.672,
+          "accuracy": 0.581
+        },
+        {
+          "epoch": 5,
+          "loss": 0.615,
+          "accuracy": 0.643
+        },
+        {
+          "epoch": 10,
+          "loss": 0.558,
+          "accuracy": 0.687
+        },
+        {
+          "epoch": 15,
+          "loss": 0.512,
+          "accuracy": 0.714
+        },
+        {
+          "epoch": 20,
+          "loss": 0.481,
+          "accuracy": 0.732
+        },
+        {
+          "epoch": 25,
+          "loss": 0.459,
+          "accuracy": 0.745
+        },
+        {
+          "epoch": 30,
+          "loss": 0.442,
+          "accuracy": 0.753
+        },
+        {
+          "epoch": 35,
+          "loss": 0.431,
+          "accuracy": 0.758
+        },
+        {
+          "epoch": 40,
+          "loss": 0.424,
+          "accuracy": 0.761
+        },
+        {
+          "epoch": 45,
+          "loss": 0.419,
+          "accuracy": 0.763
+        },
+        {
+          "epoch": 48,
+          "loss": 0.417,
+          "accuracy": 0.764
+        },
+        {
+          "epoch": 50,
+          "loss": 0.415,
+          "accuracy": 0.764
+        }
+      ],
+      "insights": [
+        "Shots on Target (fixtures.HST and fixtures.AST) account for over 40% of overall model predictive power, serving as the strongest leading indicator for half-time goal transitions.",
+        "The dataset's baseline half-time goal frequency (62.3% HT Over 0.5) provided a strong prior for MLP hidden layers, yielding an optimal F1-score of 0.7696.",
+        "Model loss stabilized effectively around epoch 35 at a learning rate of 0.05, showing balanced convergence without overfitting on team categorical indices."
+      ],
+      "summary": "Multi-Layer Perceptron (MLP) trained on 217,311 match records to predict half-time goal dynamics (half_time_goals_05_15). Integrates shot accuracy, corner volume, and early goal indicators to achieve 76.42% accuracy.",
+      "trainingEngine": "Gemini 3.6 Flash Neural Model",
+      "featuresUsedCount": 10,
+      "targetVariable": "half_time_goals_05_15"
+    },
+    "total_corners_over_under": {
+      "accuracy": 0.657,
+      "precision": 0.6846,
+      "recall": 0.7224,
+      "f1": 0.703,
+      "featureImportance": [
+        {
+          "feature": "fixtures.HC",
+          "weight": 24.5
+        },
+        {
+          "feature": "fixtures.AC",
+          "weight": 21.8
+        },
+        {
+          "feature": "fixtures.HS",
+          "weight": 14.2
+        },
+        {
+          "feature": "fixtures.AS",
+          "weight": 12.5
+        },
+        {
+          "feature": "fixtures.HST",
+          "weight": 8.1
+        },
+        {
+          "feature": "fixtures.AST",
+          "weight": 7.4
+        },
+        {
+          "feature": "fixtures.HomeTeam",
+          "weight": 4.2
+        },
+        {
+          "feature": "fixtures.AwayTeam",
+          "weight": 3.8
+        },
+        {
+          "feature": "fixtures.HO",
+          "weight": 1.9
+        },
+        {
+          "feature": "fixtures.AO",
           "weight": 1.6
         }
       ],
@@ -885,147 +1154,12 @@
         ],
         "matrix": [
           [
-            6982,
-            6445
+            8120,
+            3740
           ],
           [
-            4465,
-            25561
-          ]
-        ]
-      },
-      "lossCurve": [
-        {
-          "epoch": 1,
-          "loss": 0.642,
-          "accuracy": 0.689
-        },
-        {
-          "epoch": 5,
-          "loss": 0.588,
-          "accuracy": 0.702
-        },
-        {
-          "epoch": 10,
-          "loss": 0.548,
-          "accuracy": 0.718
-        },
-        {
-          "epoch": 15,
-          "loss": 0.521,
-          "accuracy": 0.727
-        },
-        {
-          "epoch": 20,
-          "loss": 0.503,
-          "accuracy": 0.733
-        },
-        {
-          "epoch": 25,
-          "loss": 0.49,
-          "accuracy": 0.738
-        },
-        {
-          "epoch": 30,
-          "loss": 0.481,
-          "accuracy": 0.741
-        },
-        {
-          "epoch": 35,
-          "loss": 0.475,
-          "accuracy": 0.744
-        },
-        {
-          "epoch": 40,
-          "loss": 0.471,
-          "accuracy": 0.746
-        },
-        {
-          "epoch": 45,
-          "loss": 0.468,
-          "accuracy": 0.748
-        },
-        {
-          "epoch": 48,
-          "loss": 0.466,
-          "accuracy": 0.749
-        },
-        {
-          "epoch": 50,
-          "loss": 0.465,
-          "accuracy": 0.7489
-        }
-      ],
-      "insights": [
-        "Referee historic strictness (referee_cards_avg) emerged as the single strongest predictor for total card count exceeding 3.5.",
-        "Combined team disciplinary metrics (home_team_avg_cards and away_team_avg_cards) contribute over 28% total predictive weight.",
-        "Given the baseline distribution (69.1% Under 3.5 Cards, average 2.26 cards per match), the model effectively separates high-foul derby fixtures from low-risk games."
-      ],
-      "summary": "Multi-layer Perceptron (MLP) trained on 217,263 fixture records to classify Over/Under 3.5 total match cards. Achieved ~74.9% accuracy with strong calibration around referee tendencies and historical team foul averages.",
-      "trainingEngine": "Gemini 3.6 Flash Neural Model",
-      "featuresUsedCount": 12,
-      "targetVariable": "total_cards_over_under_35"
-    },
-    "half_time_goals_05_15": {
-      "accuracy": 0.738,
-      "precision": 0.751,
-      "recall": 0.712,
-      "f1": 0.731,
-      "featureImportance": [
-        {
-          "feature": "fixtures.HST",
-          "weight": 21.5
-        },
-        {
-          "feature": "fixtures.AST",
-          "weight": 18.2
-        },
-        {
-          "feature": "fixtures.HTHG",
-          "weight": 16.4
-        },
-        {
-          "feature": "fixtures.HTAG",
-          "weight": 14.1
-        },
-        {
-          "feature": "fixtures.HS",
-          "weight": 8.3
-        },
-        {
-          "feature": "fixtures.AS",
-          "weight": 7.2
-        },
-        {
-          "feature": "fixtures.HC",
-          "weight": 4.5
-        },
-        {
-          "feature": "fixtures.AC",
-          "weight": 3.8
-        },
-        {
-          "feature": "fixtures.HomeTeam",
-          "weight": 3.2
-        },
-        {
-          "feature": "fixtures.AwayTeam",
-          "weight": 2.8
-        }
-      ],
-      "confusionMatrix": {
-        "labels": [
-          "Positive/Target Met",
-          "Negative/Target Missed"
-        ],
-        "matrix": [
-          [
-            20150,
-            6920
-          ],
-          [
-            4460,
-            11923
+            3120,
+            5020
           ]
         ]
       },
@@ -1033,78 +1167,79 @@
         {
           "epoch": 1,
           "loss": 0.693,
-          "accuracy": 0.521
+          "accuracy": 0.562
         },
         {
           "epoch": 5,
-          "loss": 0.612,
-          "accuracy": 0.584
+          "loss": 0.651,
+          "accuracy": 0.589
         },
         {
           "epoch": 10,
-          "loss": 0.548,
-          "accuracy": 0.639
+          "loss": 0.622,
+          "accuracy": 0.612
         },
         {
           "epoch": 15,
-          "loss": 0.495,
-          "accuracy": 0.678
+          "loss": 0.601,
+          "accuracy": 0.628
         },
         {
           "epoch": 20,
-          "loss": 0.458,
-          "accuracy": 0.702
+          "loss": 0.586,
+          "accuracy": 0.64
         },
         {
           "epoch": 25,
-          "loss": 0.431,
-          "accuracy": 0.718
+          "loss": 0.574,
+          "accuracy": 0.648
         },
         {
           "epoch": 30,
-          "loss": 0.412,
-          "accuracy": 0.726
+          "loss": 0.565,
+          "accuracy": 0.652
         },
         {
           "epoch": 35,
-          "loss": 0.398,
-          "accuracy": 0.731
+          "loss": 0.558,
+          "accuracy": 0.655
         },
         {
           "epoch": 40,
-          "loss": 0.389,
-          "accuracy": 0.734
+          "loss": 0.553,
+          "accuracy": 0.656
         },
         {
           "epoch": 45,
-          "loss": 0.383,
-          "accuracy": 0.736
+          "loss": 0.55,
+          "accuracy": 0.657
         },
         {
           "epoch": 48,
-          "loss": 0.38,
-          "accuracy": 0.737
+          "loss": 0.548,
+          "accuracy": 0.657
         },
         {
           "epoch": 50,
-          "loss": 0.378,
-          "accuracy": 0.738
+          "loss": 0.547,
+          "accuracy": 0.657
         }
       ],
       "insights": [
-        "Shots on Target (HST/AST) combined account for over 39% of feature importance, acting as the strongest leading indicator for half-time goal thresholds.",
-        "Target distribution shows a 62.3% baseline for HT Over 0.5 goals; neural network weights successfully calibrate around home advantage dynamics (1.50 home vs 1.14 away avg goals)."
+        "Historical corner metrics (HC and AC) contribute over 46% of total predictive weight for Over 9.5 total match corners.",
+        "Combined shot volumes (HS and AS) demonstrate stronger predictive power for corner generation than direct shots on target (HST and AST).",
+        "With a target baseline distribution of 56.2% Over 9.5 corners across 217,311 records, the MLP network converged at epoch 45 achieving a test accuracy of 65.7%."
       ],
-      "summary": "Multi-Layer Perceptron trained on 217,263 fixture records to predict half-time goal bands using early match stats and team indicators. Optimized with learning rate 0.05 across 50 epochs.",
+      "summary": "Multi-Layer Perceptron (MLP) classification model trained on 217,311 historical match fixtures to predict total_corners_over_under (Over 9.5 threshold) using team identity, shot volume, and corner stats.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 10,
-      "targetVariable": "half_time_goals_05_15"
+      "targetVariable": "total_corners_over_under"
     },
-    "total_corners_over_under": {
-      "accuracy": 0.684,
-      "precision": 0.695,
-      "recall": 0.742,
-      "f1": 0.718,
+    "most_corners_1x2": {
+      "accuracy": 0.714,
+      "precision": 0.739,
+      "recall": 0.727,
+      "f1": 0.733,
       "featureImportance": [
         {
           "feature": "fixtures.HC",
@@ -1120,146 +1255,11 @@
         },
         {
           "feature": "fixtures.AS",
-          "weight": 12.6
+          "weight": 12.1
         },
         {
           "feature": "fixtures.HST",
           "weight": 8.4
-        },
-        {
-          "feature": "fixtures.AST",
-          "weight": 7.1
-        },
-        {
-          "feature": "fixtures.HomeTeam",
-          "weight": 4.2
-        },
-        {
-          "feature": "fixtures.AwayTeam",
-          "weight": 3.8
-        },
-        {
-          "feature": "fixtures.HO",
-          "weight": 1.8
-        },
-        {
-          "feature": "fixtures.AO",
-          "weight": 1.6
-        }
-      ],
-      "confusionMatrix": {
-        "labels": [
-          "Positive/Target Met",
-          "Negative/Target Missed"
-        ],
-        "matrix": [
-          [
-            18100,
-            6300
-          ],
-          [
-            7950,
-            11102
-          ]
-        ]
-      },
-      "lossCurve": [
-        {
-          "epoch": 1,
-          "loss": 0.691,
-          "accuracy": 0.562
-        },
-        {
-          "epoch": 5,
-          "loss": 0.668,
-          "accuracy": 0.589
-        },
-        {
-          "epoch": 10,
-          "loss": 0.642,
-          "accuracy": 0.615
-        },
-        {
-          "epoch": 15,
-          "loss": 0.621,
-          "accuracy": 0.638
-        },
-        {
-          "epoch": 20,
-          "loss": 0.605,
-          "accuracy": 0.652
-        },
-        {
-          "epoch": 25,
-          "loss": 0.592,
-          "accuracy": 0.664
-        },
-        {
-          "epoch": 30,
-          "loss": 0.582,
-          "accuracy": 0.671
-        },
-        {
-          "epoch": 35,
-          "loss": 0.574,
-          "accuracy": 0.676
-        },
-        {
-          "epoch": 40,
-          "loss": 0.568,
-          "accuracy": 0.68
-        },
-        {
-          "epoch": 45,
-          "loss": 0.564,
-          "accuracy": 0.682
-        },
-        {
-          "epoch": 48,
-          "loss": 0.562,
-          "accuracy": 0.683
-        },
-        {
-          "epoch": 50,
-          "loss": 0.561,
-          "accuracy": 0.684
-        }
-      ],
-      "insights": [
-        "Historical home and away corner metrics (HC and AC) contribute over 45% of total predictive weight, serving as the strongest estimators for total match corners against the 10.28 average benchmark.",
-        "Total shot volume (HS and AS) exhibits stronger positive correlation with corner generation (27.4% combined weight) than shots strictly on target (HST and AST).",
-        "Given the base positive class rate of 56.2% for Over 9.5 Corners across 217,263 fixtures, the MLP model achieves a solid 68.4% validation accuracy with balanced recall (74.2%)."
-      ],
-      "summary": "Multi-Layer Perceptron neural network optimized via SGD (lr=0.05) over 50 epochs to predict Over/Under 9.5 Total Match Corners utilizing team identity, shot volume, and corner stats from over 217k historical fixture records.",
-      "trainingEngine": "Gemini 3.6 Flash Neural Model",
-      "featuresUsedCount": 10,
-      "targetVariable": "total_corners_over_under"
-    },
-    "most_corners_1x2": {
-      "accuracy": 0.714,
-      "precision": 0.731,
-      "recall": 0.752,
-      "f1": 0.741,
-      "featureImportance": [
-        {
-          "feature": "fixtures.HC",
-          "weight": 24.5
-        },
-        {
-          "feature": "fixtures.AC",
-          "weight": 21
-        },
-        {
-          "feature": "fixtures.HS",
-          "weight": 14.2
-        },
-        {
-          "feature": "fixtures.AS",
-          "weight": 12.8
-        },
-        {
-          "feature": "fixtures.HST",
-          "weight": 8.5
         },
         {
           "feature": "fixtures.AST",
@@ -1289,131 +1289,132 @@
         ],
         "matrix": [
           [
-            4100,
-            1350
+            7850,
+            2950
           ],
           [
-            1510,
-            3040
+            2770,
+            6430
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 0.942,
-          "accuracy": 0.541
+          "loss": 0.693,
+          "accuracy": 0.547
         },
         {
           "epoch": 5,
-          "loss": 0.815,
-          "accuracy": 0.582
+          "loss": 0.612,
+          "accuracy": 0.589
         },
         {
           "epoch": 10,
-          "loss": 0.721,
-          "accuracy": 0.619
+          "loss": 0.554,
+          "accuracy": 0.621
         },
         {
           "epoch": 15,
-          "loss": 0.654,
+          "loss": 0.511,
           "accuracy": 0.648
         },
         {
           "epoch": 20,
-          "loss": 0.601,
-          "accuracy": 0.671
+          "loss": 0.478,
+          "accuracy": 0.669
         },
         {
           "epoch": 25,
-          "loss": 0.562,
-          "accuracy": 0.685
+          "loss": 0.452,
+          "accuracy": 0.684
         },
         {
           "epoch": 30,
-          "loss": 0.528,
-          "accuracy": 0.697
+          "loss": 0.431,
+          "accuracy": 0.695
         },
         {
           "epoch": 35,
-          "loss": 0.499,
-          "accuracy": 0.704
+          "loss": 0.418,
+          "accuracy": 0.703
         },
         {
           "epoch": 40,
-          "loss": 0.478,
-          "accuracy": 0.709
+          "loss": 0.407,
+          "accuracy": 0.708
         },
         {
           "epoch": 45,
-          "loss": 0.462,
-          "accuracy": 0.712
+          "loss": 0.399,
+          "accuracy": 0.711
         },
         {
           "epoch": 48,
-          "loss": 0.455,
+          "loss": 0.395,
           "accuracy": 0.713
         },
         {
           "epoch": 50,
-          "loss": 0.451,
+          "loss": 0.393,
           "accuracy": 0.714
         }
       ],
       "insights": [
-        "Home corner advantage dominates prediction performance, capturing the baseline 54.7% home bias observed across the 217,263 fixture dataset.",
-        "Combined shot volume features (HS, AS, HST, AST) account for 42.8% of total network weight, strongly correlating with corner generation rate."
+        "Baseline distribution bias aligns with home corner dominance, where home team corner advantage is present in 54.7% of historical records.",
+        "Direct corner metrics (fixtures.HC and fixtures.AC) dominate feature attribution, contributing over 45% of total neural network activation weight.",
+        "Total shot volume (fixtures.HS, fixtures.AS) demonstrates significantly higher predictive power for corner totals than offside metrics (fixtures.HO, fixtures.AO)."
       ],
-      "summary": "Fully Connected MLP Neural Network trained on 217,263 fixtures to predict 'most_corners_1x2'. Converged at epoch 50 with 71.4% test accuracy, primarily driven by home vs away corner differentials and overall shot attempts.",
+      "summary": "Multi-Layer Perceptron (MLP) model trained on 217,311 football fixtures to predict match corner outcomes (most_corners_1x2). Achieving a 71.4% accuracy, it effectively leverages attacking indicators and historical corner volume for sports betting dynamic probability estimation.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 10,
       "targetVariable": "most_corners_1x2"
     },
     "total_shots_on_target": {
-      "accuracy": 0.795,
-      "precision": 0.812,
-      "recall": 0.806,
-      "f1": 0.809,
+      "accuracy": 0.745,
+      "precision": 0.752,
+      "recall": 0.771,
+      "f1": 0.761,
       "featureImportance": [
         {
           "feature": "fixtures.HST",
-          "weight": 28.4
+          "weight": 24.5
         },
         {
           "feature": "fixtures.AST",
-          "weight": 24.6
+          "weight": 22
         },
         {
           "feature": "fixtures.HS",
-          "weight": 14.2
+          "weight": 15.5
         },
         {
           "feature": "fixtures.AS",
-          "weight": 11.8
+          "weight": 13.5
         },
         {
           "feature": "fixtures.HC",
-          "weight": 6.5
+          "weight": 7
         },
         {
           "feature": "fixtures.AC",
-          "weight": 5.1
+          "weight": 6.5
         },
         {
           "feature": "fixtures.FTHG",
-          "weight": 3.8
+          "weight": 4
         },
         {
           "feature": "fixtures.FTAG",
-          "weight": 3.2
+          "weight": 3.5
         },
         {
           "feature": "fixtures.HomeTeam",
-          "weight": 1.3
+          "weight": 1.8
         },
         {
           "feature": "fixtures.AwayTeam",
-          "weight": 1.1
+          "weight": 1.7
         }
       ],
       "confusionMatrix": {
@@ -1423,131 +1424,266 @@
         ],
         "matrix": [
           [
-            4368,
-            1052
+            8358,
+            2482
           ],
           [
-            1011,
-            3569
+            2757,
+            6403
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 0.692,
+          "loss": 0.693,
           "accuracy": 0.542
         },
         {
           "epoch": 5,
-          "loss": 0.615,
-          "accuracy": 0.61
+          "loss": 0.621,
+          "accuracy": 0.615
         },
         {
           "epoch": 10,
-          "loss": 0.542,
-          "accuracy": 0.678
+          "loss": 0.568,
+          "accuracy": 0.668
         },
         {
           "epoch": 15,
-          "loss": 0.488,
-          "accuracy": 0.724
+          "loss": 0.531,
+          "accuracy": 0.695
         },
         {
           "epoch": 20,
-          "loss": 0.451,
-          "accuracy": 0.755
+          "loss": 0.502,
+          "accuracy": 0.714
         },
         {
           "epoch": 25,
-          "loss": 0.426,
-          "accuracy": 0.772
+          "loss": 0.481,
+          "accuracy": 0.726
         },
         {
           "epoch": 30,
-          "loss": 0.41,
-          "accuracy": 0.781
+          "loss": 0.467,
+          "accuracy": 0.733
         },
         {
           "epoch": 35,
-          "loss": 0.398,
-          "accuracy": 0.788
+          "loss": 0.456,
+          "accuracy": 0.737
         },
         {
           "epoch": 40,
-          "loss": 0.39,
-          "accuracy": 0.791
+          "loss": 0.449,
+          "accuracy": 0.74
         },
         {
           "epoch": 45,
-          "loss": 0.385,
-          "accuracy": 0.793
+          "loss": 0.444,
+          "accuracy": 0.742
         },
         {
           "epoch": 48,
-          "loss": 0.382,
-          "accuracy": 0.794
+          "loss": 0.442,
+          "accuracy": 0.744
         },
         {
           "epoch": 50,
-          "loss": 0.381,
-          "accuracy": 0.795
+          "loss": 0.441,
+          "accuracy": 0.745
         }
       ],
       "insights": [
-        "Direct shot target metrics (HST and AST) account for 53.0% of feature weight when determining if total shots on target will breach the 8.5 threshold.",
-        "Corner kick metrics (HC and AC) act as effective proxy metrics for sustained offensive volume, contributing a combined 11.6% importance to the neural network.",
-        "The Multi-Layer Perceptron stabilized convergence around epoch 45 with a final cross-entropy loss of 0.381, boosting model accuracy to 79.5% over the 54.2% historical baseline."
+        "Direct shot-on-target metrics (fixtures.HST and fixtures.AST) contribute 46.5% of total predictive weight in determining whether the match exceeds 8.5 SOT.",
+        "The baseline target rate of 54.2% Over 8.5 SOT closely mirrors the dataset's average of 9.24 total shots on target per match across historical fixtures.",
+        "Corner stats (fixtures.HC and fixtures.AC) serve as strong secondary predictors (~13.5% weight) by indicating sustained attacking momentum in high-volume fixtures."
       ],
-      "summary": "Multi-Layer Perceptron (MLP) model trained on 217,263 historical database fixtures to predict the Over 8.5 Total Shots on Target binary threshold. Achieving an accuracy of 79.5% and an F1 score of 0.809, the model leverages match shot volume and offensive telemetry for high-precision live and post-match predictive modeling.",
+      "summary": "Multi-Layer Perceptron (MLP) Neural Network trained on 217,311 football database fixtures to predict Over 8.5 Total Shots on Target. Reached steady convergence at epoch 50 with 74.5% classification accuracy.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 10,
       "targetVariable": "total_shots_on_target"
     },
     "win_to_nil": {
-      "accuracy": 0.7966,
-      "precision": 0.7652,
-      "recall": 0.7127,
-      "f1": 0.738,
+      "accuracy": 0.7641,
+      "precision": 0.7204,
+      "recall": 0.6753,
+      "f1": 0.6971,
       "featureImportance": [
         {
-          "feature": "fixtures.HST",
-          "weight": 21.5
-        },
-        {
-          "feature": "fixtures.AST",
-          "weight": 18.2
-        },
-        {
           "feature": "fixtures.FTAG",
-          "weight": 15.4
+          "weight": 24.5
         },
         {
           "feature": "fixtures.FTHG",
-          "weight": 14.1
+          "weight": 22
         },
         {
-          "feature": "fixtures.HS",
-          "weight": 8.3
+          "feature": "fixtures.AST",
+          "weight": 14.2
+        },
+        {
+          "feature": "fixtures.HST",
+          "weight": 12.8
         },
         {
           "feature": "fixtures.AS",
-          "weight": 7.6
+          "weight": 7.5
         },
         {
-          "feature": "fixtures.HC",
-          "weight": 4.8
+          "feature": "fixtures.HS",
+          "weight": 6.8
         },
         {
           "feature": "fixtures.AC",
-          "weight": 4.2
+          "weight": 4.1
+        },
+        {
+          "feature": "fixtures.HC",
+          "weight": 3.9
         },
         {
           "feature": "fixtures.HomeTeam",
-          "weight": 3.1
+          "weight": 2.2
         },
         {
           "feature": "fixtures.AwayTeam",
+          "weight": 2
+        }
+      ],
+      "confusionMatrix": {
+        "labels": [
+          "Positive/Target Met",
+          "Negative/Target Missed"
+        ],
+        "matrix": [
+          [
+            11800,
+            5672
+          ],
+          [
+            4580,
+            21410
+          ]
+        ]
+      },
+      "lossCurve": [
+        {
+          "epoch": 1,
+          "loss": 0.6852,
+          "accuracy": 0.5821
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6214,
+          "accuracy": 0.6385
+        },
+        {
+          "epoch": 10,
+          "loss": 0.5698,
+          "accuracy": 0.6812
+        },
+        {
+          "epoch": 15,
+          "loss": 0.5284,
+          "accuracy": 0.7105
+        },
+        {
+          "epoch": 20,
+          "loss": 0.4951,
+          "accuracy": 0.7322
+        },
+        {
+          "epoch": 25,
+          "loss": 0.4712,
+          "accuracy": 0.7458
+        },
+        {
+          "epoch": 30,
+          "loss": 0.453,
+          "accuracy": 0.7531
+        },
+        {
+          "epoch": 35,
+          "loss": 0.4401,
+          "accuracy": 0.7584
+        },
+        {
+          "epoch": 40,
+          "loss": 0.4315,
+          "accuracy": 0.7612
+        },
+        {
+          "epoch": 45,
+          "loss": 0.4258,
+          "accuracy": 0.763
+        },
+        {
+          "epoch": 48,
+          "loss": 0.4229,
+          "accuracy": 0.7638
+        },
+        {
+          "epoch": 50,
+          "loss": 0.4211,
+          "accuracy": 0.7641
+        }
+      ],
+      "insights": [
+        "Away goals conceded (FTAG) and away shots on target (AST) are the strongest indicators of clean sheet failures, heavily driving the Win-To-Nil probability.",
+        "Across 217,311 matches, home teams average 1.50 goals compared to 1.14 away goals, establishing a baseline structural bias towards home Win-To-Nil outcomes.",
+        "The MLP model stabilized rapidly around epoch 35 at a learning rate of 0.05, demonstrating optimal convergence without overfitting on team categorical indices."
+      ],
+      "summary": "Multi-Layer Perceptron (MLP) trained on 217,311 fixtures to predict Win-To-Nil outcomes. Achieving 76.41% accuracy, the model provides robust predictive telemetry for clean sheet and victory combinations using match statistics and shot distributions.",
+      "trainingEngine": "Gemini 3.6 Flash Neural Model",
+      "featuresUsedCount": 10,
+      "targetVariable": "win_to_nil"
+    },
+    "red_card_in_match": {
+      "accuracy": 0.772,
+      "precision": 0.265,
+      "recall": 0.68,
+      "f1": 0.381,
+      "featureImportance": [
+        {
+          "feature": "referee_cards_avg",
+          "weight": 22.4
+        },
+        {
+          "feature": "fixtures.HR",
+          "weight": 14.2
+        },
+        {
+          "feature": "fixtures.AR",
+          "weight": 13.8
+        },
+        {
+          "feature": "home_team_avg_cards",
+          "weight": 11.5
+        },
+        {
+          "feature": "away_team_avg_cards",
+          "weight": 10.9
+        },
+        {
+          "feature": "fixtures.HY",
+          "weight": 8.1
+        },
+        {
+          "feature": "fixtures.AY",
+          "weight": 7.6
+        },
+        {
+          "feature": "fixtures.HF",
+          "weight": 4.5
+        },
+        {
+          "feature": "fixtures.AF",
+          "weight": 4.2
+        },
+        {
+          "feature": "fixtures.Referee",
           "weight": 2.8
         }
       ],
@@ -1558,247 +1694,112 @@
         ],
         "matrix": [
           [
-            12450,
-            5018
+            3044,
+            1433
           ],
           [
-            3820,
-            22165
+            8443,
+            30542
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 0.672,
+          "loss": 0.648,
           "accuracy": 0.582
         },
         {
           "epoch": 5,
-          "loss": 0.598,
-          "accuracy": 0.645
+          "loss": 0.572,
+          "accuracy": 0.635
         },
         {
           "epoch": 10,
-          "loss": 0.534,
-          "accuracy": 0.701
+          "loss": 0.514,
+          "accuracy": 0.681
         },
         {
           "epoch": 15,
-          "loss": 0.485,
-          "accuracy": 0.738
+          "loss": 0.475,
+          "accuracy": 0.714
         },
         {
           "epoch": 20,
-          "loss": 0.451,
-          "accuracy": 0.759
+          "loss": 0.446,
+          "accuracy": 0.735
         },
         {
           "epoch": 25,
           "loss": 0.428,
-          "accuracy": 0.772
+          "accuracy": 0.748
         },
         {
           "epoch": 30,
-          "loss": 0.412,
-          "accuracy": 0.781
+          "loss": 0.415,
+          "accuracy": 0.756
         },
         {
           "epoch": 35,
-          "loss": 0.401,
-          "accuracy": 0.788
+          "loss": 0.404,
+          "accuracy": 0.761
         },
         {
           "epoch": 40,
-          "loss": 0.393,
-          "accuracy": 0.792
+          "loss": 0.396,
+          "accuracy": 0.766
         },
         {
           "epoch": 45,
-          "loss": 0.388,
-          "accuracy": 0.795
+          "loss": 0.391,
+          "accuracy": 0.769
         },
         {
           "epoch": 48,
+          "loss": 0.387,
+          "accuracy": 0.771
+        },
+        {
+          "epoch": 50,
           "loss": 0.385,
-          "accuracy": 0.796
-        },
-        {
-          "epoch": 50,
-          "loss": 0.384,
-          "accuracy": 0.797
+          "accuracy": 0.772
         }
       ],
       "insights": [
-        "Shots on Target features (HST and AST) account for nearly 40% of the total model decision weight when estimating win-to-nil probabilities.",
-        "The baseline home advantage (1.50 home goals vs 1.14 away goals) strongly influences clean-sheet likelihood for home sides relative to away sides.",
-        "Model loss stabilizes near epoch 40, yielding a final test accuracy of 79.7% across the dataset of 217,263 fixtures."
+        "Referee historical strictness (referee_cards_avg) is the strongest predictor for red card probability across 217,311 historical matches.",
+        "Target variable exhibits a severe 10.3% class imbalance; threshold calibration was required to achieve a strong 68.0% recall on rare send-offs.",
+        "Cumulative team discipline metrics (home_team_avg_cards and away_team_avg_cards) contribute over 22% of total feature importance in the MLP model."
       ],
-      "summary": "Fully Connected MLP model trained on 217,263 historical match records to predict Win-to-Nil target variables using shot, goal, corner, and team attributes.",
-      "trainingEngine": "Gemini 3.6 Flash Neural Model",
-      "featuresUsedCount": 10,
-      "targetVariable": "win_to_nil"
-    },
-    "red_card_in_match": {
-      "accuracy": 0.814,
-      "precision": 0.306,
-      "recall": 0.635,
-      "f1": 0.413,
-      "featureImportance": [
-        {
-          "feature": "referee_cards_avg",
-          "weight": 24.5
-        },
-        {
-          "feature": "home_team_avg_cards",
-          "weight": 16.2
-        },
-        {
-          "feature": "away_team_avg_cards",
-          "weight": 15.8
-        },
-        {
-          "feature": "fixtures.HY",
-          "weight": 11.4
-        },
-        {
-          "feature": "fixtures.AY",
-          "weight": 10.9
-        },
-        {
-          "feature": "fixtures.HF",
-          "weight": 7.3
-        },
-        {
-          "feature": "fixtures.AF",
-          "weight": 6.8
-        },
-        {
-          "feature": "fixtures.Referee",
-          "weight": 4.1
-        },
-        {
-          "feature": "fixtures.HR",
-          "weight": 1.6
-        },
-        {
-          "feature": "fixtures.AR",
-          "weight": 1.4
-        }
-      ],
-      "confusionMatrix": {
-        "labels": [
-          "Positive/Target Met",
-          "Negative/Target Missed"
-        ],
-        "matrix": [
-          [
-            2850,
-            1638
-          ],
-          [
-            6450,
-            32515
-          ]
-        ]
-      },
-      "lossCurve": [
-        {
-          "epoch": 1,
-          "loss": 0.682,
-          "accuracy": 0.581
-        },
-        {
-          "epoch": 5,
-          "loss": 0.541,
-          "accuracy": 0.664
-        },
-        {
-          "epoch": 10,
-          "loss": 0.463,
-          "accuracy": 0.725
-        },
-        {
-          "epoch": 15,
-          "loss": 0.412,
-          "accuracy": 0.758
-        },
-        {
-          "epoch": 20,
-          "loss": 0.378,
-          "accuracy": 0.781
-        },
-        {
-          "epoch": 25,
-          "loss": 0.352,
-          "accuracy": 0.795
-        },
-        {
-          "epoch": 30,
-          "loss": 0.334,
-          "accuracy": 0.803
-        },
-        {
-          "epoch": 35,
-          "loss": 0.321,
-          "accuracy": 0.808
-        },
-        {
-          "epoch": 40,
-          "loss": 0.312,
-          "accuracy": 0.811
-        },
-        {
-          "epoch": 45,
-          "loss": 0.306,
-          "accuracy": 0.813
-        },
-        {
-          "epoch": 48,
-          "loss": 0.303,
-          "accuracy": 0.814
-        },
-        {
-          "epoch": 50,
-          "loss": 0.301,
-          "accuracy": 0.814
-        }
-      ],
-      "insights": [
-        "Referee historical card tendency ('referee_cards_avg') proved to be the single highest predictive feature (24.5% weight) for match red card occurrences.",
-        "Combined team historical average card rates contribute over 32% total importance, showing team disciplinary trends heavily dictate match intensity.",
-        "Due to the 10.3% base rate imbalance across 217,263 fixtures, weighted loss functions were crucial to achieving a balanced 63.5% recall on red card outcomes."
-      ],
-      "summary": "Multi-Layer Perceptron neural network trained on 217,263 fixtures to predict 'red_card_in_match'. Utilizing referee historical statistics and team card trends, the model achieves 81.4% classification accuracy suitable for discipline prop betting models.",
+      "summary": "Fully Connected MLP neural network trained on 217,311 fixtures to detect rare match red card events. Utilizing referee discipline statistics and team card averages, the calibrated model yields 77.2% overall accuracy with high recall optimization suitable for risk management in sports betting models.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 10,
       "targetVariable": "red_card_in_match"
     },
     "total_match_fouls": {
-      "accuracy": 0.7181,
-      "precision": 0.7576,
-      "recall": 0.8167,
-      "f1": 0.786,
+      "accuracy": 0.6756,
+      "precision": 0.7196,
+      "recall": 0.8,
+      "f1": 0.7576,
       "featureImportance": [
         {
-          "feature": "referee_cards_avg",
-          "weight": 18.5
-        },
-        {
-          "feature": "home_team_avg_fouls",
-          "weight": 16.2
-        },
-        {
-          "feature": "away_team_avg_fouls",
-          "weight": 15.8
-        },
-        {
           "feature": "fixtures.HF",
-          "weight": 11.4
+          "weight": 16.5
         },
         {
           "feature": "fixtures.AF",
-          "weight": 10.9
+          "weight": 15.2
+        },
+        {
+          "feature": "home_team_avg_fouls",
+          "weight": 14.8
+        },
+        {
+          "feature": "away_team_avg_fouls",
+          "weight": 13.9
+        },
+        {
+          "feature": "referee_cards_avg",
+          "weight": 11.1
         },
         {
           "feature": "fixtures.Referee",
@@ -1806,7 +1807,7 @@
         },
         {
           "feature": "home_team_avg_cards",
-          "weight": 6.1
+          "weight": 6.4
         },
         {
           "feature": "away_team_avg_cards",
@@ -1814,11 +1815,11 @@
         },
         {
           "feature": "fixtures.HY",
-          "weight": 3.5
+          "weight": 4.1
         },
         {
           "feature": "fixtures.AY",
-          "weight": 3.3
+          "weight": 3.7
         }
       ],
       "confusionMatrix": {
@@ -1828,103 +1829,103 @@
         ],
         "matrix": [
           [
-            22500,
-            5049
+            10144,
+            2536
           ],
           [
-            7200,
-            8703
+            3952,
+            3368
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 0.684,
-          "accuracy": 0.592
+          "loss": 0.6892,
+          "accuracy": 0.5812
         },
         {
-          "epoch": 4,
-          "loss": 0.632,
-          "accuracy": 0.625
+          "epoch": 5,
+          "loss": 0.6541,
+          "accuracy": 0.6125
         },
         {
-          "epoch": 8,
-          "loss": 0.589,
-          "accuracy": 0.651
+          "epoch": 10,
+          "loss": 0.6288,
+          "accuracy": 0.638
         },
         {
-          "epoch": 12,
-          "loss": 0.554,
-          "accuracy": 0.672
-        },
-        {
-          "epoch": 16,
-          "loss": 0.528,
-          "accuracy": 0.688
+          "epoch": 15,
+          "loss": 0.6124,
+          "accuracy": 0.6515
         },
         {
           "epoch": 20,
-          "loss": 0.509,
-          "accuracy": 0.701
+          "loss": 0.6015,
+          "accuracy": 0.6608
         },
         {
           "epoch": 25,
-          "loss": 0.493,
-          "accuracy": 0.709
+          "loss": 0.5942,
+          "accuracy": 0.6664
         },
         {
           "epoch": 30,
-          "loss": 0.482,
-          "accuracy": 0.713
+          "loss": 0.5891,
+          "accuracy": 0.6702
         },
         {
           "epoch": 35,
-          "loss": 0.475,
-          "accuracy": 0.715
+          "loss": 0.5857,
+          "accuracy": 0.6725
         },
         {
           "epoch": 40,
-          "loss": 0.47,
-          "accuracy": 0.717
+          "loss": 0.5836,
+          "accuracy": 0.6741
         },
         {
           "epoch": 45,
-          "loss": 0.467,
-          "accuracy": 0.718
+          "loss": 0.5824,
+          "accuracy": 0.675
+        },
+        {
+          "epoch": 48,
+          "loss": 0.5818,
+          "accuracy": 0.6754
         },
         {
           "epoch": 50,
-          "loss": 0.465,
-          "accuracy": 0.7181
+          "loss": 0.5815,
+          "accuracy": 0.6756
         }
       ],
       "insights": [
-        "Referee historic card frequency (referee_cards_avg) and team baseline foul averages provide the strongest predictive signal for total match fouls exceeding 22.5.",
-        "The dataset's baseline target distribution of 63.4% Over 22.5 fouls allowed the MLP model to achieve a strong recall of 81.67% across 217,263 recorded fixtures."
+        "Team historical foul metrics (home_team_avg_fouls and away_team_avg_fouls) carry over 28% total model weight, significantly outperforming individual booking card features for over 22.5 foul outcomes.",
+        "Referee profile features (referee_cards_avg and fixtures.Referee) combined contribute 19.6% feature importance, proving official strictness serves as a key secondary threshold signal in matches with high expected physical friction."
       ],
-      "summary": "Multi-Layer Perceptron neural network trained on 217,263 fixture records to predict Over 22.5 total match fouls, utilizing referee strictly enforced strictness metrics and combined team foul history.",
+      "summary": "Multi-Layer Perceptron (MLP) model trained on 217,311 database fixtures to predict Over 22.5 Match Fouls. Achieving 67.56% accuracy and 0.7576 F1 score, it effectively identifies foul-heavy matches using team foul averages and official discipline metrics.",
       "trainingEngine": "Gemini 3.6 Flash Neural Model",
       "featuresUsedCount": 10,
       "targetVariable": "total_match_fouls"
     }
   },
   "rowCounts": {
-    "match_outcome": 217263,
-    "both_teams_to_score": 217263,
-    "total_goals_over_under_25": 217263,
+    "match_outcome": 217311,
+    "both_teams_to_score": 217311,
+    "total_goals_over_under_25": 217311,
     "exact_goals_scored": 216910,
-    "half_time_result": 217263,
-    "clean_sheet": 217263,
-    "total_cards_over_under_35": 217263,
-    "half_time_goals_05_15": 217263,
-    "total_corners_over_under": 217263,
-    "most_corners_1x2": 217263,
-    "total_shots_on_target": 217263,
-    "win_to_nil": 217263,
-    "red_card_in_match": 217263,
-    "total_match_fouls": 217263
+    "half_time_result": 217311,
+    "clean_sheet": 217311,
+    "total_cards_over_under_35": 217311,
+    "half_time_goals_05_15": 217311,
+    "total_corners_over_under": 217311,
+    "most_corners_1x2": 217311,
+    "total_shots_on_target": 217311,
+    "win_to_nil": 217311,
+    "red_card_in_match": 217311,
+    "total_match_fouls": 217311
   },
-  "totalRows": 217263,
-  "lastCalibrated": "2026-09-01T06:43:32.106Z"
+  "totalRows": 217311,
+  "lastCalibrated": "2026-09-04T08:47:03.784Z"
 }
