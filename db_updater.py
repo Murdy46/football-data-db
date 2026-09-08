@@ -244,6 +244,12 @@ def init_db(conn):
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_fixtures_div_season ON fixtures(DivisionCode, Season)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_fixtures_date ON fixtures(Date)")
 
+    # Ensure [AS] column exists if upgrading from an older database schema
+    cursor.execute("PRAGMA table_info(fixtures)")
+    cols = [r[1] for r in cursor.fetchall()]
+    if "AS" not in cols:
+        cursor.execute("ALTER TABLE fixtures ADD COLUMN [AS] INTEGER")
+
     conn.commit()
 
 
@@ -399,10 +405,23 @@ def compress_db():
         print(f"Compressed size: {os.path.getsize(gz_file) / (1024*1024):.2f} MB")
 
 
+def decompress_db_if_needed():
+    """Decompress existing football_data.db.gz if uncompressed football_data.db does not exist."""
+    gz_file = f"{DB_FILE}.gz"
+    if not os.path.exists(DB_FILE) and os.path.exists(gz_file):
+        print(f"Decompressing {gz_file} -> {DB_FILE}...")
+        with open(DB_FILE, 'rb') as f_in:
+            with gzip.open(gz_file, 'wb', compresslevel=9) as f_out:
+                shutil.copyfileobj(f_in, f_out)
+        print(f"Decompressed database size: {os.path.getsize(DB_FILE) / (1024*1024):.2f} MB")
+
+
 def main():
     """Main updater function."""
     print("=== Football Data Database Ingestion & Updater ===")
     print(f"Execution started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+    decompress_db_if_needed()
 
     conn = sqlite3.connect(DB_FILE)
     init_db(conn)
