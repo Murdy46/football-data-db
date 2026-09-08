@@ -8,6 +8,7 @@ import sys
 import sqlite3
 import csv
 import time
+import gzip
 import subprocess
 import shutil
 import tempfile
@@ -396,7 +397,6 @@ def process_csv_rows(cursor, rows, div_code, season_code):
 def compress_db():
     """Gzip compress football_data.db to football_data.db.gz for GitHub size optimization."""
     if os.path.exists(DB_FILE):
-        import gzip
         gz_file = f"{DB_FILE}.gz"
         print(f"Compressing {DB_FILE} -> {gz_file}...")
         with open(DB_FILE, 'rb') as f_in:
