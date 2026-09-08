@@ -8,6 +8,7 @@ import sys
 import sqlite3
 import csv
 import time
+import subprocess
 import shutil
 import tempfile
 import zipfile
@@ -82,6 +83,25 @@ DIVISIONS = {
 def fetch_csv(url):
     """Fetch CSV content from URL with retry logic."""
     for attempt in range(MAX_RETRIES):
+        # Try curl first (bypasses Cloudflare / Apache TLS fingerprint bot filters on cloud runners)
+        try:
+            cmd = [
+                'curl', '-s', '-L',
+                '--max-time', str(TIMEOUT),
+                '-H', 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+                '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+                '-H', 'Accept-Language: en-US,en;q=0.9',
+                '-H', 'Referer: https://www.football-data.co.uk/',
+                url
+            ]
+            res = subprocess.run(cmd, capture_output=True, text=True)
+            if res.returncode == 0 and res.stdout and len(res.stdout) > 50:
+                if not res.stdout.lower().startswith('<!doctype') and '503 service' not in res.stdout.lower():
+                    return res.stdout
+        except Exception:
+            pass
+
+        # Fallback to urllib if curl is unavailable
         try:
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
