@@ -390,8 +390,12 @@ def main():
     total_inserted = 0
     total_updated = 0
 
-    # Process all configured seasons
-    for season_code, season_segment in SEASONS.items():
+    # Daily updater targets active current season ("2627") to be fast, reliable, and avoid 503 errors on legacy paths
+    # Pass "--all-seasons" if full historical rebuild is explicitly requested
+    target_seasons = SEASONS if "--all-seasons" in sys.argv else {"2627": "2627"}
+    print(f"Targeting active seasons: {list(target_seasons.keys())}")
+
+    for season_code, season_segment in target_seasons.items():
         cursor = conn.cursor()
         print(f"\n--- Fetching Season {season_code} ({season_segment}) ---")
         season_inserted = 0
