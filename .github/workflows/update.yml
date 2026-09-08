@@ -2,8 +2,8 @@ name: Scheduled Database Auto-Updater
 
 on:
   schedule:
-    # Run every day at 06:00 UTC
-    - cron: '0 6 * * *'
+    # Run every day at 11:48 PM UK time
+    - cron: '48 22 * * *'
   workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
 
 jobs:
