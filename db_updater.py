@@ -194,7 +194,7 @@ def init_db(conn):
         Referee TEXT,
         Attendance INTEGER,
         HS INTEGER,
-        AS INTEGER,
+        [AS] INTEGER,
         HST INTEGER,
         AST INTEGER,
         HHW INTEGER,
@@ -323,7 +323,7 @@ def process_csv_rows(cursor, rows, div_code, season_code):
             INSERT INTO fixtures (
                 DivisionCode, LeagueName, Country, Tier, Season, Date, Time,
                 HomeTeam, AwayTeam, FTHG, FTAG, FTR, HTHG, HTAG, HTR,
-                Referee, Attendance, HS, AS, HST, AST, HHW, AHW, HC, AC,
+                Referee, Attendance, HS, [AS], HST, AST, HHW, AHW, HC, AC,
                 HF, AF, HFKC, AFKC, HO, AO, HY, AY, HR, AR, HBP, ABP
             ) VALUES (
                 ?, ?, ?, ?, ?, ?, ?,
@@ -341,7 +341,7 @@ def process_csv_rows(cursor, rows, div_code, season_code):
                 Referee=excluded.Referee,
                 Attendance=excluded.Attendance,
                 HS=excluded.HS,
-                AS=excluded.AS,
+                [AS]=excluded.[AS],
                 HST=excluded.HST,
                 AST=excluded.AST,
                 HC=excluded.HC,
