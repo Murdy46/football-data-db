@@ -410,8 +410,8 @@ def decompress_db_if_needed():
     gz_file = f"{DB_FILE}.gz"
     if not os.path.exists(DB_FILE) and os.path.exists(gz_file):
         print(f"Decompressing {gz_file} -> {DB_FILE}...")
-        with open(DB_FILE, 'rb') as f_in:
-            with gzip.open(gz_file, 'wb', compresslevel=9) as f_out:
+        with gzip.open(gz_file, 'rb') as f_in:
+            with open(DB_FILE, 'wb') as f_out:
                 shutil.copyfileobj(f_in, f_out)
         print(f"Decompressed database size: {os.path.getsize(DB_FILE) / (1024*1024):.2f} MB")
 
