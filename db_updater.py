@@ -426,16 +426,26 @@ def main():
     conn = sqlite3.connect(DB_FILE)
     init_db(conn)
 
+    # 1. Check how many rows currently exist
+    cursor = conn.cursor()
+    cursor.execute("SELECT COUNT(*) FROM fixtures")
+    existing_rows = cursor.fetchone()[0]
+
+    # 2. Auto-detect if we need a full historical rebuild
+    # If the DB is empty (0 rows), FORCE a full rebuild to prevent pushing an empty DB
+    if existing_rows == 0 or "--all-seasons" in sys.argv:
+        print(f"Detected {existing_rows} existing rows. Forcing FULL historical rebuild...")
+        target_seasons = SEASONS
+    else:
+        # Normal daily operation: just update the active season to save time/bandwidth
+        target_seasons = {"2627": "2627"}
+        
+    print(f"Targeting active seasons: {list(target_seasons.keys())}")
+
     total_inserted = 0
     total_updated = 0
 
-    # Daily updater targets active current season ("2627") to be fast, reliable, and avoid 503 errors on legacy paths
-    # Pass "--all-seasons" if full historical rebuild is explicitly requested
-    target_seasons = SEASONS if "--all-seasons" in sys.argv else {"2627": "2627"}
-    print(f"Targeting active seasons: {list(target_seasons.keys())}")
-
     for season_code, season_segment in target_seasons.items():
-        cursor = conn.cursor()
         print(f"\n--- Fetching Season {season_code} ({season_segment}) ---")
         season_inserted = 0
         season_updated = 0
@@ -444,7 +454,7 @@ def main():
             url = f"https://www.football-data.co.uk/mmz4281/{season_segment}/{div_code}.csv"
             print(f"  -> Fetching {div_code} ({url})...", end="", flush=True)
 
-            # Polite delay between requests to prevent 503 rate-limiting bans
+            # Polite delay between requests to prevent rate-limiting bans
             time.sleep(1.2)
             csv_text = fetch_csv(url)
             if not csv_text:
@@ -465,11 +475,20 @@ def main():
         total_updated += season_updated
         print(f"Season {season_code} Complete: {season_inserted} new, {season_updated} updated.")
 
+    # 3. Fail-safe: Ensure we aren't about to save and push an empty database!
+    cursor.execute("SELECT COUNT(*) FROM fixtures")
+    final_rows = cursor.fetchone()[0]
     conn.close()
+    
+    if final_rows == 0:
+        print("\n❌ CRITICAL ERROR: The resulting database is completely empty!")
+        print("Aborting compression and exiting with error to prevent overwriting GitHub repository with an empty file.")
+        sys.exit(1)
 
     print("\n=== Database Ingestion Summary ===")
     print(f"Total inserted: {total_inserted}")
     print(f"Total updated: {total_updated}")
+    print(f"Total rows in database: {final_rows}")
 
     compress_db()
     print("Update complete!")
