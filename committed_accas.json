@@ -51,7 +51,9 @@
         "odds": 1.52,
         "selection": "Over 9.5 SOT",
         "home": "Rangers",
-        "away": "Motherwell"
+        "away": "Motherwell",
+        "actualScore": "9 SOT",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -101,7 +103,9 @@
         "odds": 1.54,
         "selection": "Rangers to Win",
         "home": "Rangers",
-        "away": "Motherwell"
+        "away": "Motherwell",
+        "actualScore": "1-0",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -151,7 +155,9 @@
         "odds": 1.54,
         "selection": "Rangers Most Corners",
         "home": "Rangers",
-        "away": "Motherwell"
+        "away": "Motherwell",
+        "actualScore": "7-5 Corners",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -201,7 +207,9 @@
         "odds": 1.59,
         "selection": "BTTS - No",
         "home": "Rangers",
-        "away": "Motherwell"
+        "away": "Motherwell",
+        "actualScore": "No (1-0)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -251,7 +259,9 @@
         "odds": 1.59,
         "selection": "Over 9.5 Corners",
         "home": "Rangers",
-        "away": "Motherwell"
+        "away": "Motherwell",
+        "actualScore": "12 Corners",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -301,7 +311,9 @@
         "odds": 1.67,
         "selection": "Rangers Win to Nil",
         "home": "Rangers",
-        "away": "Motherwell"
+        "away": "Motherwell",
+        "actualScore": "Home Win to Nil (1-0)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -351,20 +363,22 @@
         "odds": 1.69,
         "selection": "Over 2.5 Goals",
         "home": "Rangers",
-        "away": "Motherwell"
+        "away": "Motherwell",
+        "actualScore": "1 Goals (1-0)",
+        "status": "Lost"
       }
     ],
     "stake": 10,
     "combinedOdds": 25.72,
     "estReturn": 257.21,
     "targetDate": "2026-09-04",
-    "status": "Pending",
+    "status": "Lost",
     "createdAt": "2026-09-04T20:30:25.295Z",
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 7,
+    "legsWon": 6,
+    "legsLost": 1,
+    "legsPending": 0,
     "legsTotal": 7,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 86
   },
   {
     "id": "acca_1788553540474_971",
@@ -420,7 +434,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Oviedo",
-        "away": "Burgos"
+        "away": "Burgos",
+        "actualScore": "No (0-0)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -472,7 +488,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Porto",
-        "away": "Moreirense"
+        "away": "Moreirense",
+        "actualScore": "Yes (2-1)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -524,7 +542,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Vitoria Guimaraes",
-        "away": "Casa Pia"
+        "away": "Casa Pia",
+        "actualScore": "No (0-0)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -576,7 +596,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Getafe",
-        "away": "Celta"
+        "away": "Celta",
+        "actualScore": "Yes (1-1)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -628,20 +650,22 @@
         "evPct": 0,
         "oddsSource": "Model Odds",
         "home": "Santa Clara",
-        "away": "Rio Ave"
+        "away": "Rio Ave",
+        "actualScore": "No (4-0)",
+        "status": "Won"
       }
     ],
     "stake": 10,
     "combinedOdds": 5.81,
     "estReturn": 58.1,
     "targetDate": "2026-09-04",
-    "status": "Pending",
+    "status": "Lost",
     "createdAt": "2026-09-04T20:25:40.474Z",
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 5,
+    "legsWon": 3,
+    "legsLost": 2,
+    "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 60
   },
   {
     "id": "acca_1788553397113_637",
@@ -697,7 +721,9 @@
         "evPct": -6.6,
         "oddsSource": "Avg Market Odds",
         "home": "St Mirren",
-        "away": "Celtic"
+        "away": "Celtic",
+        "actualScore": "1-2",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -749,7 +775,9 @@
         "evPct": -7,
         "oddsSource": "Avg Market Odds",
         "home": "Ipswich",
-        "away": "Liverpool"
+        "away": "Liverpool",
+        "actualScore": "0-2",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -801,7 +829,9 @@
         "evPct": -3.2,
         "oddsSource": "Avg Market Odds",
         "home": "Alverca",
-        "away": "Sp Braga"
+        "away": "Sp Braga",
+        "actualScore": "1-2",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -853,7 +883,9 @@
         "evPct": -5.5,
         "oddsSource": "Avg Market Odds",
         "home": "Werder Bremen",
-        "away": "RB Leipzig"
+        "away": "RB Leipzig",
+        "actualScore": "3-1",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -905,20 +937,22 @@
         "evPct": -3.9,
         "oddsSource": "Avg Market Odds",
         "home": "Genoa",
-        "away": "Como"
+        "away": "Como",
+        "actualScore": "1-4",
+        "status": "Won"
       }
     ],
     "stake": 1,
     "combinedOdds": 12.01,
     "estReturn": 12.01,
     "targetDate": "2026-09-04",
-    "status": "Pending",
+    "status": "Lost",
     "createdAt": "2026-09-04T20:23:17.113Z",
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 5,
+    "legsWon": 4,
+    "legsLost": 1,
+    "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 80
   },
   {
     "id": "acca_1788276479335_177",
