@@ -7,7 +7,7 @@
     "stake": 1,
     "combinedOdds": 1922.19,
     "estReturn": 1922.19,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "motcllmab8",
@@ -19,8 +19,8 @@
         "selection": "HT Draw",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "HT: 1-0"
       },
       {
         "id": "hprsozo4w2",
@@ -32,8 +32,8 @@
         "selection": "HT Draw",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "HT: 1-0"
       },
       {
         "id": "q3ntlxpafa",
@@ -45,8 +45,8 @@
         "selection": "Magdeburg Most Corners",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4-3 Corners"
       },
       {
         "id": "2coq5lhjtck",
@@ -58,8 +58,8 @@
         "selection": "Aston Villa Most Corners",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "6-1 Corners"
       },
       {
         "id": "xy8iuhxbkj",
@@ -71,8 +71,8 @@
         "selection": "HT Draw",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "HT: 0-0"
       },
       {
         "id": "ulvfhe9kzv",
@@ -84,8 +84,8 @@
         "selection": "Swansea Most Corners",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "3-6 Corners"
       },
       {
         "id": "xt26kxep1hg",
@@ -97,8 +97,8 @@
         "selection": "HT Draw",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "HT: 0-0"
       },
       {
         "id": "kndcyav1y9q",
@@ -110,8 +110,8 @@
         "selection": "Oldham Most Corners",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1-4 Corners"
       },
       {
         "id": "zyit5v8kt8q",
@@ -123,8 +123,8 @@
         "selection": "HT Draw",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "HT: 0-2"
       },
       {
         "id": "zluqbzphld",
@@ -136,15 +136,15 @@
         "selection": "HT Draw",
         "odds": 2.13,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "HT: 1-1"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 5,
+    "legsLost": 5,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 50
   },
   {
     "id": "acca_1789165123672_578",
@@ -200,7 +200,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Koln",
-        "away": "Werder Bremen"
+        "away": "Werder Bremen",
+        "actualScore": "HT: 1-0",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -252,7 +254,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Bochum",
-        "away": "Greuther Furth"
+        "away": "Greuther Furth",
+        "actualScore": "HT: 1-0",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -304,7 +308,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Magdeburg",
-        "away": "Kaiserslautern"
+        "away": "Kaiserslautern",
+        "actualScore": "4-3 Corners",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -356,7 +362,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Aston Villa",
-        "away": "Nott'm Forest"
+        "away": "Nott'm Forest",
+        "actualScore": "6-1 Corners",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -408,7 +416,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Tottenham",
-        "away": "Everton"
+        "away": "Everton",
+        "actualScore": "HT: 0-0",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -460,7 +470,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Swansea",
-        "away": "Burnley"
+        "away": "Burnley",
+        "actualScore": "3-6 Corners",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -512,7 +524,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Mansfield",
-        "away": "Huddersfield"
+        "away": "Huddersfield",
+        "actualScore": "HT: 0-0",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -564,7 +578,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Oldham",
-        "away": "Chesterfield"
+        "away": "Chesterfield",
+        "actualScore": "1-4 Corners",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -616,7 +632,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Worthing",
-        "away": "Barrow"
+        "away": "Barrow",
+        "actualScore": "HT: 0-2",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -668,20 +686,22 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Boston Utd",
-        "away": "Wealdstone"
+        "away": "Wealdstone",
+        "actualScore": "HT: 1-1",
+        "status": "Won"
       }
     ],
     "stake": 1,
     "combinedOdds": 1922.19,
     "estReturn": 1922.19,
     "targetDate": "2026-09-11",
-    "status": "Pending",
+    "status": "Lost",
     "createdAt": "2026-09-11T22:18:43.672Z",
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 5,
+    "legsLost": 5,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 50
   },
   {
     "id": "acca_1789163176541_470",
@@ -691,7 +711,7 @@
     "stake": 1,
     "combinedOdds": 21.73,
     "estReturn": 21.73,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "cdcudae3hsb",
@@ -703,8 +723,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.26,
         "probability": 74,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5 Goals (4-1)"
       },
       {
         "id": "onkpalm6vti",
@@ -716,8 +736,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.3,
         "probability": 73,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2 Goals (2-0)"
       },
       {
         "id": "7i997ben63k",
@@ -729,8 +749,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.34,
         "probability": 70,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3 Goals (3-0)"
       },
       {
         "id": "cgjs7jracf",
@@ -742,8 +762,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.33,
         "probability": 70,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3 Goals (2-1)"
       },
       {
         "id": "9u8mmsyu3ce",
@@ -755,8 +775,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.35,
         "probability": 70,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "6 Goals (1-5)"
       },
       {
         "id": "r90scyhbwwp",
@@ -768,8 +788,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.33,
         "probability": 70,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3 Goals (3-0)"
       },
       {
         "id": "3pxxieka0t7",
@@ -781,8 +801,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.4,
         "probability": 68,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4 Goals (2-2)"
       },
       {
         "id": "r3pj8r1r9id",
@@ -794,8 +814,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.39,
         "probability": 68,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4 Goals (2-2)"
       },
       {
         "id": "nao9ta9ul9l",
@@ -807,8 +827,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.5,
         "probability": 66,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0 Goals (0-0)"
       },
       {
         "id": "af5bsudpx74",
@@ -820,15 +840,15 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.42,
         "probability": 65,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5 Goals (5-0)"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 8,
+    "legsLost": 2,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 80
   },
   {
     "id": "acca_1789163174572_559",
@@ -884,7 +904,9 @@
         "evPct": -6.8,
         "oddsSource": "Avg Market Odds",
         "home": "Real Madrid",
-        "away": "Vallecano"
+        "away": "Vallecano",
+        "actualScore": "5 Goals (4-1)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -936,7 +958,9 @@
         "evPct": -5.1,
         "oddsSource": "Avg Market Odds",
         "home": "Twente",
-        "away": "Den Haag"
+        "away": "Den Haag",
+        "actualScore": "2 Goals (2-0)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -988,7 +1012,9 @@
         "evPct": -6.2,
         "oddsSource": "Avg Market Odds",
         "home": "Dortmund",
-        "away": "Paderborn"
+        "away": "Paderborn",
+        "actualScore": "3 Goals (3-0)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1040,7 +1066,9 @@
         "evPct": -6.9,
         "oddsSource": "Avg Market Odds",
         "home": "Hoffenheim",
-        "away": "Stuttgart"
+        "away": "Stuttgart",
+        "actualScore": "3 Goals (2-1)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1092,7 +1120,9 @@
         "evPct": -5.5,
         "oddsSource": "Avg Market Odds",
         "home": "For Sittard",
-        "away": "Ajax"
+        "away": "Ajax",
+        "actualScore": "6 Goals (1-5)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1144,7 +1174,9 @@
         "evPct": -6.9,
         "oddsSource": "Avg Market Odds",
         "home": "Cambuur",
-        "away": "NEC Nijmegen"
+        "away": "NEC Nijmegen",
+        "actualScore": "3 Goals (3-0)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1196,7 +1228,9 @@
         "evPct": -4.8,
         "oddsSource": "Avg Market Odds",
         "home": "Augsburg",
-        "away": "Leverkusen"
+        "away": "Leverkusen",
+        "actualScore": "4 Goals (2-2)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1248,7 +1282,9 @@
         "evPct": -5.5,
         "oddsSource": "Avg Market Odds",
         "home": "Chelsea",
-        "away": "Hull"
+        "away": "Hull",
+        "actualScore": "4 Goals (2-2)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1300,7 +1336,9 @@
         "evPct": -1,
         "oddsSource": "Avg Market Odds",
         "home": "Liverpool",
-        "away": "Fulham"
+        "away": "Fulham",
+        "actualScore": "0 Goals (0-0)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1352,20 +1390,22 @@
         "evPct": -7.7,
         "oddsSource": "Avg Market Odds",
         "home": "St. Gilloise",
-        "away": "Lommel SK"
+        "away": "Lommel SK",
+        "actualScore": "5 Goals (5-0)",
+        "status": "Won"
       }
     ],
     "stake": 1,
     "combinedOdds": 21.73,
     "estReturn": 21.73,
     "targetDate": "2026-09-11",
-    "status": "Pending",
+    "status": "Lost",
     "createdAt": "2026-09-11T21:46:14.572Z",
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 8,
+    "legsLost": 2,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 80
   },
   {
     "id": "acca_1789162643410_479",
@@ -1375,7 +1415,7 @@
     "stake": 1,
     "combinedOdds": 155.11,
     "estReturn": 155.11,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "gcrg4oxy3qv",
@@ -1387,8 +1427,8 @@
         "selection": "Porto to Win",
         "odds": 1.24,
         "probability": 76,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-4"
       },
       {
         "id": "fy2wulmvt74",
@@ -1400,8 +1440,8 @@
         "selection": "Ajax to Win",
         "odds": 1.41,
         "probability": 66,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-5"
       },
       {
         "id": "aa63cgzeu17",
@@ -1413,8 +1453,8 @@
         "selection": "Arsenal to Win",
         "odds": 1.46,
         "probability": 64,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0-2"
       },
       {
         "id": "mrzcb6e4vp",
@@ -1426,8 +1466,8 @@
         "selection": "NEC Nijmegen to Win",
         "odds": 1.51,
         "probability": 62,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "3-0"
       },
       {
         "id": "brwhkrb7x2m",
@@ -1439,8 +1479,8 @@
         "selection": "Boreham Wood to Win",
         "odds": 1.5,
         "probability": 60,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1-1"
       },
       {
         "id": "4g44fh0zigg",
@@ -1452,8 +1492,8 @@
         "selection": "Leverkusen to Win",
         "odds": 1.76,
         "probability": 54,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2-2"
       },
       {
         "id": "kse4pz0tdg",
@@ -1465,8 +1505,8 @@
         "selection": "St Etienne to Win",
         "odds": 1.73,
         "probability": 52,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2-1"
       },
       {
         "id": "0cr5jz8w03lr",
@@ -1478,8 +1518,8 @@
         "selection": "Huddersfield to Win",
         "odds": 2.02,
         "probability": 48,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-0"
       },
       {
         "id": "migepdcd5q",
@@ -1491,8 +1531,8 @@
         "selection": "Vitoria Guimaraes to Win",
         "odds": 2.01,
         "probability": 47,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2-1"
       },
       {
         "id": "8e414ihrquu",
@@ -1504,15 +1544,15 @@
         "selection": "Birmingham to Win",
         "odds": 2.17,
         "probability": 45,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-2"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 4,
+    "legsLost": 6,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 40
   },
   {
     "id": "acca_1789162641646_92",
@@ -1568,7 +1608,9 @@
         "evPct": -5.8,
         "oddsSource": "Avg Market Odds",
         "home": "Casa Pia",
-        "away": "Porto"
+        "away": "Porto",
+        "actualScore": "1-4",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1620,7 +1662,9 @@
         "evPct": -6.9,
         "oddsSource": "Avg Market Odds",
         "home": "For Sittard",
-        "away": "Ajax"
+        "away": "Ajax",
+        "actualScore": "1-5",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1672,7 +1716,9 @@
         "evPct": -6.6,
         "oddsSource": "Avg Market Odds",
         "home": "Sunderland",
-        "away": "Arsenal"
+        "away": "Arsenal",
+        "actualScore": "0-2",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -1724,7 +1770,9 @@
         "evPct": -6.4,
         "oddsSource": "Avg Market Odds",
         "home": "Cambuur",
-        "away": "NEC Nijmegen"
+        "away": "NEC Nijmegen",
+        "actualScore": "3-0",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1776,7 +1824,9 @@
         "evPct": -10,
         "oddsSource": "Avg Market Odds",
         "home": "Eastleigh",
-        "away": "Boreham Wood"
+        "away": "Boreham Wood",
+        "actualScore": "1-1",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1828,7 +1878,9 @@
         "evPct": -5,
         "oddsSource": "Avg Market Odds",
         "home": "Augsburg",
-        "away": "Leverkusen"
+        "away": "Leverkusen",
+        "actualScore": "2-2",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1880,7 +1932,9 @@
         "evPct": -10,
         "oddsSource": "Avg Market Odds",
         "home": "Dunkerque",
-        "away": "St Etienne"
+        "away": "St Etienne",
+        "actualScore": "2-1",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1932,7 +1986,9 @@
         "evPct": -3,
         "oddsSource": "Avg Market Odds",
         "home": "Mansfield",
-        "away": "Huddersfield"
+        "away": "Huddersfield",
+        "actualScore": "0-0",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1984,7 +2040,9 @@
         "evPct": -5.5,
         "oddsSource": "Avg Market Odds",
         "home": "Academico Viseu",
-        "away": "Vitoria Guimaraes"
+        "away": "Vitoria Guimaraes",
+        "actualScore": "2-1",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -2036,20 +2094,22 @@
         "evPct": -2.3,
         "oddsSource": "Avg Market Odds",
         "home": "Derby",
-        "away": "Birmingham"
+        "away": "Birmingham",
+        "actualScore": "1-2",
+        "status": "Won"
       }
     ],
     "stake": 1,
     "combinedOdds": 155.11,
     "estReturn": 155.11,
     "targetDate": "2026-09-11",
-    "status": "Pending",
+    "status": "Lost",
     "createdAt": "2026-09-11T21:37:21.646Z",
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 4,
+    "legsLost": 6,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 40
   },
   {
     "id": "acca_1788553825295_431",
