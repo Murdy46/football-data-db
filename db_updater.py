@@ -394,25 +394,7 @@ def process_csv_rows(cursor, rows, div_code, season_code):
     return inserted, updated
 
 
-def     # Fetch and save upcoming fixtures.csv for the web app
-    print("\n--- Fetching Latest Upcoming Fixtures ---")
-    try:
-        fixtures_url = "https://www.football-data.co.uk/fixtures.csv"
-        fixtures_csv = fetch_csv(fixtures_url)
-        if fixtures_csv and len(fixtures_csv) > 50:
-            with open("fixtures.csv", "w", encoding="utf-8") as f:
-                f.write(fixtures_csv)
-            print("  -> Successfully updated upcoming fixtures.csv")
-            try:
-                subprocess.run(["git", "add", "fixtures.csv"], check=False)
-            except Exception:
-                pass
-        else:
-            print("  -> Note: No upcoming fixtures.csv available today")
-    except Exception as fe:
-        print(f"  -> Fixtures download note: {fe}")
-
-    compress_db():
+def compress_db():
     """Gzip compress football_data.db to football_data.db.gz for GitHub size optimization."""
     if os.path.exists(DB_FILE):
         gz_file = f"{DB_FILE}.gz"
@@ -507,6 +489,24 @@ def main():
     print(f"Total inserted: {total_inserted}")
     print(f"Total updated: {total_updated}")
     print(f"Total rows in database: {final_rows}")
+
+    # Fetch and save upcoming fixtures.csv for the web app
+    print("\n--- Fetching Latest Upcoming Fixtures ---")
+    try:
+        fixtures_url = "https://www.football-data.co.uk/fixtures.csv"
+        fixtures_csv = fetch_csv(fixtures_url)
+        if fixtures_csv and len(fixtures_csv) > 50:
+            with open("fixtures.csv", "w", encoding="utf-8") as f:
+                f.write(fixtures_csv)
+            print("  -> Successfully updated upcoming fixtures.csv")
+            try:
+                subprocess.run(["git", "add", "fixtures.csv"], check=False)
+            except Exception:
+                pass
+        else:
+            print("  -> Note: No upcoming fixtures.csv available today")
+    except Exception as fe:
+        print(f"  -> Fixtures download note: {fe}")
 
     compress_db()
     print("Update complete!")
