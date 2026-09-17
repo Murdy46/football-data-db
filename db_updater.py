@@ -403,6 +403,10 @@ def     # Fetch and save upcoming fixtures.csv for the web app
             with open("fixtures.csv", "w", encoding="utf-8") as f:
                 f.write(fixtures_csv)
             print("  -> Successfully updated upcoming fixtures.csv")
+            try:
+                subprocess.run(["git", "add", "fixtures.csv"], check=False)
+            except Exception:
+                pass
         else:
             print("  -> Note: No upcoming fixtures.csv available today")
     except Exception as fe:
