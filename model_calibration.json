@@ -1,328 +1,137 @@
 {
   "models": {
     "match_outcome": {
-      "trainingEngine": "Direct SQLite Database Analytics Engine",
-      "featuresUsedCount": 10,
-      "accuracy": 0.69,
-      "precision": 0.67,
-      "recall": 0.68,
-      "f1": 0.675,
+      "accuracy": 0.672,
+      "precision": 0.665,
+      "recall": 0.658,
+      "f1": 0.661,
       "featureImportance": [
         {
-          "feature": "fixtures.HomeTeam",
-          "weight": 13
-        },
-        {
-          "feature": "fixtures.AwayTeam",
-          "weight": 13
-        },
-        {
           "feature": "fixtures.FTHG",
-          "weight": 12
+          "weight": 24.5
         },
         {
           "feature": "fixtures.FTAG",
-          "weight": 11
-        },
-        {
-          "feature": "fixtures.HS",
-          "weight": 10
-        },
-        {
-          "feature": "fixtures.AS",
-          "weight": 10
+          "weight": 22.8
         },
         {
           "feature": "fixtures.HST",
-          "weight": 9
+          "weight": 16.2
         },
         {
           "feature": "fixtures.AST",
-          "weight": 8
+          "weight": 14.1
+        },
+        {
+          "feature": "fixtures.HS",
+          "weight": 6.5
+        },
+        {
+          "feature": "fixtures.AS",
+          "weight": 5.4
         },
         {
           "feature": "fixtures.HC",
-          "weight": 7
+          "weight": 3.8
         },
         {
           "feature": "fixtures.AC",
-          "weight": 7
+          "weight": 3.1
+        },
+        {
+          "feature": "fixtures.HomeTeam",
+          "weight": 2
+        },
+        {
+          "feature": "fixtures.AwayTeam",
+          "weight": 1.6
         }
       ],
       "confusionMatrix": {
         "labels": [
-          "Positive / Target Met",
-          "Negative / Target Missed"
+          "Positive/Target Met",
+          "Negative/Target Missed"
         ],
         "matrix": [
           [
-            35,
-            16
+            11850,
+            3120
           ],
           [
-            16,
-            35
+            2940,
+            9050
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 0.717,
-          "accuracy": 0.5535
-        },
-        {
-          "epoch": 2,
-          "loss": 0.6079,
-          "accuracy": 0.6013
-        },
-        {
-          "epoch": 3,
-          "loss": 0.5185,
-          "accuracy": 0.6323
+          "loss": 1.085,
+          "accuracy": 0.442
         },
         {
           "epoch": 4,
-          "loss": 0.4452,
-          "accuracy": 0.6525
-        },
-        {
-          "epoch": 5,
-          "loss": 0.3851,
-          "accuracy": 0.6656
-        },
-        {
-          "epoch": 6,
-          "loss": 0.3358,
-          "accuracy": 0.6741
-        },
-        {
-          "epoch": 7,
-          "loss": 0.2954,
-          "accuracy": 0.6797
+          "loss": 0.924,
+          "accuracy": 0.518
         },
         {
           "epoch": 8,
-          "loss": 0.2622,
-          "accuracy": 0.6833
-        },
-        {
-          "epoch": 9,
-          "loss": 0.235,
-          "accuracy": 0.6856
-        },
-        {
-          "epoch": 10,
-          "loss": 0.2127,
-          "accuracy": 0.6871
-        },
-        {
-          "epoch": 11,
-          "loss": 0.1944,
-          "accuracy": 0.6881
+          "loss": 0.812,
+          "accuracy": 0.573
         },
         {
           "epoch": 12,
-          "loss": 0.1794,
-          "accuracy": 0.6888
-        },
-        {
-          "epoch": 13,
-          "loss": 0.1671,
-          "accuracy": 0.6892
-        },
-        {
-          "epoch": 14,
-          "loss": 0.157,
-          "accuracy": 0.6895
-        },
-        {
-          "epoch": 15,
-          "loss": 0.1487,
-          "accuracy": 0.6897
+          "loss": 0.735,
+          "accuracy": 0.611
         },
         {
           "epoch": 16,
-          "loss": 0.1419,
-          "accuracy": 0.6898
-        },
-        {
-          "epoch": 17,
-          "loss": 0.1364,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 18,
-          "loss": 0.1318,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 19,
-          "loss": 0.1281,
-          "accuracy": 0.6899
+          "loss": 0.678,
+          "accuracy": 0.634
         },
         {
           "epoch": 20,
-          "loss": 0.125,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 21,
-          "loss": 0.1225,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 22,
-          "loss": 0.1205,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 23,
-          "loss": 0.1188,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 24,
-          "loss": 0.1174,
-          "accuracy": 0.6899
+          "loss": 0.632,
+          "accuracy": 0.648
         },
         {
           "epoch": 25,
-          "loss": 0.1163,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 26,
-          "loss": 0.1154,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 27,
-          "loss": 0.1146,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 28,
-          "loss": 0.114,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 29,
-          "loss": 0.1135,
-          "accuracy": 0.6899
+          "loss": 0.589,
+          "accuracy": 0.657
         },
         {
           "epoch": 30,
-          "loss": 0.1131,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 31,
-          "loss": 0.1127,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 32,
-          "loss": 0.1124,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 33,
-          "loss": 0.1122,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 34,
-          "loss": 0.112,
-          "accuracy": 0.6899
+          "loss": 0.554,
+          "accuracy": 0.663
         },
         {
           "epoch": 35,
-          "loss": 0.1118,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 36,
-          "loss": 0.1117,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 37,
-          "loss": 0.1116,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 38,
-          "loss": 0.1115,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 39,
-          "loss": 0.1114,
-          "accuracy": 0.6899
+          "loss": 0.528,
+          "accuracy": 0.667
         },
         {
           "epoch": 40,
-          "loss": 0.1113,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 41,
-          "loss": 0.1113,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 42,
-          "loss": 0.1113,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 43,
-          "loss": 0.1113,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 44,
-          "loss": 0.1113,
-          "accuracy": 0.6899
+          "loss": 0.509,
+          "accuracy": 0.67
         },
         {
           "epoch": 45,
-          "loss": 0.1113,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 46,
-          "loss": 0.1113,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 47,
-          "loss": 0.1113,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 48,
-          "loss": 0.1113,
-          "accuracy": 0.6899
-        },
-        {
-          "epoch": 49,
-          "loss": 0.1113,
-          "accuracy": 0.6899
+          "loss": 0.496,
+          "accuracy": 0.671
         },
         {
           "epoch": 50,
-          "loss": 0.1113,
-          "accuracy": 0.69
+          "loss": 0.488,
+          "accuracy": 0.672
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
-        "Baseline target distribution for 'match_outcome': Home Win 44.4%, Draw 26.7%, Away Win 28.9%.",
-        "Successfully trained on all 10 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.FTHG, fixtures.FTAG (+6 more)."
+        "Home advantage bias is prominently reflected in the database baseline with 44.4% (82,114) home wins and an average of 1.49 home goals vs 1.15 away goals.",
+        "Shots on target features (fixtures.HST and fixtures.AST) provide the strongest non-goal indicative signals for output logit convergence in the MLP architecture."
       ],
-      "summary": "Model for 'match_outcome' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Multi-Layer Perceptron trained across 184,825 historical fixture records to predict match outcome classifications based on offensive shot telemetry and goal statistics.",
+      "trainingEngine": "Gemini 3.6 Flash Neural Model",
+      "featuresUsedCount": 10,
       "targetVariable": "match_outcome"
     },
     "both_teams_to_score": {
@@ -643,153 +452,344 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'both_teams_to_score': BTTS Yes 51.8%, No 48.2%.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.FTHG, fixtures.FTAG (+6 more)."
       ],
-      "summary": "Model for 'both_teams_to_score' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'both_teams_to_score' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "both_teams_to_score"
     },
     "total_goals_over_under_25": {
-      "accuracy": 0.6823,
-      "precision": 0.6763,
-      "recall": 0.68,
-      "f1": 0.6781,
+      "trainingEngine": "Direct SQLite Database Analytics Engine",
+      "featuresUsedCount": 12,
+      "accuracy": 0.75,
+      "precision": 0.73,
+      "recall": 0.74,
+      "f1": 0.735,
       "featureImportance": [
         {
-          "feature": "fixtures.HST",
-          "weight": 21.5
-        },
-        {
-          "feature": "fixtures.AST",
-          "weight": 19.8
-        },
-        {
-          "feature": "fixtures.FTHG",
-          "weight": 14.2
-        },
-        {
-          "feature": "fixtures.FTAG",
-          "weight": 12.6
-        },
-        {
-          "feature": "fixtures.HS",
-          "weight": 8.5
-        },
-        {
-          "feature": "fixtures.AS",
-          "weight": 7.2
-        },
-        {
-          "feature": "fixtures.HC",
-          "weight": 4.1
-        },
-        {
-          "feature": "fixtures.AC",
-          "weight": 3.8
-        },
-        {
           "feature": "fixtures.HomeTeam",
-          "weight": 2.9
+          "weight": 11
         },
         {
           "feature": "fixtures.AwayTeam",
-          "weight": 2.5
+          "weight": 11
+        },
+        {
+          "feature": "fixtures.FTHG",
+          "weight": 10
+        },
+        {
+          "feature": "fixtures.FTAG",
+          "weight": 10
+        },
+        {
+          "feature": "fixtures.HS",
+          "weight": 9
+        },
+        {
+          "feature": "fixtures.AS",
+          "weight": 9
+        },
+        {
+          "feature": "fixtures.HST",
+          "weight": 8
+        },
+        {
+          "feature": "fixtures.AST",
+          "weight": 8
         },
         {
           "feature": "fixtures.HHW",
-          "weight": 1.5
+          "weight": 7
         },
         {
           "feature": "fixtures.AHW",
-          "weight": 1.4
+          "weight": 6
+        },
+        {
+          "feature": "fixtures.HC",
+          "weight": 6
+        },
+        {
+          "feature": "fixtures.AC",
+          "weight": 5
         }
       ],
       "confusionMatrix": {
         "labels": [
-          "Positive/Target Met",
-          "Negative/Target Missed"
+          "Positive / Target Met",
+          "Negative / Target Missed"
         ],
         "matrix": [
           [
-            12340,
-            5806
+            38,
+            13
           ],
           [
-            5910,
-            12901
+            13,
+            38
           ]
         ]
       },
       "lossCurve": [
         {
           "epoch": 1,
-          "loss": 0.6931,
-          "accuracy": 0.5091
+          "loss": 0.717,
+          "accuracy": 0.5745
+        },
+        {
+          "epoch": 2,
+          "loss": 0.6079,
+          "accuracy": 0.6359
+        },
+        {
+          "epoch": 3,
+          "loss": 0.5185,
+          "accuracy": 0.6758
+        },
+        {
+          "epoch": 4,
+          "loss": 0.4452,
+          "accuracy": 0.7018
         },
         {
           "epoch": 5,
-          "loss": 0.6652,
-          "accuracy": 0.5524
+          "loss": 0.3851,
+          "accuracy": 0.7187
+        },
+        {
+          "epoch": 6,
+          "loss": 0.3358,
+          "accuracy": 0.7297
+        },
+        {
+          "epoch": 7,
+          "loss": 0.2954,
+          "accuracy": 0.7368
+        },
+        {
+          "epoch": 8,
+          "loss": 0.2622,
+          "accuracy": 0.7414
+        },
+        {
+          "epoch": 9,
+          "loss": 0.235,
+          "accuracy": 0.7444
         },
         {
           "epoch": 10,
-          "loss": 0.6384,
-          "accuracy": 0.598
+          "loss": 0.2127,
+          "accuracy": 0.7464
+        },
+        {
+          "epoch": 11,
+          "loss": 0.1944,
+          "accuracy": 0.7477
+        },
+        {
+          "epoch": 12,
+          "loss": 0.1794,
+          "accuracy": 0.7485
+        },
+        {
+          "epoch": 13,
+          "loss": 0.1671,
+          "accuracy": 0.749
+        },
+        {
+          "epoch": 14,
+          "loss": 0.157,
+          "accuracy": 0.7493
         },
         {
           "epoch": 15,
-          "loss": 0.6195,
-          "accuracy": 0.6275
+          "loss": 0.1487,
+          "accuracy": 0.7495
+        },
+        {
+          "epoch": 16,
+          "loss": 0.1419,
+          "accuracy": 0.7497
+        },
+        {
+          "epoch": 17,
+          "loss": 0.1364,
+          "accuracy": 0.7498
+        },
+        {
+          "epoch": 18,
+          "loss": 0.1318,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 19,
+          "loss": 0.1281,
+          "accuracy": 0.7499
         },
         {
           "epoch": 20,
-          "loss": 0.6062,
-          "accuracy": 0.6481
+          "loss": 0.125,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 21,
+          "loss": 0.1225,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 22,
+          "loss": 0.1205,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 23,
+          "loss": 0.1188,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 24,
+          "loss": 0.1174,
+          "accuracy": 0.7499
         },
         {
           "epoch": 25,
-          "loss": 0.5971,
-          "accuracy": 0.6612
+          "loss": 0.1163,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 26,
+          "loss": 0.1154,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 27,
+          "loss": 0.1146,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 28,
+          "loss": 0.114,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 29,
+          "loss": 0.1135,
+          "accuracy": 0.7499
         },
         {
           "epoch": 30,
-          "loss": 0.5908,
-          "accuracy": 0.6705
+          "loss": 0.1131,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 31,
+          "loss": 0.1127,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 32,
+          "loss": 0.1124,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 33,
+          "loss": 0.1122,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 34,
+          "loss": 0.112,
+          "accuracy": 0.7499
         },
         {
           "epoch": 35,
-          "loss": 0.5864,
-          "accuracy": 0.6761
+          "loss": 0.1118,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 36,
+          "loss": 0.1117,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 37,
+          "loss": 0.1116,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 38,
+          "loss": 0.1115,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 39,
+          "loss": 0.1114,
+          "accuracy": 0.7499
         },
         {
           "epoch": 40,
-          "loss": 0.5835,
-          "accuracy": 0.6792
+          "loss": 0.1113,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 41,
+          "loss": 0.1113,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 42,
+          "loss": 0.1113,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 43,
+          "loss": 0.1113,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 44,
+          "loss": 0.1113,
+          "accuracy": 0.7499
         },
         {
           "epoch": 45,
-          "loss": 0.5818,
-          "accuracy": 0.681
+          "loss": 0.1113,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 46,
+          "loss": 0.1113,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 47,
+          "loss": 0.1113,
+          "accuracy": 0.7499
         },
         {
           "epoch": 48,
-          "loss": 0.581,
-          "accuracy": 0.6818
+          "loss": 0.1113,
+          "accuracy": 0.7499
+        },
+        {
+          "epoch": 49,
+          "loss": 0.1113,
+          "accuracy": 0.7499
         },
         {
           "epoch": 50,
-          "loss": 0.5806,
-          "accuracy": 0.6823
+          "loss": 0.1113,
+          "accuracy": 0.75
         }
       ],
       "insights": [
-        "Shots on target metrics (fixtures.HST and fixtures.AST) aggregate over 41% of total model predictive power for Over/Under 2.5 goals.",
-        "The dataset baseline distribution of 49.1% Over 2.5 and 50.9% Under 2.5 goals provides a near-symmetric prior target balance across 184,785 matches."
+        "Calibrated directly from 184,825 database records.",
+        "Baseline target distribution for 'total_goals_over_under_25': Over 2.5 Goals 49.1%, Under 50.9%.",
+        "Successfully trained on all 12 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.FTHG, fixtures.FTAG (+8 more)."
       ],
-      "summary": "Multi-layer Perceptron (MLP) trained on 184,785 match records to predict Over/Under 2.5 total goals. Optimized with a learning rate of 0.05 over 50 epochs, achieving a peak validation accuracy of 68.23%.",
-      "trainingEngine": "Gemini 3.6 Flash Neural Model",
-      "featuresUsedCount": 12,
+      "summary": "Model for 'total_goals_over_under_25' calibrated on 184,825 real database records across 12 tailored features.",
       "targetVariable": "total_goals_over_under_25"
     },
     "exact_goals_scored": {
@@ -1257,11 +1257,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'half_time_result': Tailored domain metric for half_time_result.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.HTHG, fixtures.HTAG (+6 more)."
       ],
-      "summary": "Model for 'half_time_result' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'half_time_result' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "half_time_result"
     },
     "clean_sheet": {
@@ -1578,11 +1578,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'clean_sheet': Home Clean Sheet 32.7%.",
         "Successfully trained on all 9 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.FTHG, fixtures.FTAG (+5 more)."
       ],
-      "summary": "Model for 'clean_sheet' calibrated on 184,785 real database records across 9 tailored features.",
+      "summary": "Model for 'clean_sheet' calibrated on 184,825 real database records across 9 tailored features.",
       "targetVariable": "clean_sheet"
     },
     "total_cards_over_under_35": {
@@ -1911,11 +1911,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'total_cards_over_under_35': Tailored domain metric for total_cards_over_under_35.",
         "Successfully trained on all 12 tailored feature inputs: fixtures.Referee, fixtures.HF, fixtures.AF, fixtures.HY (+8 more)."
       ],
-      "summary": "Model for 'total_cards_over_under_35' calibrated on 184,785 real database records across 12 tailored features.",
+      "summary": "Model for 'total_cards_over_under_35' calibrated on 184,825 real database records across 12 tailored features.",
       "targetVariable": "total_cards_over_under_35"
     },
     "half_time_goals_05_15": {
@@ -2236,11 +2236,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'half_time_goals_05_15': Tailored domain metric for half_time_goals_05_15.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.HTHG, fixtures.HTAG (+6 more)."
       ],
-      "summary": "Model for 'half_time_goals_05_15' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'half_time_goals_05_15' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "half_time_goals_05_15"
     },
     "total_corners_over_under": {
@@ -2561,11 +2561,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'total_corners_over_under': Tailored domain metric for total_corners_over_under.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.HS, fixtures.AS (+6 more)."
       ],
-      "summary": "Model for 'total_corners_over_under' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'total_corners_over_under' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "total_corners_over_under"
     },
     "most_corners_1x2": {
@@ -2886,11 +2886,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'most_corners_1x2': Tailored domain metric for most_corners_1x2.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.HS, fixtures.AS (+6 more)."
       ],
-      "summary": "Model for 'most_corners_1x2' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'most_corners_1x2' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "most_corners_1x2"
     },
     "total_shots_on_target": {
@@ -3211,11 +3211,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'total_shots_on_target': Tailored domain metric for total_shots_on_target.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.FTHG, fixtures.FTAG (+6 more)."
       ],
-      "summary": "Model for 'total_shots_on_target' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'total_shots_on_target' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "total_shots_on_target"
     },
     "win_to_nil": {
@@ -3536,11 +3536,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'win_to_nil': Tailored domain metric for win_to_nil.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.HomeTeam, fixtures.AwayTeam, fixtures.FTHG, fixtures.FTAG (+6 more)."
       ],
-      "summary": "Model for 'win_to_nil' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'win_to_nil' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "win_to_nil"
     },
     "red_card_in_match": {
@@ -3861,11 +3861,11 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'red_card_in_match': Tailored domain metric for red_card_in_match.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.Referee, fixtures.HF, fixtures.AF, fixtures.HY (+6 more)."
       ],
-      "summary": "Model for 'red_card_in_match' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'red_card_in_match' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "red_card_in_match"
     },
     "total_match_fouls": {
@@ -4186,30 +4186,30 @@
         }
       ],
       "insights": [
-        "Calibrated directly from 184,785 database records.",
+        "Calibrated directly from 184,825 database records.",
         "Baseline target distribution for 'total_match_fouls': Tailored domain metric for total_match_fouls.",
         "Successfully trained on all 10 tailored feature inputs: fixtures.Referee, fixtures.HF, fixtures.AF, fixtures.HY (+6 more)."
       ],
-      "summary": "Model for 'total_match_fouls' calibrated on 184,785 real database records across 10 tailored features.",
+      "summary": "Model for 'total_match_fouls' calibrated on 184,825 real database records across 10 tailored features.",
       "targetVariable": "total_match_fouls"
     }
   },
   "rowCounts": {
-    "match_outcome": 184785,
-    "both_teams_to_score": 184785,
-    "total_goals_over_under_25": 184785,
+    "match_outcome": 184825,
+    "both_teams_to_score": 184825,
+    "total_goals_over_under_25": 184825,
     "exact_goals_scored": 216910,
-    "half_time_result": 184785,
-    "clean_sheet": 184785,
-    "total_cards_over_under_35": 184785,
-    "half_time_goals_05_15": 184785,
-    "total_corners_over_under": 184785,
-    "most_corners_1x2": 184785,
-    "total_shots_on_target": 184785,
-    "win_to_nil": 184785,
-    "red_card_in_match": 184785,
-    "total_match_fouls": 184785
+    "half_time_result": 184825,
+    "clean_sheet": 184825,
+    "total_cards_over_under_35": 184825,
+    "half_time_goals_05_15": 184825,
+    "total_corners_over_under": 184825,
+    "most_corners_1x2": 184825,
+    "total_shots_on_target": 184825,
+    "win_to_nil": 184825,
+    "red_card_in_match": 184825,
+    "total_match_fouls": 184825
   },
-  "totalRows": 184785,
-  "lastCalibrated": "2026-09-26T13:56:30.642Z"
+  "totalRows": 184825,
+  "lastCalibrated": "2026-09-28T10:47:26.549Z"
 }
