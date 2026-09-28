@@ -2165,7 +2165,7 @@
         "home": "Rangers",
         "away": "Motherwell",
         "actualScore": "9 SOT",
-        "status": "Won"
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -2486,11 +2486,11 @@
     "targetDate": "2026-09-04",
     "status": "Lost",
     "createdAt": "2026-09-04T20:30:25.295Z",
-    "legsWon": 6,
-    "legsLost": 1,
+    "legsWon": 5,
+    "legsLost": 2,
     "legsPending": 0,
     "legsTotal": 7,
-    "legAccuracyPct": 86
+    "legAccuracyPct": 71
   },
   {
     "id": "acca_1788553540474_971",
