@@ -1,5 +1,87 @@
 [
   {
+    "id": "acca_1791545871839_795",
+    "name": "5-Leg Acca (Away Win (1X2))",
+    "createdAt": "2026-10-09T11:37:51.839Z",
+    "targetDate": "2026-10-09",
+    "stake": 2,
+    "combinedOdds": 65.44,
+    "estReturn": 130.88,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "94povin7ehm",
+        "home": "Watford",
+        "away": "Burnley",
+        "date": "2026-10-10",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Burnley to Win",
+        "odds": 2.26,
+        "probability": 43,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "iaspzo6vpee",
+        "home": "Ayr",
+        "away": "Dunfermline",
+        "date": "2026-10-10",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Dunfermline to Win",
+        "odds": 2.15,
+        "probability": 43,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "5lvy30cn6pq",
+        "home": "Sunderland",
+        "away": "Brighton",
+        "date": "2026-10-10",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Brighton to Win",
+        "odds": 2.3,
+        "probability": 42,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "xq01sqetzjl",
+        "home": "Blackburn",
+        "away": "Cardiff",
+        "date": "2026-10-10",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Cardiff to Win",
+        "odds": 2.45,
+        "probability": 39,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "fs9b6lx8xil",
+        "home": "Preston",
+        "away": "Millwall",
+        "date": "2026-10-10",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Millwall to Win",
+        "odds": 2.39,
+        "probability": 39,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 5,
+    "legsTotal": 5,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1789165125639_897",
     "name": "10-Leg Acca (17 Markets Blend)",
     "createdAt": "2026-09-11T22:18:45.639Z",
