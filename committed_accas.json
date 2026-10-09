@@ -1,5 +1,87 @@
 [
   {
+    "id": "acca_1791546253508_513",
+    "name": "5-Leg Bet Builder (Rangers vs Kilmarock)",
+    "createdAt": "2026-10-09T11:44:13.508Z",
+    "targetDate": "2026-10-09",
+    "stake": 1,
+    "combinedOdds": 12.77,
+    "estReturn": 12.77,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "x6npt32nj3e",
+        "home": "Rangers",
+        "away": "Kilmarock",
+        "date": "2026-10-10",
+        "marketName": "Both Teams To Score",
+        "marketId": "both_teams_to_score",
+        "selection": "BTTS - No",
+        "odds": 1.59,
+        "probability": 63,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "ppsrfum1yde",
+        "home": "Rangers",
+        "away": "Kilmarock",
+        "date": "2026-10-10",
+        "marketName": "Total Shots on Target (Over/Under 9.5)",
+        "marketId": "total_shots_on_target",
+        "selection": "Over 9.5 SOT",
+        "odds": 1.59,
+        "probability": 63,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "ut1v1ca4bep",
+        "home": "Rangers",
+        "away": "Kilmarock",
+        "date": "2026-10-10",
+        "marketName": "Total Corners (Over/Under 9.5)",
+        "marketId": "total_corners_over_under",
+        "selection": "Over 9.5 Corners",
+        "odds": 1.67,
+        "probability": 60,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "xx9pabv5gr",
+        "home": "Rangers",
+        "away": "Kilmarock",
+        "date": "2026-10-10",
+        "marketName": "HT Result",
+        "marketId": "half_time_result",
+        "selection": "Rangers HT Lead",
+        "odds": 1.69,
+        "probability": 59,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "wdorh8hbp1l",
+        "home": "Rangers",
+        "away": "Kilmarock",
+        "date": "2026-10-10",
+        "marketName": "Clean Sheet",
+        "marketId": "clean_sheet",
+        "selection": "Rangers Clean Sheet - Yes",
+        "odds": 1.79,
+        "probability": 56,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 5,
+    "legsTotal": 5,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1791545871839_795",
     "name": "5-Leg Acca (Away Win (1X2))",
     "createdAt": "2026-10-09T11:37:51.839Z",
