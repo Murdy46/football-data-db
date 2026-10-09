@@ -1,0 +1,44 @@
+name: Update Upcoming Fixtures
+
+on:
+  workflow_dispatch: # Allows triggering from the web app button or manually
+
+jobs:
+  update-fixtures:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download Latest Fixtures
+        run: |
+          curl -s -L \
+            --max-time 30 \
+            -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
+            -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' \
+            -H 'Referer: https://www.football-data.co.uk/' \
+            "https://www.football-data.co.uk/fixtures.csv" -o fixtures_temp.csv
+
+          if [ -s fixtures_temp.csv ] && [ $(wc -l < fixtures_temp.csv) -gt 2 ] && ! grep -qi "<html" fixtures_temp.csv; then
+            mv fixtures_temp.csv fixtures.csv
+            echo "Fixtures downloaded successfully ($(wc -l < fixtures.csv) lines)."
+          else
+            echo "Fixtures download failed or returned invalid data."
+            rm -f fixtures_temp.csv
+            exit 1
+          fi
+
+      - name: Commit and Push Updated Fixtures
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add fixtures.csv
+          if git diff --staged --quiet; then
+            echo "No changes to fixtures.csv."
+          else
+            git commit -m "⚙️ Automated upcoming fixtures update [skip ci]"
+            git push
+          fi
