@@ -7,7 +7,7 @@
     "stake": 10,
     "combinedOdds": 20.83,
     "estReturn": 208.3,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "wnq81f9z3fb",
@@ -19,8 +19,8 @@
         "selection": "Ipswich Clean Sheet - No",
         "odds": 1.52,
         "probability": 66,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-1"
       },
       {
         "id": "su55pvfp6k",
@@ -32,8 +32,8 @@
         "selection": "Sunderland Clean Sheet - No",
         "odds": 1.52,
         "probability": 66,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0-2"
       },
       {
         "id": "b7n9i5pw3y4",
@@ -45,8 +45,8 @@
         "selection": "Blackburn Clean Sheet - No",
         "odds": 1.52,
         "probability": 66,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-1"
       },
       {
         "id": "20r11vgjfzb",
@@ -58,8 +58,8 @@
         "selection": "Red Card - No",
         "odds": 1.14,
         "probability": 88,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0 Red Cards"
       },
       {
         "id": "l6m7wo0htxk",
@@ -71,8 +71,8 @@
         "selection": "Red Card - No",
         "odds": 1.14,
         "probability": 88,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0 Red Cards"
       },
       {
         "id": "h73dxa64bk8",
@@ -84,8 +84,8 @@
         "selection": "Red Card - No",
         "odds": 1.14,
         "probability": 88,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0 Red Cards"
       },
       {
         "id": "mgj2xw4hq0o",
@@ -97,8 +97,8 @@
         "selection": "No Win to Nil",
         "odds": 1.52,
         "probability": 66,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "Home Win to Nil (1-0)"
       },
       {
         "id": "6mbi47l5x0o",
@@ -110,8 +110,8 @@
         "selection": "Stockport Most Corners",
         "odds": 1.52,
         "probability": 66,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "11-5 Corners"
       },
       {
         "id": "0uf7etw707ue",
@@ -123,8 +123,8 @@
         "selection": "Red Card - No",
         "odds": 1.14,
         "probability": 88,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1 Red Card"
       },
       {
         "id": "dz07wzlby4i",
@@ -136,15 +136,15 @@
         "selection": "No Win to Nil",
         "odds": 1.52,
         "probability": 66,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "No Win to Nil (2-2)"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 8,
+    "legsLost": 2,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 80
   },
   {
     "id": "acca_1791548317063_940",
@@ -154,7 +154,7 @@
     "stake": 1,
     "combinedOdds": 31.69,
     "estReturn": 31.69,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "ig3vlasu5ff",
@@ -166,8 +166,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.32,
         "probability": 70,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2 Goals (2-0)"
       },
       {
         "id": "sjrq2ci2kdg",
@@ -179,8 +179,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.33,
         "probability": 70,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4 Goals (3-1)"
       },
       {
         "id": "u1avoynu23p",
@@ -192,8 +192,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.4,
         "probability": 67,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4 Goals (1-3)"
       },
       {
         "id": "jf6eivcspga",
@@ -205,8 +205,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.39,
         "probability": 67,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4 Goals (3-1)"
       },
       {
         "id": "5d4n73l28ro",
@@ -218,8 +218,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.42,
         "probability": 65,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3 Goals (1-2)"
       },
       {
         "id": "et4du0882m",
@@ -231,8 +231,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.41,
         "probability": 65,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5 Goals (5-0)"
       },
       {
         "id": "xbgflv4srxk",
@@ -244,8 +244,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.41,
         "probability": 65,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3 Goals (2-1)"
       },
       {
         "id": "e9bsx6azhtq",
@@ -257,8 +257,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.47,
         "probability": 64,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "6 Goals (5-1)"
       },
       {
         "id": "hojbu1z6ngm",
@@ -270,8 +270,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.49,
         "probability": 62,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5 Goals (5-0)"
       },
       {
         "id": "1mdura7jt11",
@@ -283,15 +283,15 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.5,
         "probability": 61,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5 Goals (0-5)"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 9,
+    "legsLost": 1,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 90
   },
   {
     "id": "acca_1791547458678_428",
@@ -301,7 +301,7 @@
     "stake": 1,
     "combinedOdds": 84.91,
     "estReturn": 84.91,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "d40gkljvjs",
@@ -313,8 +313,8 @@
         "selection": "Hearts to Win",
         "odds": 1.45,
         "probability": 65,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5-0"
       },
       {
         "id": "z6u8c0uihys",
@@ -326,8 +326,8 @@
         "selection": "Plymouth to Win",
         "odds": 1.5,
         "probability": 63,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-1"
       },
       {
         "id": "oapazjjdix",
@@ -339,8 +339,8 @@
         "selection": "Carlisle to Win",
         "odds": 1.49,
         "probability": 62,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-0"
       },
       {
         "id": "tzdz9x3l038",
@@ -352,8 +352,8 @@
         "selection": "Raith to Win",
         "odds": 1.48,
         "probability": 62,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-0"
       },
       {
         "id": "ppjtv602qwj",
@@ -365,8 +365,8 @@
         "selection": "RB Leipzig to Win",
         "odds": 1.55,
         "probability": 61,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "6-0"
       },
       {
         "id": "ao62dq58evm",
@@ -378,8 +378,8 @@
         "selection": "Leicester to Win",
         "odds": 1.58,
         "probability": 60,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1-3"
       },
       {
         "id": "z6gkfcm0fnr",
@@ -391,8 +391,8 @@
         "selection": "Monaco to Win",
         "odds": 1.59,
         "probability": 59,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2-2"
       },
       {
         "id": "in0vwayjgs",
@@ -404,8 +404,8 @@
         "selection": "Chelsea to Win",
         "odds": 1.66,
         "probability": 57,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5-1"
       },
       {
         "id": "342ybcfjzf4",
@@ -417,8 +417,8 @@
         "selection": "Doncaster to Win",
         "odds": 1.67,
         "probability": 57,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-0"
       },
       {
         "id": "rd9bn67sr1m",
@@ -430,15 +430,15 @@
         "selection": "Oldham to Win",
         "odds": 1.64,
         "probability": 57,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-0"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 6,
+    "legsLost": 4,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 60
   },
   {
     "id": "acca_1791547189092_20",
@@ -448,7 +448,7 @@
     "stake": 1,
     "combinedOdds": 31,
     "estReturn": 31,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "kkjxs4nm1mr",
@@ -460,8 +460,8 @@
         "selection": "Hearts to Win",
         "odds": 1.45,
         "probability": 65,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5-0"
       },
       {
         "id": "ossmnkqi1al",
@@ -473,8 +473,8 @@
         "selection": "Plymouth to Win",
         "odds": 1.5,
         "probability": 63,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-1"
       },
       {
         "id": "ninfoeh957p",
@@ -486,8 +486,8 @@
         "selection": "Carlisle to Win",
         "odds": 1.49,
         "probability": 62,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-0"
       },
       {
         "id": "smpt00wjmdb",
@@ -499,8 +499,8 @@
         "selection": "Raith to Win",
         "odds": 1.48,
         "probability": 62,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-0"
       },
       {
         "id": "eldorsmmmvg",
@@ -512,8 +512,8 @@
         "selection": "RB Leipzig to Win",
         "odds": 1.55,
         "probability": 61,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "6-0"
       },
       {
         "id": "j69dlnk5mea",
@@ -525,8 +525,8 @@
         "selection": "Leicester to Win",
         "odds": 1.58,
         "probability": 60,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1-3"
       },
       {
         "id": "msojh2odch9",
@@ -538,8 +538,8 @@
         "selection": "Monaco to Win",
         "odds": 1.59,
         "probability": 59,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2-2"
       },
       {
         "id": "xw64btnhg59",
@@ -551,15 +551,15 @@
         "selection": "Chelsea to Win",
         "odds": 1.66,
         "probability": 57,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "5-1"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 8,
+    "legsWon": 5,
+    "legsLost": 3,
+    "legsPending": 0,
     "legsTotal": 8,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 63
   },
   {
     "id": "acca_1791546253508_513",
@@ -569,7 +569,7 @@
     "stake": 1,
     "combinedOdds": 12.77,
     "estReturn": 12.77,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "x6npt32nj3e",
@@ -581,8 +581,8 @@
         "selection": "BTTS - No",
         "odds": 1.59,
         "probability": 63,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "Yes (3-1)"
       },
       {
         "id": "ppsrfum1yde",
@@ -594,8 +594,8 @@
         "selection": "Over 9.5 SOT",
         "odds": 1.59,
         "probability": 63,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "9 SOT"
       },
       {
         "id": "ut1v1ca4bep",
@@ -607,8 +607,8 @@
         "selection": "Over 9.5 Corners",
         "odds": 1.67,
         "probability": 60,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "10 Corners"
       },
       {
         "id": "xx9pabv5gr",
@@ -620,8 +620,8 @@
         "selection": "Rangers HT Lead",
         "odds": 1.69,
         "probability": 59,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "HT: 3-0"
       },
       {
         "id": "wdorh8hbp1l",
@@ -633,15 +633,15 @@
         "selection": "Rangers Clean Sheet - Yes",
         "odds": 1.79,
         "probability": 56,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "3-1"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 5,
+    "legsWon": 2,
+    "legsLost": 3,
+    "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 40
   },
   {
     "id": "acca_1791545871839_795",
@@ -651,7 +651,7 @@
     "stake": 2,
     "combinedOdds": 65.44,
     "estReturn": 130.88,
-    "status": "Pending",
+    "status": "Lost",
     "legs": [
       {
         "id": "94povin7ehm",
@@ -663,8 +663,8 @@
         "selection": "Burnley to Win",
         "odds": 2.26,
         "probability": 43,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0-4"
       },
       {
         "id": "iaspzo6vpee",
@@ -676,8 +676,8 @@
         "selection": "Dunfermline to Win",
         "odds": 2.15,
         "probability": 43,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1-1"
       },
       {
         "id": "5lvy30cn6pq",
@@ -689,8 +689,8 @@
         "selection": "Brighton to Win",
         "odds": 2.3,
         "probability": 42,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0-2"
       },
       {
         "id": "xq01sqetzjl",
@@ -702,8 +702,8 @@
         "selection": "Cardiff to Win",
         "odds": 2.45,
         "probability": 39,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2-1"
       },
       {
         "id": "fs9b6lx8xil",
@@ -715,15 +715,15 @@
         "selection": "Millwall to Win",
         "odds": 2.39,
         "probability": 39,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "0-1"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 5,
+    "legsWon": 3,
+    "legsLost": 2,
+    "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 60
   },
   {
     "id": "acca_1789165125639_897",
