@@ -1,5 +1,87 @@
 [
   {
+    "id": "acca_1792188214061_63",
+    "name": "5-Leg Acca (Away Win (1X2))",
+    "createdAt": "2026-10-16T22:03:34.061Z",
+    "targetDate": "2026-10-16",
+    "stake": 1,
+    "combinedOdds": 19.61,
+    "estReturn": 19.61,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "8yt0tvtsvyo",
+        "home": "Queen of South",
+        "away": "Ross County",
+        "date": "2026-10-17",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Ross County to Win",
+        "odds": 1.24,
+        "probability": 72,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "ezwm902vbf",
+        "home": "Newport County",
+        "away": "York",
+        "date": "2026-10-17",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "York to Win",
+        "odds": 1.91,
+        "probability": 49,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "xf56m3w6xz",
+        "home": "Wigan",
+        "away": "Reading",
+        "date": "2026-10-17",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Reading to Win",
+        "odds": 1.99,
+        "probability": 48,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "1c5iaq75rsu",
+        "home": "Tranmere",
+        "away": "Barnet",
+        "date": "2026-10-17",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Barnet to Win",
+        "odds": 2.01,
+        "probability": 47,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "qww34kwleec",
+        "home": "Kilmarock",
+        "away": "Motherwell",
+        "date": "2026-10-17",
+        "marketName": "Away Win (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Motherwell to Win",
+        "odds": 2.07,
+        "probability": 46,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 5,
+    "legsTotal": 5,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1792188028535_62",
     "name": "10-Leg Acca (Home Win (1X2))",
     "createdAt": "2026-10-16T22:00:28.535Z",
