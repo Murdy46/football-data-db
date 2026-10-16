@@ -2,7 +2,7 @@
   {
     "id": "acca_1792188903709_903",
     "name": "5-Leg Acca (Match Draw (1X2))",
-    "createdAt": "2026-10-16T22:15:03.709Z",
+    "createdAt": "2026-10-16T22:18:58.480Z",
     "targetDate": "2026-10-16",
     "stake": 1,
     "combinedOdds": 995.31,
@@ -10,7 +10,7 @@
     "status": "Pending",
     "legs": [
       {
-        "id": "mmyyof0tn0r",
+        "id": "sx84h3nduph",
         "home": "Osasuna",
         "away": "Santander",
         "date": "2026-10-18",
@@ -23,7 +23,7 @@
         "actualScore": null
       },
       {
-        "id": "c7hi0toaec",
+        "id": "lr9n1hqvwx",
         "home": "Groningen",
         "away": "Ajax",
         "date": "2026-10-18",
@@ -36,7 +36,7 @@
         "actualScore": null
       },
       {
-        "id": "2sk361v2tui",
+        "id": "parivalh9cq",
         "home": "Cambuur",
         "away": "AZ Alkmaar",
         "date": "2026-10-18",
@@ -49,7 +49,7 @@
         "actualScore": null
       },
       {
-        "id": "d9auxkifvxh",
+        "id": "wfy5dwckdli",
         "home": "NEC Nijmegen",
         "away": "For Sittard",
         "date": "2026-10-18",
@@ -62,7 +62,7 @@
         "actualScore": null
       },
       {
-        "id": "glyapdjcgk",
+        "id": "l9jbyixbcfb",
         "home": "Juve Stabia",
         "away": "Sudtirol",
         "date": "2026-10-18",
