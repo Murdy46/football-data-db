@@ -1,5 +1,87 @@
 [
   {
+    "id": "acca_1792188903709_903",
+    "name": "5-Leg Acca (Match Draw (1X2))",
+    "createdAt": "2026-10-16T22:15:03.709Z",
+    "targetDate": "2026-10-16",
+    "stake": 1,
+    "combinedOdds": 995.31,
+    "estReturn": 995.31,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "mmyyof0tn0r",
+        "home": "Osasuna",
+        "away": "Santander",
+        "date": "2026-10-18",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 3.61,
+        "probability": 27,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "c7hi0toaec",
+        "home": "Groningen",
+        "away": "Ajax",
+        "date": "2026-10-18",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 4.06,
+        "probability": 24,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "2sk361v2tui",
+        "home": "Cambuur",
+        "away": "AZ Alkmaar",
+        "date": "2026-10-18",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 4.83,
+        "probability": 20,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "d9auxkifvxh",
+        "home": "NEC Nijmegen",
+        "away": "For Sittard",
+        "date": "2026-10-18",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 4.38,
+        "probability": 22,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "glyapdjcgk",
+        "home": "Juve Stabia",
+        "away": "Sudtirol",
+        "date": "2026-10-18",
+        "marketName": "Match Draw (1X2)",
+        "marketId": "match_outcome",
+        "selection": "Match Draw",
+        "odds": 3.21,
+        "probability": 30,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 5,
+    "legsTotal": 5,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1792188214061_63",
     "name": "5-Leg Acca (Away Win (1X2))",
     "createdAt": "2026-10-16T22:03:34.061Z",
