@@ -1,5 +1,61 @@
 [
   {
+    "id": "acca_1794683385323_253",
+    "name": "3-Leg Acca (Red Card in Match)",
+    "createdAt": "2026-11-14T19:09:45.323Z",
+    "targetDate": "2026-11-14",
+    "stake": 10,
+    "combinedOdds": 1.4,
+    "estReturn": 14,
+    "status": "Pending",
+    "legs": [
+      {
+        "id": "u4l07j44mxg",
+        "home": "Crewe",
+        "away": "Newport County",
+        "date": "2026-11-14",
+        "marketName": "Red Card in Match",
+        "marketId": "red_card_in_match",
+        "selection": "Red Card - No",
+        "odds": 1.12,
+        "probability": 89,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "cl0h57c2mf9",
+        "home": "Shrewsbury",
+        "away": "Oldham",
+        "date": "2026-11-14",
+        "marketName": "Red Card in Match",
+        "marketId": "red_card_in_match",
+        "selection": "Red Card - No",
+        "odds": 1.12,
+        "probability": 89,
+        "status": "Pending",
+        "actualScore": null
+      },
+      {
+        "id": "2jmcg40vxvd",
+        "home": "Sutton",
+        "away": "Solihull",
+        "date": "2026-11-14",
+        "marketName": "Red Card in Match",
+        "marketId": "red_card_in_match",
+        "selection": "Red Card - No",
+        "odds": 1.12,
+        "probability": 89,
+        "status": "Pending",
+        "actualScore": null
+      }
+    ],
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 3,
+    "legsTotal": 3,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1789165125639_897",
     "name": "10-Leg Acca (17 Markets Blend)",
     "createdAt": "2026-09-11T22:18:45.639Z",
