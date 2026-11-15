@@ -1,5 +1,762 @@
 [
   {
+    "id": "acca_1794704462288_587",
+    "name": "3-Leg Acca (Core 3 (1X2, BTTS, O/U))",
+    "legs": [
+      {
+        "fixture": {
+          "home": "Granada",
+          "away": "Las Palmas",
+          "date": "2026-11-15",
+          "time": "15:15",
+          "div": "SP2",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.76,
+            "b365Draw": 3.5,
+            "b365Away": 4.5,
+            "avgHome": 1.75,
+            "avgDraw": 3.54,
+            "avgAway": 4.13,
+            "maxHome": 1.8,
+            "maxDraw": 3.65,
+            "maxAway": 4.55,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.85,
+            "b365Under25": 1.95,
+            "avgOver25": 1.78,
+            "avgUnder25": 1.93,
+            "maxOver25": 1.85,
+            "maxUnder25": 2
+          },
+          "probabilities": {
+            "home_win_or_yes": 51,
+            "draw_or_no": 26,
+            "away_win_or_no_under": 23
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,073 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.77,
+            "lambdaAwayGoals": 1.33,
+            "expectedCorners": 9.2,
+            "expectedSot": 8.9,
+            "expectedCards": 5,
+            "expectedFouls": 26.3,
+            "refereeMultiplier": 1,
+            "homeElo": 1486,
+            "awayElo": 1519
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 61,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 26,
+                "draw_or_no": 74,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Granada Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 32,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 32,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 30
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 32,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 30
+              },
+              "primaryValue": "Granada HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 32,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 30
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 32,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 30
+              },
+              "primaryValue": "Las Palmas HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 77,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 45,
+                "draw_or_no": 55,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 Corners",
+              "predictedScore": "9 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 13,
+                "away_win_or_no_under": 31
+              },
+              "primaryValue": "Granada Most Corners",
+              "predictedScore": "5-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 60,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 21,
+                "draw_or_no": 79,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 22,
+                "draw_or_no": 78,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - Yes",
+              "predictedScore": "1 Red Card"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 73,
+                "draw_or_no": 27,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "26 Fouls"
+            }
+          }
+        },
+        "marketId": "both_teams_to_score",
+        "marketName": "Both Teams To Score",
+        "pickLabel": "BTTS - Yes",
+        "selection": "BTTS - Yes",
+        "probability": 61,
+        "odds": 1.64,
+        "evPct": 0,
+        "oddsSource": "Model Odds",
+        "home": "Granada",
+        "away": "Las Palmas"
+      },
+      {
+        "fixture": {
+          "home": "Eibar",
+          "away": "Cadiz",
+          "date": "2026-11-15",
+          "time": "17:30",
+          "div": "SP2",
+          "predictedScore": "2-0",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.57,
+            "b365Draw": 3.75,
+            "b365Away": 5.5,
+            "avgHome": 1.6,
+            "avgDraw": 3.83,
+            "avgAway": 4.83,
+            "maxHome": 1.65,
+            "maxDraw": 4,
+            "maxAway": 5.5,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.75,
+            "b365Under25": 2.05,
+            "avgOver25": 1.72,
+            "avgUnder25": 2.01,
+            "maxOver25": 1.8,
+            "maxUnder25": 2.1
+          },
+          "probabilities": {
+            "home_win_or_yes": 61,
+            "draw_or_no": 23,
+            "away_win_or_no_under": 16
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,073 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 2.07,
+            "lambdaAwayGoals": 0.94,
+            "expectedCorners": 8.7,
+            "expectedSot": 8.4,
+            "expectedCards": 5.1,
+            "expectedFouls": 24.5,
+            "refereeMultiplier": 1,
+            "homeElo": 1559,
+            "awayElo": 1373
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 61,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-0"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 61,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-0"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 61,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-0"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 61,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-0"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 45,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-0"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-0"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "2 Goals",
+              "predictedScore": "2-0"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 38,
+                "draw_or_no": 62,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Eibar Clean Sheet - No",
+              "predictedScore": "2-0"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 70,
+                "draw_or_no": 30,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 11
+              },
+              "primaryValue": "Eibar HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 11
+              },
+              "primaryValue": "Eibar HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 11
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 11
+              },
+              "primaryValue": "Cadiz HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 77,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 41,
+                "draw_or_no": 59,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 Corners",
+              "predictedScore": "9 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 13,
+                "away_win_or_no_under": 33
+              },
+              "primaryValue": "Eibar Most Corners",
+              "predictedScore": "5-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 35,
+                "draw_or_no": 65,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "8 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 34,
+                "draw_or_no": 66,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-0"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 21,
+                "draw_or_no": 79,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - Yes",
+              "predictedScore": "1 Red Card"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "24 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Match Outcome (1X2)",
+        "pickLabel": "Eibar to Win",
+        "selection": "Eibar to Win",
+        "probability": 61,
+        "odds": 1.6,
+        "evPct": -2.4,
+        "oddsSource": "Avg Market Odds",
+        "home": "Eibar",
+        "away": "Cadiz"
+      },
+      {
+        "fixture": {
+          "home": "Albacete",
+          "away": "Celta B",
+          "date": "2026-11-16",
+          "time": "19:30",
+          "div": "SP2",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.57,
+            "b365Draw": 3.8,
+            "b365Away": 5,
+            "avgHome": 1.58,
+            "avgDraw": 3.99,
+            "avgAway": 4.68,
+            "maxHome": 1.68,
+            "maxDraw": 4.25,
+            "maxAway": 5,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.62,
+            "b365Under25": 2.25,
+            "avgOver25": 1.56,
+            "avgUnder25": 2.29,
+            "maxOver25": 1.62,
+            "maxUnder25": 2.38
+          },
+          "probabilities": {
+            "home_win_or_yes": 54,
+            "draw_or_no": 24,
+            "away_win_or_no_under": 22
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,073 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.78,
+            "lambdaAwayGoals": 1.25,
+            "expectedCorners": 10.2,
+            "expectedSot": 9.1,
+            "expectedCards": 5.5,
+            "expectedFouls": 24.7,
+            "refereeMultiplier": 1,
+            "homeElo": 1447,
+            "awayElo": 1465
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 72,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Albacete Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 74,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "6 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 29,
+                "away_win_or_no_under": 13
+              },
+              "primaryValue": "Albacete HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 29,
+                "away_win_or_no_under": 13
+              },
+              "primaryValue": "Albacete HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 29,
+                "away_win_or_no_under": 13
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 29,
+                "away_win_or_no_under": 13
+              },
+              "primaryValue": "Celta B HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 84,
+                "draw_or_no": 16,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 45,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 74,
+                "draw_or_no": 9,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Albacete Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 42,
+                "draw_or_no": 58,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 77,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 22,
+                "draw_or_no": 78,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - Yes",
+              "predictedScore": "1 Red Card"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "25 Fouls"
+            }
+          }
+        },
+        "marketId": "both_teams_to_score",
+        "marketName": "Both Teams To Score",
+        "pickLabel": "BTTS - Yes",
+        "selection": "BTTS - Yes",
+        "probability": 60,
+        "odds": 1.67,
+        "evPct": 0.2,
+        "oddsSource": "Model Odds",
+        "home": "Albacete",
+        "away": "Celta B"
+      }
+    ],
+    "stake": 10,
+    "combinedOdds": 4.38,
+    "estReturn": 43.8,
+    "targetDate": "2026-11-15",
+    "status": "Pending",
+    "githubSynced": true,
+    "device": "Desktop PC",
+    "createdAt": "2026-11-15T01:01:02.288Z",
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 3,
+    "legsTotal": 3,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1794702564393_524",
     "name": "5-Leg Acca (13 Markets Blend)",
     "device": "Android Phone",
