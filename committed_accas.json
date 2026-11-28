@@ -146,7 +146,9 @@
     "legsLost": 6,
     "legsPending": 1,
     "legsTotal": 10,
-    "legAccuracyPct": 33
+    "legAccuracyPct": 33,
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1795268431312_93",
@@ -230,7 +232,9 @@
     "legsLost": 1,
     "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 80
+    "legAccuracyPct": 80,
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1795266114533_878",
@@ -379,7 +383,9 @@
     "legsLost": 4,
     "legsPending": 1,
     "legsTotal": 10,
-    "legAccuracyPct": 56
+    "legAccuracyPct": 56,
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1795210531207_933",
@@ -2878,7 +2884,9 @@
     "legsLost": 8,
     "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 20
+    "legAccuracyPct": 20,
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1794704462288_587",
@@ -3642,8 +3650,8 @@
     "legsPending": 0,
     "legsTotal": 3,
     "legAccuracyPct": 0,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1794702564393_524",
@@ -3728,8 +3736,8 @@
     "legsPending": 0,
     "legsTotal": 5,
     "legAccuracyPct": 40,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1794691344959_540",
@@ -3879,8 +3887,8 @@
     "legsTotal": 10,
     "legAccuracyPct": 70,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1794687255355_577",
@@ -4030,8 +4038,8 @@
     "legsTotal": 10,
     "legAccuracyPct": 50,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1794684325994_327",
@@ -4180,8 +4188,8 @@
     "legsTotal": 10,
     "legAccuracyPct": 70,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1794683385323_253",
@@ -4239,8 +4247,8 @@
     "legsTotal": 3,
     "legAccuracyPct": 67,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1789165125639_897",
@@ -4389,8 +4397,8 @@
     "legsTotal": 10,
     "legAccuracyPct": 50,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1789163176541_470",
@@ -4539,8 +4547,8 @@
     "legsTotal": 10,
     "legAccuracyPct": 80,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1789162643410_479",
@@ -4689,8 +4697,8 @@
     "legsTotal": 10,
     "legAccuracyPct": 40,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1788553825295_431",
@@ -5073,8 +5081,8 @@
     "legsTotal": 7,
     "legAccuracyPct": 71,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1788553540474_971",
@@ -5363,8 +5371,8 @@
     "legsTotal": 5,
     "legAccuracyPct": 60,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1788553397113_637",
@@ -5653,8 +5661,8 @@
     "legsTotal": 5,
     "legAccuracyPct": 80,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1788276479335_177",
@@ -5712,8 +5720,8 @@
     "legsTotal": 3,
     "legAccuracyPct": 100,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1788263126836_385",
@@ -5862,8 +5870,8 @@
     "legsTotal": 10,
     "legAccuracyPct": 60,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1788262656535_780",
@@ -5960,8 +5968,8 @@
     "legsTotal": 6,
     "legAccuracyPct": 67,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787933969901_347",
@@ -6110,8 +6118,8 @@
     "legsTotal": 10,
     "legAccuracyPct": 60,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787933733058_968",
@@ -6169,8 +6177,8 @@
     "legsTotal": 3,
     "legAccuracyPct": 67,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787821484478_139",
@@ -6254,8 +6262,8 @@
     "legsTotal": 5,
     "legAccuracyPct": 80,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787604424878_678",
@@ -6313,8 +6321,8 @@
     "legsTotal": 3,
     "legAccuracyPct": 67,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787602688755_606",
@@ -6385,8 +6393,8 @@
     "legsTotal": 4,
     "legAccuracyPct": 50,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787598977784_535",
@@ -6470,8 +6478,8 @@
     "legsTotal": 5,
     "legAccuracyPct": 0,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787592249571_237",
@@ -6542,8 +6550,8 @@
     "legsTotal": 4,
     "legAccuracyPct": 75,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787571165861_183",
@@ -6627,8 +6635,8 @@
     "legsTotal": 5,
     "legAccuracyPct": 80,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1787563187895_226",
@@ -6712,8 +6720,8 @@
     "legsTotal": 5,
     "legAccuracyPct": 60,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   },
   {
     "id": "acca_1786965306140_466",
@@ -6810,7 +6818,7 @@
     "legsTotal": 6,
     "legAccuracyPct": 67,
     "githubSynced": true,
-    "githubSyncedAt": "2026-11-17T05:37:33.063Z",
-    "githubCommitSha": "7b7f8fc56e71eca2c1a28d611f6bceaf64aba352"
+    "githubSyncedAt": "2026-11-28T12:52:44.192Z",
+    "githubCommitSha": "2aefef232d9d29f4e6bf3a5274e4fff484a012ff"
   }
 ]
