@@ -1,5 +1,4963 @@
 [
   {
+    "id": "acca_1795874580787_303",
+    "name": "10-Leg Acca (Over/Under 2.5 Goals)",
+    "legs": [
+      {
+        "fixture": {
+          "home": "Westerlo",
+          "away": "RAAL La Louviere",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "B1",
+          "predictedScore": "2-0",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.91,
+            "b365Draw": 3.75,
+            "b365Away": 3.6,
+            "avgHome": 1.93,
+            "avgDraw": 3.58,
+            "avgAway": 3.54,
+            "maxHome": 2,
+            "maxDraw": 3.8,
+            "maxAway": 3.7,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.7,
+            "b365Under25": 2.1,
+            "avgOver25": 1.67,
+            "avgUnder25": 2.1,
+            "maxOver25": 1.7,
+            "maxUnder25": 2.2
+          },
+          "probabilities": {
+            "home_win_or_yes": 55,
+            "draw_or_no": 22,
+            "away_win_or_no_under": 23
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 2.48,
+            "lambdaAwayGoals": 1.4,
+            "expectedCorners": 9.2,
+            "expectedSot": 9.5,
+            "expectedCards": 4.6,
+            "expectedFouls": 23.2,
+            "refereeMultiplier": 1,
+            "homeElo": 1508,
+            "awayElo": 1418
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-0"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-0"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-0"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-0"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 69,
+                "draw_or_no": 31,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-0"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-0"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "2 Goals",
+              "predictedScore": "2-0"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 24,
+                "draw_or_no": 76,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Westerlo Clean Sheet - No",
+              "predictedScore": "2-0"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Westerlo HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Westerlo HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "RAAL La Louviere HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 79,
+                "draw_or_no": 21,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 Corners",
+              "predictedScore": "9 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 48,
+                "draw_or_no": 13,
+                "away_win_or_no_under": 39
+              },
+              "primaryValue": "Westerlo Most Corners",
+              "predictedScore": "5-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 22,
+                "draw_or_no": 78,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-0"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 77,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - Yes",
+              "predictedScore": "1 Red Card"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 46,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "23 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 64,
+        "odds": 1.67,
+        "evPct": 6.9,
+        "oddsSource": "Avg Market Odds",
+        "home": "Westerlo",
+        "away": "RAAL La Louviere"
+      },
+      {
+        "fixture": {
+          "home": "Altrincham",
+          "away": "Worthing",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "EC",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 2.05,
+            "b365Draw": 3.7,
+            "b365Away": 3,
+            "avgHome": 2.08,
+            "avgDraw": 3.69,
+            "avgAway": 2.85,
+            "maxHome": 2.1,
+            "maxDraw": 3.8,
+            "maxAway": 3,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.5,
+            "b365Under25": 2.5,
+            "avgOver25": 1.46,
+            "avgUnder25": 2.53,
+            "maxOver25": 1.5,
+            "maxUnder25": 2.63
+          },
+          "probabilities": {
+            "home_win_or_yes": 44,
+            "draw_or_no": 24,
+            "away_win_or_no_under": 32
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.83,
+            "lambdaAwayGoals": 1.53,
+            "expectedCorners": 10.2,
+            "expectedSot": 11.2,
+            "expectedCards": 4.4,
+            "expectedFouls": 25.3,
+            "refereeMultiplier": 0.99,
+            "homeElo": 1472,
+            "awayElo": 1512
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 44,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 32
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 44,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 32
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 44,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 32
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 44,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 32
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 66,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 21,
+                "draw_or_no": 79,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Altrincham Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 33,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 24
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 33,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 24
+              },
+              "primaryValue": "Altrincham HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 33,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 24
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 33,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 24
+              },
+              "primaryValue": "Worthing HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 70,
+                "draw_or_no": 30,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 45,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 67,
+                "draw_or_no": 11,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Altrincham Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 SOT",
+              "predictedScore": "11 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 17,
+                "draw_or_no": 83,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 15,
+                "draw_or_no": 85,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 32,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "25 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 64,
+        "odds": 1.46,
+        "evPct": -6.6,
+        "oddsSource": "Avg Market Odds",
+        "home": "Altrincham",
+        "away": "Worthing"
+      },
+      {
+        "fixture": {
+          "home": "Harrogate",
+          "away": "Yeovil",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "EC",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.65,
+            "b365Draw": 4,
+            "b365Away": 4.33,
+            "avgHome": 1.66,
+            "avgDraw": 4.01,
+            "avgAway": 4.05,
+            "maxHome": 1.71,
+            "maxDraw": 4.33,
+            "maxAway": 4.33,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.53,
+            "b365Under25": 2.4,
+            "avgOver25": 1.5,
+            "avgUnder25": 2.42,
+            "maxOver25": 1.53,
+            "maxUnder25": 2.5
+          },
+          "probabilities": {
+            "home_win_or_yes": 54,
+            "draw_or_no": 23,
+            "away_win_or_no_under": 23
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.91,
+            "lambdaAwayGoals": 1.33,
+            "expectedCorners": 10.1,
+            "expectedSot": 9.7,
+            "expectedCards": 3.5,
+            "expectedFouls": 25.3,
+            "refereeMultiplier": 0.97,
+            "homeElo": 1472,
+            "awayElo": 1486
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 63,
+                "draw_or_no": 37,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 27,
+                "draw_or_no": 73,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Harrogate Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 51,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Harrogate HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Yeovil HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 63,
+                "draw_or_no": 37,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 46,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 11,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Harrogate Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 48,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "10 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 22,
+                "draw_or_no": 78,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 15,
+                "draw_or_no": 85,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 32,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "25 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 62,
+        "odds": 1.5,
+        "evPct": -7,
+        "oddsSource": "Avg Market Odds",
+        "home": "Harrogate",
+        "away": "Yeovil"
+      },
+      {
+        "fixture": {
+          "home": "Man United",
+          "away": "Brentford",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E0",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 2.1,
+            "b365Draw": 3.75,
+            "b365Away": 3.25,
+            "avgHome": 2.09,
+            "avgDraw": 3.7,
+            "avgAway": 3.17,
+            "maxHome": 2.15,
+            "maxDraw": 3.8,
+            "maxAway": 3.25,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.57,
+            "b365Under25": 2.38,
+            "avgOver25": 1.54,
+            "avgUnder25": 2.37,
+            "maxOver25": 1.58,
+            "maxUnder25": 2.4
+          },
+          "probabilities": {
+            "home_win_or_yes": 46,
+            "draw_or_no": 25,
+            "away_win_or_no_under": 29
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.77,
+            "lambdaAwayGoals": 1.44,
+            "expectedCorners": 10.4,
+            "expectedSot": 9.6,
+            "expectedCards": 4.9,
+            "expectedFouls": 22.9,
+            "refereeMultiplier": 1.02,
+            "homeElo": 1636,
+            "awayElo": 1653
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 29
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 29
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 29
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 29
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 63,
+                "draw_or_no": 37,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 61,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 61,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 24,
+                "draw_or_no": 76,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Man United Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 32,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 37,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 37,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "Man United HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 37,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 37,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "Brentford HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 76,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 70,
+                "draw_or_no": 10,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Man United Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 48,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "10 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 19,
+                "draw_or_no": 81,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 10,
+                "draw_or_no": 90,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 52,
+                "draw_or_no": 48,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "23 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 61,
+        "odds": 1.54,
+        "evPct": -6.1,
+        "oddsSource": "Avg Market Odds",
+        "home": "Man United",
+        "away": "Brentford"
+      },
+      {
+        "fixture": {
+          "home": "Birmingham",
+          "away": "Bolton",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E1",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.53,
+            "b365Draw": 4.33,
+            "b365Away": 5.75,
+            "avgHome": 1.52,
+            "avgDraw": 4.35,
+            "avgAway": 5.51,
+            "maxHome": 1.57,
+            "maxDraw": 4.5,
+            "maxAway": 6,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.57,
+            "b365Under25": 2.38,
+            "avgOver25": 1.55,
+            "avgUnder25": 2.35,
+            "maxOver25": 1.58,
+            "maxUnder25": 2.4
+          },
+          "probabilities": {
+            "home_win_or_yes": 62,
+            "draw_or_no": 22,
+            "away_win_or_no_under": 16
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 2.05,
+            "lambdaAwayGoals": 0.99,
+            "expectedCorners": 9.7,
+            "expectedSot": 8.8,
+            "expectedCards": 3.6,
+            "expectedFouls": 22.6,
+            "refereeMultiplier": 1.05,
+            "homeElo": 1610,
+            "awayElo": 1511
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 64,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Birmingham Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 51,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Birmingham HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Birmingham HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Bolton HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 75,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 50,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 11,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "Birmingham Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 39,
+                "draw_or_no": 61,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 32,
+                "draw_or_no": 68,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 10,
+                "draw_or_no": 90,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 50,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "23 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 60,
+        "odds": 1.55,
+        "evPct": -7,
+        "oddsSource": "Avg Market Odds",
+        "home": "Birmingham",
+        "away": "Bolton"
+      },
+      {
+        "fixture": {
+          "home": "Millwall",
+          "away": "Burnley",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E1",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 2.15,
+            "b365Draw": 3.4,
+            "b365Away": 3.25,
+            "avgHome": 2.11,
+            "avgDraw": 3.56,
+            "avgAway": 3.2,
+            "maxHome": 2.18,
+            "maxDraw": 3.7,
+            "maxAway": 3.35,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.73,
+            "b365Under25": 2.1,
+            "avgOver25": 1.65,
+            "avgUnder25": 2.15,
+            "maxOver25": 1.73,
+            "maxUnder25": 2.2
+          },
+          "probabilities": {
+            "home_win_or_yes": 49,
+            "draw_or_no": 25,
+            "away_win_or_no_under": 26
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 2.11,
+            "lambdaAwayGoals": 1.31,
+            "expectedCorners": 10.4,
+            "expectedSot": 9.4,
+            "expectedCards": 4.9,
+            "expectedFouls": 21.6,
+            "refereeMultiplier": 1.08,
+            "homeElo": 1532,
+            "awayElo": 1452
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 26
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 26
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 26
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 26
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 26,
+                "draw_or_no": 74,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Millwall Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 32,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 42,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Millwall HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 42,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Millwall HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 42,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 42,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Burnley HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 81,
+                "draw_or_no": 19,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 52,
+                "draw_or_no": 12,
+                "away_win_or_no_under": 36
+              },
+              "primaryValue": "Millwall Most Corners",
+              "predictedScore": "6-5 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 77,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 15,
+                "draw_or_no": 85,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 43,
+                "draw_or_no": 57,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 22.5 Fouls",
+              "predictedScore": "22 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 60,
+        "odds": 1.65,
+        "evPct": -1,
+        "oddsSource": "Avg Market Odds",
+        "home": "Millwall",
+        "away": "Burnley"
+      },
+      {
+        "fixture": {
+          "home": "Leicester",
+          "away": "Mansfield",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E2",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.5,
+            "b365Draw": 4.5,
+            "b365Away": 5.25,
+            "avgHome": 1.49,
+            "avgDraw": 4.48,
+            "avgAway": 5.42,
+            "maxHome": 1.55,
+            "maxDraw": 4.6,
+            "maxAway": 6,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.48,
+            "b365Under25": 2.6,
+            "avgOver25": 1.45,
+            "avgUnder25": 2.59,
+            "maxOver25": 1.48,
+            "maxUnder25": 2.7
+          },
+          "probabilities": {
+            "home_win_or_yes": 50,
+            "draw_or_no": 24,
+            "away_win_or_no_under": 26
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.39,
+            "lambdaAwayGoals": 1.41,
+            "expectedCorners": 11.5,
+            "expectedSot": 8.4,
+            "expectedCards": 3.8,
+            "expectedFouls": 23.7,
+            "refereeMultiplier": 1.05,
+            "homeElo": 1486,
+            "awayElo": 1543
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 26
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 26
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 26
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 26
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 24,
+                "draw_or_no": 76,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Leicester Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 47,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 30,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 32
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 30,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 32
+              },
+              "primaryValue": "Leicester HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 30,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 32
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 30,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 32
+              },
+              "primaryValue": "Mansfield HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 76,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 65,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "11 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 11,
+                "away_win_or_no_under": 29
+              },
+              "primaryValue": "Leicester Most Corners",
+              "predictedScore": "6-5 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 64,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "8 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 18,
+                "draw_or_no": 82,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 11,
+                "draw_or_no": 89,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "24 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 59,
+        "odds": 1.45,
+        "evPct": -14.5,
+        "oddsSource": "Avg Market Odds",
+        "home": "Leicester",
+        "away": "Mansfield"
+      },
+      {
+        "fixture": {
+          "home": "Stockport",
+          "away": "Leyton Orient",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E2",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.4,
+            "b365Draw": 4.5,
+            "b365Away": 7,
+            "avgHome": 1.38,
+            "avgDraw": 4.86,
+            "avgAway": 6.8,
+            "maxHome": 1.4,
+            "maxDraw": 5.1,
+            "maxAway": 8.6,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.5,
+            "b365Under25": 2.5,
+            "avgOver25": 1.47,
+            "avgUnder25": 2.55,
+            "maxOver25": 1.5,
+            "maxUnder25": 2.63
+          },
+          "probabilities": {
+            "home_win_or_yes": 60,
+            "draw_or_no": 23,
+            "away_win_or_no_under": 17
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.69,
+            "lambdaAwayGoals": 1.1,
+            "expectedCorners": 10.7,
+            "expectedSot": 9.1,
+            "expectedCards": 3.9,
+            "expectedFouls": 18.8,
+            "refereeMultiplier": 1.05,
+            "homeElo": 1628,
+            "awayElo": 1505
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 34,
+                "draw_or_no": 66,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Stockport Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 46,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 28
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 28
+              },
+              "primaryValue": "Stockport HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 28
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 28
+              },
+              "primaryValue": "Leyton Orient HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 74,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "11 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 78,
+                "draw_or_no": 8,
+                "away_win_or_no_under": 14
+              },
+              "primaryValue": "Stockport Most Corners",
+              "predictedScore": "7-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 43,
+                "draw_or_no": 57,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 26,
+                "draw_or_no": 74,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 14,
+                "draw_or_no": 86,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 77,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 22.5 Fouls",
+              "predictedScore": "19 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 59,
+        "odds": 1.47,
+        "evPct": -13.3,
+        "oddsSource": "Avg Market Odds",
+        "home": "Stockport",
+        "away": "Leyton Orient"
+      },
+      {
+        "fixture": {
+          "home": "Rochdale",
+          "away": "Barnet",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E3",
+          "predictedScore": "1-2",
+          "primaryValue": "Away Win",
+          "odds": {
+            "b365Home": 4,
+            "b365Draw": 3.8,
+            "b365Away": 1.8,
+            "avgHome": 3.81,
+            "avgDraw": 3.76,
+            "avgAway": 1.81,
+            "maxHome": 4,
+            "maxDraw": 4,
+            "maxAway": 1.84,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.6,
+            "b365Under25": 2.3,
+            "avgOver25": 1.55,
+            "avgUnder25": 2.3,
+            "maxOver25": 1.6,
+            "maxUnder25": 2.38
+          },
+          "probabilities": {
+            "home_win_or_yes": 23,
+            "draw_or_no": 24,
+            "away_win_or_no_under": 53
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.22,
+            "lambdaAwayGoals": 1.85,
+            "expectedCorners": 10.3,
+            "expectedSot": 8.5,
+            "expectedCards": 4.6,
+            "expectedFouls": 25.4,
+            "refereeMultiplier": 1.06,
+            "homeElo": 1520,
+            "awayElo": 1615
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 53
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "1-2"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 53
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "1-2"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 53
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "1-2"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 53
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "1-2"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "1-2"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "1-2"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "1-2"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 14,
+                "draw_or_no": 86,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Rochdale Clean Sheet - No",
+              "predictedScore": "1-2"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 26,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 31
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 26,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 31
+              },
+              "primaryValue": "Rochdale HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 26,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 31
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 26,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 31
+              },
+              "primaryValue": "Barnet HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 69,
+                "draw_or_no": 31,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 24,
+                "draw_or_no": 11,
+                "away_win_or_no_under": 65
+              },
+              "primaryValue": "Barnet Most Corners",
+              "predictedScore": "4-6 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 37,
+                "draw_or_no": 63,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 24,
+                "draw_or_no": 76,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "1-2"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 16,
+                "draw_or_no": 84,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 32,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "25 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 59,
+        "odds": 1.55,
+        "evPct": -8.6,
+        "oddsSource": "Avg Market Odds",
+        "home": "Rochdale",
+        "away": "Barnet"
+      },
+      {
+        "fixture": {
+          "home": "Swindon",
+          "away": "Chesterfield",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E3",
+          "predictedScore": "1-2",
+          "primaryValue": "Away Win",
+          "odds": {
+            "b365Home": 3.9,
+            "b365Draw": 3.8,
+            "b365Away": 1.8,
+            "avgHome": 3.79,
+            "avgDraw": 3.78,
+            "avgAway": 1.81,
+            "maxHome": 3.95,
+            "maxDraw": 3.9,
+            "maxAway": 1.85,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.6,
+            "b365Under25": 2.3,
+            "avgOver25": 1.56,
+            "avgUnder25": 2.29,
+            "maxOver25": 1.6,
+            "maxUnder25": 2.38
+          },
+          "probabilities": {
+            "home_win_or_yes": 27,
+            "draw_or_no": 25,
+            "away_win_or_no_under": 48
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.36,
+            "lambdaAwayGoals": 1.56,
+            "expectedCorners": 9.8,
+            "expectedSot": 8.8,
+            "expectedCards": 4.1,
+            "expectedFouls": 19.6,
+            "refereeMultiplier": 1.08,
+            "homeElo": 1464,
+            "awayElo": 1551
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 27,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 48
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "1-2"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 27,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 48
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "1-2"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 27,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 48
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "1-2"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 27,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 48
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "1-2"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "1-2"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "1-2"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "1-2"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 19,
+                "draw_or_no": 81,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Swindon Clean Sheet - No",
+              "predictedScore": "1-2"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 35,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 35,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "Swindon HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 35,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 35,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "Chesterfield HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 74,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 12,
+                "away_win_or_no_under": 59
+              },
+              "primaryValue": "Chesterfield Most Corners",
+              "predictedScore": "4-6 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 60,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 19,
+                "draw_or_no": 81,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "1-2"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 14,
+                "draw_or_no": 86,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 72,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 22.5 Fouls",
+              "predictedScore": "20 Fouls"
+            }
+          }
+        },
+        "marketId": "total_goals_over_under_25",
+        "marketName": "Over/Under 2.5 Goals",
+        "pickLabel": "Over 2.5 Goals",
+        "selection": "Over 2.5 Goals",
+        "probability": 58,
+        "odds": 1.56,
+        "evPct": -9.5,
+        "oddsSource": "Avg Market Odds",
+        "home": "Swindon",
+        "away": "Chesterfield"
+      }
+    ],
+    "stake": 1,
+    "combinedOdds": 74.24,
+    "estReturn": 74.24,
+    "targetDate": "2026-11-28",
+    "status": "Pending",
+    "githubSynced": true,
+    "device": "Mobile Device",
+    "createdAt": "2026-11-28T14:03:00.787Z",
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 10,
+    "legsTotal": 10,
+    "legAccuracyPct": 0
+  },
+  {
+    "id": "acca_1795873933318_263",
+    "name": "10-Leg Acca (Home Win (1X2))",
+    "legs": [
+      {
+        "fixture": {
+          "home": "Birmingham",
+          "away": "Bolton",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E1",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.53,
+            "b365Draw": 4.33,
+            "b365Away": 5.75,
+            "avgHome": 1.52,
+            "avgDraw": 4.35,
+            "avgAway": 5.51,
+            "maxHome": 1.57,
+            "maxDraw": 4.5,
+            "maxAway": 6,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.57,
+            "b365Under25": 2.38,
+            "avgOver25": 1.55,
+            "avgUnder25": 2.35,
+            "maxOver25": 1.58,
+            "maxUnder25": 2.4
+          },
+          "probabilities": {
+            "home_win_or_yes": 62,
+            "draw_or_no": 22,
+            "away_win_or_no_under": 16
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 2.05,
+            "lambdaAwayGoals": 0.99,
+            "expectedCorners": 9.7,
+            "expectedSot": 8.8,
+            "expectedCards": 3.6,
+            "expectedFouls": 22.6,
+            "refereeMultiplier": 1.05,
+            "homeElo": 1610,
+            "awayElo": 1511
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 16
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 64,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Birmingham Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 51,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Birmingham HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Birmingham HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 39,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Bolton HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 75,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 50,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 11,
+                "away_win_or_no_under": 25
+              },
+              "primaryValue": "Birmingham Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 39,
+                "draw_or_no": 61,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 32,
+                "draw_or_no": 68,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 10,
+                "draw_or_no": 90,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 50,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "23 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "Birmingham to Win",
+        "selection": "Birmingham to Win",
+        "probability": 62,
+        "odds": 1.52,
+        "evPct": -5.8,
+        "oddsSource": "Avg Market Odds",
+        "home": "Birmingham",
+        "away": "Bolton"
+      },
+      {
+        "fixture": {
+          "home": "Salford",
+          "away": "Gillingham",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E3",
+          "predictedScore": "1-0",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.45,
+            "b365Draw": 4.33,
+            "b365Away": 6.5,
+            "avgHome": 1.46,
+            "avgDraw": 4.35,
+            "avgAway": 5.96,
+            "maxHome": 1.5,
+            "maxDraw": 4.5,
+            "maxAway": 6.5,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.67,
+            "b365Under25": 2.15,
+            "avgOver25": 1.64,
+            "avgUnder25": 2.14,
+            "maxOver25": 1.67,
+            "maxUnder25": 2.2
+          },
+          "probabilities": {
+            "home_win_or_yes": 62,
+            "draw_or_no": 23,
+            "away_win_or_no_under": 15
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.82,
+            "lambdaAwayGoals": 0.9,
+            "expectedCorners": 9.8,
+            "expectedSot": 7.8,
+            "expectedCards": 2.9,
+            "expectedFouls": 23.2,
+            "refereeMultiplier": 0.86,
+            "homeElo": 1571,
+            "awayElo": 1415
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 15
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "1-0"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 15
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "1-0"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 15
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "1-0"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 15
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "1-0"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 52,
+                "draw_or_no": 48,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "1-0"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 45,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "1-0"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 45,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "1 Goals",
+              "predictedScore": "1-0"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 60,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Salford Clean Sheet - No",
+              "predictedScore": "1-0"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 38,
+                "draw_or_no": 62,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 3.5 Cards",
+              "predictedScore": "3 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Salford HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Gillingham HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 60,
+                "draw_or_no": 40,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 69,
+                "draw_or_no": 10,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Salford Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 71,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "8 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 33,
+                "draw_or_no": 67,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "1-0"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 9,
+                "draw_or_no": 91,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 46,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "23 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "Salford to Win",
+        "selection": "Salford to Win",
+        "probability": 62,
+        "odds": 1.46,
+        "evPct": -9.5,
+        "oddsSource": "Avg Market Odds",
+        "home": "Salford",
+        "away": "Gillingham"
+      },
+      {
+        "fixture": {
+          "home": "Carlisle",
+          "away": "Sutton",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "EC",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.45,
+            "b365Draw": 4.2,
+            "b365Away": 5.75,
+            "avgHome": 1.46,
+            "avgDraw": 4.28,
+            "avgAway": 5.54,
+            "maxHome": 1.5,
+            "maxDraw": 4.5,
+            "maxAway": 6.2,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.57,
+            "b365Under25": 2.35,
+            "avgOver25": 1.54,
+            "avgUnder25": 2.34,
+            "maxOver25": 1.57,
+            "maxUnder25": 2.4
+          },
+          "probabilities": {
+            "home_win_or_yes": 59,
+            "draw_or_no": 23,
+            "away_win_or_no_under": 18
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.71,
+            "lambdaAwayGoals": 1.02,
+            "expectedCorners": 9.1,
+            "expectedSot": 8.3,
+            "expectedCards": 5,
+            "expectedFouls": 26,
+            "refereeMultiplier": 1.04,
+            "homeElo": 1573,
+            "awayElo": 1419
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 18
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 18
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 18
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 18
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 46,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 64,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Carlisle Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 69,
+                "draw_or_no": 31,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 52,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 12
+              },
+              "primaryValue": "Carlisle HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 52,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 12
+              },
+              "primaryValue": "Carlisle HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 52,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 12
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 52,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 12
+              },
+              "primaryValue": "Sutton HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 75,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 45,
+                "draw_or_no": 55,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 Corners",
+              "predictedScore": "9 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 13,
+                "away_win_or_no_under": 36
+              },
+              "primaryValue": "Carlisle Most Corners",
+              "predictedScore": "5-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 35,
+                "draw_or_no": 65,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "8 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 71,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 14,
+                "draw_or_no": 86,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 71,
+                "draw_or_no": 29,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "26 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "Carlisle to Win",
+        "selection": "Carlisle to Win",
+        "probability": 59,
+        "odds": 1.46,
+        "evPct": -13.9,
+        "oddsSource": "Avg Market Odds",
+        "home": "Carlisle",
+        "away": "Sutton"
+      },
+      {
+        "fixture": {
+          "home": "Leeds",
+          "away": "Coventry",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E0",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.48,
+            "b365Draw": 4.33,
+            "b365Away": 6.5,
+            "avgHome": 1.46,
+            "avgDraw": 4.44,
+            "avgAway": 6.36,
+            "maxHome": 1.5,
+            "maxDraw": 4.6,
+            "maxAway": 7.5,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.67,
+            "b365Under25": 2.2,
+            "avgOver25": 1.65,
+            "avgUnder25": 2.16,
+            "maxOver25": 1.67,
+            "maxUnder25": 2.2
+          },
+          "probabilities": {
+            "home_win_or_yes": 57,
+            "draw_or_no": 24,
+            "away_win_or_no_under": 19
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.55,
+            "lambdaAwayGoals": 0.99,
+            "expectedCorners": 8.9,
+            "expectedSot": 8.1,
+            "expectedCards": 3.3,
+            "expectedFouls": 21.8,
+            "refereeMultiplier": 0.97,
+            "homeElo": 1666,
+            "awayElo": 1617
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 19
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 19
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 19
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 24,
+                "away_win_or_no_under": 19
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 52,
+                "draw_or_no": 48,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 47,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 47,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 64,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Leeds Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 45,
+                "draw_or_no": 55,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 3.5 Cards",
+              "predictedScore": "3 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 50,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 50,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Leeds HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 50,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 50,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Coventry HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 43,
+                "draw_or_no": 57,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 Corners",
+              "predictedScore": "9 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 13,
+                "away_win_or_no_under": 34
+              },
+              "primaryValue": "Leeds Most Corners",
+              "predictedScore": "5-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 33,
+                "draw_or_no": 67,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "8 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 28,
+                "draw_or_no": 72,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 9,
+                "draw_or_no": 91,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 44,
+                "draw_or_no": 56,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 22.5 Fouls",
+              "predictedScore": "22 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "Leeds to Win",
+        "selection": "Leeds to Win",
+        "probability": 57,
+        "odds": 1.46,
+        "evPct": -16.8,
+        "oddsSource": "Avg Market Odds",
+        "home": "Leeds",
+        "away": "Coventry"
+      },
+      {
+        "fixture": {
+          "home": "West Brom",
+          "away": "Bristol City",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E1",
+          "predictedScore": "1-0",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.65,
+            "b365Draw": 3.7,
+            "b365Away": 5.25,
+            "avgHome": 1.65,
+            "avgDraw": 3.83,
+            "avgAway": 4.93,
+            "maxHome": 1.71,
+            "maxDraw": 4.1,
+            "maxAway": 5.25,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.91,
+            "b365Under25": 1.91,
+            "avgOver25": 1.83,
+            "avgUnder25": 1.9,
+            "maxOver25": 1.91,
+            "maxUnder25": 1.95
+          },
+          "probabilities": {
+            "home_win_or_yes": 57,
+            "draw_or_no": 25,
+            "away_win_or_no_under": 18
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.72,
+            "lambdaAwayGoals": 0.95,
+            "expectedCorners": 10.5,
+            "expectedSot": 7.8,
+            "expectedCards": 3.5,
+            "expectedFouls": 23.7,
+            "refereeMultiplier": 0.92,
+            "homeElo": 1557,
+            "awayElo": 1469
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 18
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "1-0"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 18
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "1-0"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 18
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "1-0"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 25,
+                "away_win_or_no_under": 18
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "1-0"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 47,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "1-0"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "1-0"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "1 Goals",
+              "predictedScore": "1-0"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 38,
+                "draw_or_no": 62,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "West Brom Clean Sheet - No",
+              "predictedScore": "1-0"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 51,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 38,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 38,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "West Brom HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 38,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 38,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Bristol City HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 72,
+                "draw_or_no": 28,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 11,
+                "away_win_or_no_under": 27
+              },
+              "primaryValue": "West Brom Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 71,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "8 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 69,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "1-0"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 6,
+                "draw_or_no": 94,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "24 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "West Brom to Win",
+        "selection": "West Brom to Win",
+        "probability": 57,
+        "odds": 1.65,
+        "evPct": -6,
+        "oddsSource": "Avg Market Odds",
+        "home": "West Brom",
+        "away": "Bristol City"
+      },
+      {
+        "fixture": {
+          "home": "Westerlo",
+          "away": "RAAL La Louviere",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "B1",
+          "predictedScore": "2-0",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.91,
+            "b365Draw": 3.75,
+            "b365Away": 3.6,
+            "avgHome": 1.93,
+            "avgDraw": 3.58,
+            "avgAway": 3.54,
+            "maxHome": 2,
+            "maxDraw": 3.8,
+            "maxAway": 3.7,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.7,
+            "b365Under25": 2.1,
+            "avgOver25": 1.67,
+            "avgUnder25": 2.1,
+            "maxOver25": 1.7,
+            "maxUnder25": 2.2
+          },
+          "probabilities": {
+            "home_win_or_yes": 55,
+            "draw_or_no": 22,
+            "away_win_or_no_under": 23
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 2.48,
+            "lambdaAwayGoals": 1.4,
+            "expectedCorners": 9.2,
+            "expectedSot": 9.5,
+            "expectedCards": 4.6,
+            "expectedFouls": 23.2,
+            "refereeMultiplier": 1,
+            "homeElo": 1508,
+            "awayElo": 1418
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-0"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-0"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-0"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-0"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 69,
+                "draw_or_no": 31,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-0"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-0"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "2 Goals",
+              "predictedScore": "2-0"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 24,
+                "draw_or_no": 76,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Westerlo Clean Sheet - No",
+              "predictedScore": "2-0"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 64,
+                "draw_or_no": 36,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Westerlo HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "Westerlo HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 34,
+                "away_win_or_no_under": 17
+              },
+              "primaryValue": "RAAL La Louviere HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 79,
+                "draw_or_no": 21,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 Corners",
+              "predictedScore": "9 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 48,
+                "draw_or_no": 13,
+                "away_win_or_no_under": 39
+              },
+              "primaryValue": "Westerlo Most Corners",
+              "predictedScore": "5-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 22,
+                "draw_or_no": 78,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-0"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 77,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - Yes",
+              "predictedScore": "1 Red Card"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 46,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "23 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "Westerlo to Win",
+        "selection": "Westerlo to Win",
+        "probability": 55,
+        "odds": 1.93,
+        "evPct": 6.2,
+        "oddsSource": "Avg Market Odds",
+        "home": "Westerlo",
+        "away": "RAAL La Louviere"
+      },
+      {
+        "fixture": {
+          "home": "West Ham",
+          "away": "Stoke",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E1",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.65,
+            "b365Draw": 4.33,
+            "b365Away": 4.5,
+            "avgHome": 1.64,
+            "avgDraw": 4.11,
+            "avgAway": 4.66,
+            "maxHome": 1.68,
+            "maxDraw": 4.33,
+            "maxAway": 4.9,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.73,
+            "b365Under25": 2.1,
+            "avgOver25": 1.68,
+            "avgUnder25": 2.12,
+            "maxOver25": 1.73,
+            "maxUnder25": 2.2
+          },
+          "probabilities": {
+            "home_win_or_yes": 55,
+            "draw_or_no": 23,
+            "away_win_or_no_under": 22
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.78,
+            "lambdaAwayGoals": 1.18,
+            "expectedCorners": 11.5,
+            "expectedSot": 8.6,
+            "expectedCards": 3.6,
+            "expectedFouls": 22.2,
+            "refereeMultiplier": 0.95,
+            "homeElo": 1565,
+            "awayElo": 1526
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 22
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 58,
+                "draw_or_no": 42,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 56,
+                "draw_or_no": 44,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 32,
+                "draw_or_no": 68,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "West Ham Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 51,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 30
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 30
+              },
+              "primaryValue": "West Ham HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 30
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 30
+              },
+              "primaryValue": "Stoke HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 73,
+                "draw_or_no": 27,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 65,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "11 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 72,
+                "draw_or_no": 9,
+                "away_win_or_no_under": 19
+              },
+              "primaryValue": "West Ham Most Corners",
+              "predictedScore": "7-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 37,
+                "draw_or_no": 63,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "9 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 25,
+                "draw_or_no": 75,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 7,
+                "draw_or_no": 93,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 47,
+                "draw_or_no": 53,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 22.5 Fouls",
+              "predictedScore": "22 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "West Ham to Win",
+        "selection": "West Ham to Win",
+        "probability": 55,
+        "odds": 1.64,
+        "evPct": -9.8,
+        "oddsSource": "Avg Market Odds",
+        "home": "West Ham",
+        "away": "Stoke"
+      },
+      {
+        "fixture": {
+          "home": "Forest Green",
+          "away": "Tamworth",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "EC",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.55,
+            "b365Draw": 4.2,
+            "b365Away": 4.75,
+            "avgHome": 1.55,
+            "avgDraw": 4.28,
+            "avgAway": 4.52,
+            "maxHome": 1.6,
+            "maxDraw": 4.5,
+            "maxAway": 4.8,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.4,
+            "b365Under25": 2.88,
+            "avgOver25": 1.37,
+            "avgUnder25": 2.84,
+            "maxOver25": 1.42,
+            "maxUnder25": 3
+          },
+          "probabilities": {
+            "home_win_or_yes": 55,
+            "draw_or_no": 22,
+            "away_win_or_no_under": 23
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 2.05,
+            "lambdaAwayGoals": 1.45,
+            "expectedCorners": 10.7,
+            "expectedSot": 10.6,
+            "expectedCards": 3,
+            "expectedFouls": 21.5,
+            "refereeMultiplier": 0.83,
+            "homeElo": 1489,
+            "awayElo": 1431
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 22,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 67,
+                "draw_or_no": 33,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 67,
+                "draw_or_no": 33,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 67,
+                "draw_or_no": 33,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 23,
+                "draw_or_no": 77,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Forest Green Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 40,
+                "draw_or_no": 60,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 3.5 Cards",
+              "predictedScore": "3 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 45,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Forest Green HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 45,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Forest Green HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 45,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 45,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Tamworth HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 79,
+                "draw_or_no": 21,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 59,
+                "draw_or_no": 41,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "11 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 67,
+                "draw_or_no": 10,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Forest Green Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 57,
+                "draw_or_no": 43,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 SOT",
+              "predictedScore": "11 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 20,
+                "draw_or_no": 80,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 10,
+                "draw_or_no": 90,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 42,
+                "draw_or_no": 58,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 22.5 Fouls",
+              "predictedScore": "22 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "Forest Green to Win",
+        "selection": "Forest Green to Win",
+        "probability": 55,
+        "odds": 1.55,
+        "evPct": -14.7,
+        "oddsSource": "Avg Market Odds",
+        "home": "Forest Green",
+        "away": "Tamworth"
+      },
+      {
+        "fixture": {
+          "home": "Harrogate",
+          "away": "Yeovil",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "EC",
+          "predictedScore": "2-1",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.65,
+            "b365Draw": 4,
+            "b365Away": 4.33,
+            "avgHome": 1.66,
+            "avgDraw": 4.01,
+            "avgAway": 4.05,
+            "maxHome": 1.71,
+            "maxDraw": 4.33,
+            "maxAway": 4.33,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.53,
+            "b365Under25": 2.4,
+            "avgOver25": 1.5,
+            "avgUnder25": 2.42,
+            "maxOver25": 1.53,
+            "maxUnder25": 2.5
+          },
+          "probabilities": {
+            "home_win_or_yes": 54,
+            "draw_or_no": 23,
+            "away_win_or_no_under": 23
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.91,
+            "lambdaAwayGoals": 1.33,
+            "expectedCorners": 10.1,
+            "expectedSot": 9.7,
+            "expectedCards": 3.5,
+            "expectedFouls": 25.3,
+            "refereeMultiplier": 0.97,
+            "homeElo": 1472,
+            "awayElo": 1486
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "2-1"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "2-1"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 23,
+                "away_win_or_no_under": 23
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "2-1"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 63,
+                "draw_or_no": 37,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - Yes",
+              "predictedScore": "2-1"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 2.5 Goals",
+              "predictedScore": "2-1"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "3 Goals",
+              "predictedScore": "2-1"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 27,
+                "draw_or_no": 73,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Harrogate Clean Sheet - No",
+              "predictedScore": "2-1"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 49,
+                "draw_or_no": 51,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 3.5 Cards",
+              "predictedScore": "4 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Harrogate HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 31,
+                "draw_or_no": 49,
+                "away_win_or_no_under": 20
+              },
+              "primaryValue": "Yeovil HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 63,
+                "draw_or_no": 37,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 54,
+                "draw_or_no": 46,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "10 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 11,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Harrogate Most Corners",
+              "predictedScore": "6-4 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 48,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "10 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 22,
+                "draw_or_no": 78,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "No Win to Nil",
+              "predictedScore": "2-1"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 15,
+                "draw_or_no": 85,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 68,
+                "draw_or_no": 32,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "25 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "Harrogate to Win",
+        "selection": "Harrogate to Win",
+        "probability": 54,
+        "odds": 1.66,
+        "evPct": -10.4,
+        "oddsSource": "Avg Market Odds",
+        "home": "Harrogate",
+        "away": "Yeovil"
+      },
+      {
+        "fixture": {
+          "home": "Stevenage",
+          "away": "Blackpool",
+          "date": "2026-11-28",
+          "time": "15:00",
+          "div": "E2",
+          "predictedScore": "1-0",
+          "primaryValue": "Home Win",
+          "odds": {
+            "b365Home": 1.85,
+            "b365Draw": 3.6,
+            "b365Away": 3.9,
+            "avgHome": 1.85,
+            "avgDraw": 3.63,
+            "avgAway": 3.82,
+            "maxHome": 1.91,
+            "maxDraw": 3.85,
+            "maxAway": 4,
+            "psHome": null,
+            "psDraw": null,
+            "psAway": null,
+            "whHome": null,
+            "whDraw": null,
+            "whAway": null,
+            "lbHome": null,
+            "lbDraw": null,
+            "lbAway": null,
+            "b365Over25": 1.8,
+            "b365Under25": 2,
+            "avgOver25": 1.76,
+            "avgUnder25": 1.97,
+            "maxOver25": 1.8,
+            "maxUnder25": 2
+          },
+          "probabilities": {
+            "home_win_or_yes": 53,
+            "draw_or_no": 26,
+            "away_win_or_no_under": 21
+          },
+          "scoringEngine": "SQLite Calibrated Dixon-Coles, Elo & NegBin (38,338 matches)",
+          "expectedMetrics": {
+            "lambdaHomeGoals": 1.52,
+            "lambdaAwayGoals": 0.76,
+            "expectedCorners": 11.8,
+            "expectedSot": 7.8,
+            "expectedCards": 4.7,
+            "expectedFouls": 24.3,
+            "refereeMultiplier": 1.07,
+            "homeElo": 1541,
+            "awayElo": 1464
+          },
+          "marketScores": {
+            "match_outcome": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "1-0"
+            },
+            "home_win": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Home Win",
+              "predictedScore": "1-0"
+            },
+            "away_win": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Away Win",
+              "predictedScore": "1-0"
+            },
+            "match_draw": {
+              "probabilities": {
+                "home_win_or_yes": 53,
+                "draw_or_no": 26,
+                "away_win_or_no_under": 21
+              },
+              "primaryValue": "Draw",
+              "predictedScore": "1-0"
+            },
+            "both_teams_to_score": {
+              "probabilities": {
+                "home_win_or_yes": 44,
+                "draw_or_no": 56,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "BTTS - No",
+              "predictedScore": "1-0"
+            },
+            "total_goals_over_under_25": {
+              "probabilities": {
+                "home_win_or_yes": 48,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 2.5 Goals",
+              "predictedScore": "1-0"
+            },
+            "exact_goals_scored": {
+              "probabilities": {
+                "home_win_or_yes": 48,
+                "draw_or_no": 52,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "1 Goals",
+              "predictedScore": "1-0"
+            },
+            "clean_sheet": {
+              "probabilities": {
+                "home_win_or_yes": 46,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Stevenage Clean Sheet - No",
+              "predictedScore": "1-0"
+            },
+            "total_cards_over_under_35": {
+              "probabilities": {
+                "home_win_or_yes": 65,
+                "draw_or_no": 35,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 3.5 Cards",
+              "predictedScore": "5 Cards"
+            },
+            "half_time_result": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 10
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_home": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 10
+              },
+              "primaryValue": "Stevenage HT Lead",
+              "predictedScore": "1-0"
+            },
+            "half_time_draw": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 10
+              },
+              "primaryValue": "HT Draw",
+              "predictedScore": "0-0"
+            },
+            "half_time_away": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 54,
+                "away_win_or_no_under": 10
+              },
+              "primaryValue": "Blackpool HT Lead",
+              "predictedScore": "0-1"
+            },
+            "half_time_goals_05_15": {
+              "probabilities": {
+                "home_win_or_yes": 55,
+                "draw_or_no": 45,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 0.5 HT",
+              "predictedScore": "1 Goal HT"
+            },
+            "total_corners_over_under": {
+              "probabilities": {
+                "home_win_or_yes": 67,
+                "draw_or_no": 33,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 9.5 Corners",
+              "predictedScore": "12 Corners"
+            },
+            "most_corners_1x2": {
+              "probabilities": {
+                "home_win_or_yes": 50,
+                "draw_or_no": 12,
+                "away_win_or_no_under": 38
+              },
+              "primaryValue": "Stevenage Most Corners",
+              "predictedScore": "6-6 Corners"
+            },
+            "total_shots_on_target": {
+              "probabilities": {
+                "home_win_or_yes": 29,
+                "draw_or_no": 71,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Under 9.5 SOT",
+              "predictedScore": "8 SOT"
+            },
+            "win_to_nil": {
+              "probabilities": {
+                "home_win_or_yes": 36,
+                "draw_or_no": 64,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Stevenage Win to Nil",
+              "predictedScore": "1-0"
+            },
+            "red_card_in_match": {
+              "probabilities": {
+                "home_win_or_yes": 14,
+                "draw_or_no": 86,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Red Card - No",
+              "predictedScore": "0 Red Cards"
+            },
+            "total_match_fouls": {
+              "probabilities": {
+                "home_win_or_yes": 62,
+                "draw_or_no": 38,
+                "away_win_or_no_under": 0
+              },
+              "primaryValue": "Over 22.5 Fouls",
+              "predictedScore": "24 Fouls"
+            }
+          }
+        },
+        "marketId": "match_outcome",
+        "marketName": "Home Win (1X2)",
+        "pickLabel": "Stevenage to Win",
+        "selection": "Stevenage to Win",
+        "probability": 53,
+        "odds": 1.85,
+        "evPct": -1.9,
+        "oddsSource": "Avg Market Odds",
+        "home": "Stevenage",
+        "away": "Blackpool"
+      }
+    ],
+    "stake": 1,
+    "combinedOdds": 117.6,
+    "estReturn": 117.6,
+    "targetDate": "2026-11-28",
+    "status": "Pending",
+    "githubSynced": true,
+    "device": "Mobile Device",
+    "createdAt": "2026-11-28T13:52:13.318Z",
+    "legsWon": 0,
+    "legsLost": 0,
+    "legsPending": 10,
+    "legsTotal": 10,
+    "legAccuracyPct": 0
+  },
+  {
     "id": "acca_1795269614177_341",
     "name": "10-Leg Acca (Over/Under 2.5 Goals)",
     "device": "Windows PC",
