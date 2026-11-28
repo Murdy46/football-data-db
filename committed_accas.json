@@ -8,7 +8,7 @@
     "stake": 2,
     "combinedOdds": 83.6,
     "estReturn": 167.2,
-    "status": "Pending",
+    "status": "Lost",
     "githubSynced": true,
     "legs": [
       {
@@ -34,8 +34,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.5,
         "probability": 61,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2 Goals (2-0)"
       },
       {
         "id": "jvm5nufr8z",
@@ -47,8 +47,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.54,
         "probability": 61,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0 Goals (0-0)"
       },
       {
         "id": "fqms8w8qrgw",
@@ -60,8 +60,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.63,
         "probability": 61,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4 Goals (4-0)"
       },
       {
         "id": "eyv05rvejsg",
@@ -73,8 +73,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.51,
         "probability": 61,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3 Goals (2-1)"
       },
       {
         "id": "z9pl66m98x",
@@ -86,8 +86,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.51,
         "probability": 60,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1 Goals (0-1)"
       },
       {
         "id": "rtlkj6clc4",
@@ -99,8 +99,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.55,
         "probability": 60,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4 Goals (1-3)"
       },
       {
         "id": "4qgckxve89i",
@@ -112,8 +112,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.56,
         "probability": 59,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2 Goals (2-0)"
       },
       {
         "id": "upc7cqqmv8",
@@ -125,8 +125,8 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.51,
         "probability": 59,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0 Goals (0-0)"
       },
       {
         "id": "v5d2yil3bos",
@@ -138,15 +138,15 @@
         "selection": "Over 2.5 Goals",
         "odds": 1.79,
         "probability": 59,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1 Goals (0-1)"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 3,
+    "legsLost": 6,
+    "legsPending": 1,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 33
   },
   {
     "id": "acca_1795268431312_93",
@@ -157,7 +157,7 @@
     "stake": 2,
     "combinedOdds": 12.84,
     "estReturn": 25.68,
-    "status": "Pending",
+    "status": "Lost",
     "githubSynced": true,
     "legs": [
       {
@@ -170,8 +170,8 @@
         "selection": "Livingston to Win",
         "odds": 1.47,
         "probability": 56,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-4"
       },
       {
         "id": "8kt4bqtdpe3",
@@ -183,8 +183,8 @@
         "selection": "Hamilton to Win",
         "odds": 1.57,
         "probability": 55,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-3"
       },
       {
         "id": "ts64p6mnta",
@@ -196,8 +196,8 @@
         "selection": "Luton to Win",
         "odds": 1.67,
         "probability": 51,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-2"
       },
       {
         "id": "wr1tuw6hr9",
@@ -209,8 +209,8 @@
         "selection": "East Kilbride to Win",
         "odds": 1.81,
         "probability": 49,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "1-0"
       },
       {
         "id": "lgbhuk7mwq9",
@@ -222,15 +222,15 @@
         "selection": "Hartlepool to Win",
         "odds": 1.84,
         "probability": 48,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "1-2"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 5,
+    "legsWon": 4,
+    "legsLost": 1,
+    "legsPending": 0,
     "legsTotal": 5,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 80
   },
   {
     "id": "acca_1795266114533_878",
@@ -241,7 +241,7 @@
     "stake": 2,
     "combinedOdds": 204.28,
     "estReturn": 408.56,
-    "status": "Pending",
+    "status": "Lost",
     "githubSynced": true,
     "legs": [
       {
@@ -254,8 +254,8 @@
         "selection": "Sheffield Utd to Win",
         "odds": 1.56,
         "probability": 61,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4-0"
       },
       {
         "id": "nfet414kac",
@@ -267,8 +267,8 @@
         "selection": "Chesterfield to Win",
         "odds": 1.6,
         "probability": 59,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4-1"
       },
       {
         "id": "pgldf4dzgah",
@@ -293,8 +293,8 @@
         "selection": "Bradford to Win",
         "odds": 1.64,
         "probability": 56,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "2-2"
       },
       {
         "id": "927fev5xk9o",
@@ -306,8 +306,8 @@
         "selection": "Leyton Orient to Win",
         "odds": 1.74,
         "probability": 55,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "4-1"
       },
       {
         "id": "hs5b61lgsv4",
@@ -319,8 +319,8 @@
         "selection": "Plymouth to Win",
         "odds": 1.77,
         "probability": 55,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-2"
       },
       {
         "id": "910mdvofsgn",
@@ -332,8 +332,8 @@
         "selection": "Aston Villa to Win",
         "odds": 1.76,
         "probability": 53,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-0"
       },
       {
         "id": "1evj7h4ccdp",
@@ -345,8 +345,8 @@
         "selection": "Tottenham to Win",
         "odds": 1.52,
         "probability": 53,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "2-0"
       },
       {
         "id": "eygnwtp77nv",
@@ -358,8 +358,8 @@
         "selection": "York to Win",
         "odds": 1.81,
         "probability": 53,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Lost",
+        "actualScore": "0-0"
       },
       {
         "id": "8af5vqi06hg",
@@ -371,15 +371,15 @@
         "selection": "Stranraer to Win",
         "odds": 1.88,
         "probability": 53,
-        "status": "Pending",
-        "actualScore": null
+        "status": "Won",
+        "actualScore": "3-0"
       }
     ],
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 5,
+    "legsLost": 4,
+    "legsPending": 1,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 56
   },
   {
     "id": "acca_1795210531207_933",
@@ -629,7 +629,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Wealdstone",
-        "away": "Hornchurch"
+        "away": "Hornchurch",
+        "actualScore": "No (4-0)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -875,7 +877,9 @@
         "evPct": -5.1,
         "oddsSource": "Avg Market Odds",
         "home": "Go Ahead Eagles",
-        "away": "For Sittard"
+        "away": "For Sittard",
+        "actualScore": "1 Goals (0-1)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1121,7 +1125,9 @@
         "evPct": 0.1,
         "oddsSource": "Model Odds",
         "home": "Dundee",
-        "away": "Hearts"
+        "away": "Hearts",
+        "actualScore": "No (0-8)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1367,7 +1373,9 @@
         "evPct": -0.2,
         "oddsSource": "Model Odds",
         "home": "Elversberg",
-        "away": "Freiburg"
+        "away": "Freiburg",
+        "actualScore": "No (0-1)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1613,7 +1621,9 @@
         "evPct": -0.2,
         "oddsSource": "Model Odds",
         "home": "Cottbus",
-        "away": "Hertha"
+        "away": "Hertha",
+        "actualScore": "No (0-4)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -1859,7 +1869,9 @@
         "evPct": -0.2,
         "oddsSource": "Model Odds",
         "home": "Karlsruhe",
-        "away": "Osnabruck"
+        "away": "Osnabruck",
+        "actualScore": "No (0-0)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -2105,7 +2117,9 @@
         "evPct": -2.7,
         "oddsSource": "Avg Market Odds",
         "home": "Southampton",
-        "away": "Derby"
+        "away": "Derby",
+        "actualScore": "2 Goals (2-0)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -2351,7 +2365,9 @@
         "evPct": -5.3,
         "oddsSource": "Avg Market Odds",
         "home": "Reading",
-        "away": "Bromley"
+        "away": "Bromley",
+        "actualScore": "1 Goals (0-1)",
+        "status": "Lost"
       },
       {
         "fixture": {
@@ -2597,7 +2613,9 @@
         "evPct": -0.2,
         "oddsSource": "Model Odds",
         "home": "Yeovil",
-        "away": "Forest Green"
+        "away": "Forest Green",
+        "actualScore": "Yes (3-2)",
+        "status": "Won"
       },
       {
         "fixture": {
@@ -2843,22 +2861,24 @@
         "evPct": -0.2,
         "oddsSource": "Model Odds",
         "home": "Lorient",
-        "away": "Rennes"
+        "away": "Rennes",
+        "actualScore": "Yes (1-1)",
+        "status": "Won"
       }
     ],
     "stake": 10,
     "combinedOdds": 71.97,
     "estReturn": 719.7,
     "targetDate": "2026-11-20",
-    "status": "Pending",
+    "status": "Lost",
     "githubSynced": true,
     "device": "Mobile Device",
     "createdAt": "2026-11-20T21:35:31.208Z",
-    "legsWon": 0,
-    "legsLost": 0,
-    "legsPending": 10,
+    "legsWon": 2,
+    "legsLost": 8,
+    "legsPending": 0,
     "legsTotal": 10,
-    "legAccuracyPct": 0
+    "legAccuracyPct": 20
   },
   {
     "id": "acca_1794704462288_587",
